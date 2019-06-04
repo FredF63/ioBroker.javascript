@@ -7,8 +7,10 @@
     - [Beispiel 3](#beispiel-3)
 - [Blöcke](#blocks)
     - [Systemblöcke](#systemblöcke)
+    
         [![Debug output](img/system_debug_en.png)](#debug-ausgabe)
-        - [Kommentar](#kommentar)
+        [![Comment](img/system_comment_en.png)](#kommentar)
+        
         - [Steuere State](#steuere-state)
         - [Aktualisiere State](#aktualisiere-state)
         - [Bind states](#bind-states)
