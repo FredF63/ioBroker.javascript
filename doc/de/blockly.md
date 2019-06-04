@@ -7,6 +7,7 @@
     - [Beispiel 3](#beispiel-3)
 - [Blöcke](#blocks)
     - [Systemblöcke](#systemblöcke)
+    ![Debug output](img/system_debug_en.png)
         - [Debug Ausgabe](#debug-ausgabe)
         - [Kommentar](#kommentar)
         - [Steuere State](#steuere-state)
