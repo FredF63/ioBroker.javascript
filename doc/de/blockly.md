@@ -8,8 +8,7 @@
 - [Blöcke](#blocks)
     - [Systemblöcke](#systemblöcke)
         - [Debug Ausgabe](#debug-ausgabe)
-        
-        ![Debug output](img/system_debug_en.png)
+        - [![Debug output](img/system_debug_en.png)](#debug-ausgabe)
         - [Kommentar](#kommentar)
         - [Steuere State](#steuere-state)
         - [Aktualisiere State](#aktualisiere-state)
