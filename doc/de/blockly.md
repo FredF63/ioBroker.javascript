@@ -488,11 +488,13 @@ Wenn die Verzögerung nicht 0 ist, wird der Zustand nicht sofort, sondern erst n
 Man kann alle anderen Verzögerungen für diesen Datenpunkt löschen, indem man die Checkbox anhakt.
 
 So wird in dem folgenden Beispiel der Datenpunkt "Licht" nur einmal geschaltet (nach 2 Sekunden):
-![Control state](img/system_control_1_en.png)
+![Steuere Zustand](img/1 System/013-2steuern.PNG)
 
 
 &nbsp;
 Beispiel zum importieren:
+
+![code]/codes/013-2code.txt)
 
 ```xml 
 <xml xmlns="http://www.w3.org/1999/xhtml">
