@@ -205,7 +205,7 @@ Wie man sieht wird der Flag "lösche Verzögerung" durch den letzten Befehl gel�
 &nbsp;
 Beispiel zum importieren:
 
-<!-- ```xml 
+```xml 
 <xml xmlns="http://www.w3.org/1999/xhtml"> -->
   <block type="comment" id="s7s**k+Cc_KjDnJW`(h~" x="112" y="63">
     <field name="COMMENT">Switch light ON and OFF in 10 minutes of IDLE</field>
@@ -488,11 +488,14 @@ Wenn die Verzögerung nicht 0 ist, wird der Zustand nicht sofort, sondern erst n
 Man kann alle anderen Verzögerungen für diesen Datenpunkt löschen, indem man die Checkbox anhakt.
 
 So wird in dem folgenden Beispiel der Datenpunkt "Licht" nur einmal geschaltet (nach 2 Sekunden):
-![Control state](img/system_control_1_en.png)
+
+![Steuere Zustand](img/1_System/013-2steuern.PNG)
 
 
 &nbsp;
 Beispiel zum importieren:
+
+![code](codes/013-2code.txt)
 
 ```xml 
 <xml xmlns="http://www.w3.org/1999/xhtml">
