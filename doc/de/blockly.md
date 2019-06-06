@@ -489,13 +489,13 @@ Man kann alle anderen Verzögerungen für diesen Datenpunkt löschen, indem man 
 
 So wird in dem folgenden Beispiel der Datenpunkt "Licht" nur einmal geschaltet (nach 2 Sekunden):
 
-![Steuere Zustand](img/1_System/013-2steuern.PNG)
+![Steuere Zustand](img/1System/013-2steuern.PNG)
 
 
 &nbsp;
 Beispiel zum importieren:
 
-![code](codes/013-2code.txt)
+![code](Codes/013-2code.txt)
 
 ```xml 
 <xml xmlns="http://www.w3.org/1999/xhtml">
