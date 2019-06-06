@@ -493,85 +493,14 @@ So wird in dem folgenden Beispiel der Datenpunkt "Licht" nur einmal geschaltet (
 
 
 &nbsp;
-Beispiel zum importieren:
+Beispiel zum importieren: ![code](Codes/013-2code.txt)
 
-![code](Codes/013-2code.txt)
 
-```xml 
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="comment" id="K|2AnJ|5})RoNZ1T%Hh#" x="38" y="13">
-    <field name="COMMENT">Will be executed only once</field>
-    <next>
-      <block type="control" id="IWceY@BFn9/Y?Ez^b(_-">
-        <mutation delay_input="true"></mutation>
-        <field name="OID">javascript.0.Light</field>
-        <field name="WITH_DELAY">TRUE</field>
-        <field name="DELAY_MS">1000</field>
-        <field name="CLEAR_RUNNING">FALSE</field>
-        <value name="VALUE">
-          <block type="logic_boolean" id="I/LUv5/AknHr#[{{qd-@">
-            <field name="BOOL">TRUE</field>
-          </block>
-        </value>
-        <next>
-          <block type="control" id=".Ih(K(P)SFApUP0)/K7,">
-            <mutation delay_input="true"></mutation>
-            <field name="OID">javascript.0.Light</field>
-            <field name="WITH_DELAY">TRUE</field>
-            <field name="DELAY_MS">2000</field>
-            <field name="CLEAR_RUNNING">TRUE</field>
-            <value name="VALUE">
-              <block type="logic_boolean" id="B?)bgD[JZoNL;enJQ4M.">
-                <field name="BOOL">TRUE</field>
-              </block>
-            </value>
-          </block>
-        </next>
-      </block>
-    </next>
-  </block>
-</xml>
-```
+Im Gegensatz zu dem vorherigen Beispiel wird der Zustand von "Licht" in dem folgenden Beispiel zweimal geschaltet(nach 1 Sekunde __und__ nach 2 Sekunden):
 
-Im Gegensatz zu dem vorherigen Beispiel wird der Zustand von "Licht" in dem folgenden Beispiel zweimal geschaltet(nach 1 Sekunde und nach 2 Sekunden):
-![Control state](img/system_control_2_en.png)
+![Steuere Zustand](img/1System/013-3steuern.PNG)
 
-```xml 
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="comment" id="K|2AnJ|5})RoNZ1T%Hh#" x="38" y="13">
-    <field name="COMMENT">Will be executed twice</field>
-    <next>
-      <block type="control" id="IWceY@BFn9/Y?Ez^b(_-">
-        <mutation delay_input="true"></mutation>
-        <field name="OID">javascript.0.Light</field>
-        <field name="WITH_DELAY">TRUE</field>
-        <field name="DELAY_MS">1000</field>
-        <field name="CLEAR_RUNNING">FALSE</field>
-        <value name="VALUE">
-          <block type="logic_boolean" id="I/LUv5/AknHr#[{{qd-@">
-            <field name="BOOL">TRUE</field>
-          </block>
-        </value>
-        <next>
-          <block type="control" id=".Ih(K(P)SFApUP0)/K7,">
-            <mutation delay_input="true"></mutation>
-            <field name="OID">javascript.0.Light</field>
-            <field name="WITH_DELAY">TRUE</field>
-            <field name="DELAY_MS">2000</field>
-            <field name="CLEAR_RUNNING">FALSE</field>
-            <value name="VALUE">
-              <block type="logic_boolean" id="B?)bgD[JZoNL;enJQ4M.">
-                <field name="BOOL">FALSE</field>
-              </block>
-            </value>
-          </block>
-        </next>
-      </block>
-    </next>
-  </block>
-</xml>
-```
-
+Beispiel zum importieren: ![code](Codes/013-2code.txt)
 
 &nbsp;
 ### Aktualisiere State
