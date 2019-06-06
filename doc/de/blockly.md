@@ -489,7 +489,7 @@ Man kann alle anderen Verzögerungen für diesen Datenpunkt löschen, indem man 
 
 So wird in dem folgenden Beispiel der Datenpunkt "Licht" nur einmal geschaltet (nach 2 Sekunden):
 
-![Steuere Zustand](img/1 System/013-2steuern.PNG)
+![Steuere Zustand](img/1_System/013-2steuern.PNG)
 
 
 &nbsp;
