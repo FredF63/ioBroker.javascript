@@ -20,14 +20,20 @@
 
 * ### [Aktionen](#aktionen)
 [![Systembefehl ausführen](img/02aktionen/210.PNG)](#exec-kommando)
+
 [![URL abfragen](img/02aktionen/220.PNG)](#request-url)
 
 * ### [SendTo](#sendto)
 [![An telegram senden](img/.PNG)](#an-telegram-etwas-senden)
+
 [![An SayIt senden](img/.PNG)](#send-to-sayit)
+
 [![An pushover senden](img/.PNG)](#send-to-pushover)
+
 [![email versenden](img/.PNG)](#send-email)
+
 [![Einem Adapter etwas senden](img/.PNG)](#custom-sendto-block)
+
 
 * ### [Datum und Zeit](#datum-und-zeit)
 [![Zeit vergleichen](img/.PNG)](#time-comparision)
