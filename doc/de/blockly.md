@@ -1,22 +1,18 @@
 # Inhalt
 
-## [Beschreibung](#beschreibung)
+* [Beschreibung](#beschreibung)
+* [Editorfenster](#editorfenster)
+* [Blöcke im einzelnen](#blöcke-im-einzelnen)
+	* [System](#system)
+		[![Debug output](img/01system/110debug.PNG)](#debug)
 
-## [Editorfenster](#editorfenster)
+		[![Comment](img/01system/120kommentar.PNG)](#kommentar)
 
-## [Blöcke im einzelnen](#blöcke-im-einzelnen)
+		[![Steuere Zustand](img/01system/130steuern.PNG)](#steuere-zustand)
 
-* ### [System](#system)
-* 
-[![Debug output](img/01system/110debug.PNG)](#debug)
+		[![Zustand umschalten](img/01system/140umschalten.PNG)](#zustand-umschalten)
 
-[![Comment](img/01system/120kommentar.PNG)](#kommentar)
-
-[![Steuere Zustand](img/01system/130steuern.PNG)](#steuere-zustand)
-
-[![Zustand umschalten](img/01system/140umschalten.PNG)](#zustand-umschalten)
-
-[![Zustand aktualisieren](img/01system/150aktualisieren.PNG)](#aktualisiere-zustand)
+		[![Zustand aktualisieren](img/01system/150aktualisieren.PNG)](#aktualisiere-zustand)
 
 [![Binde zwei Zustände](img/01system/160binden.PNG)](#binde-zwei-zustände)
 
@@ -36,14 +32,14 @@
 
 
 * ### [Aktionen](#aktionen)
-* 
+
 [![Systembefehl ausführen](img/02aktionen/210.PNG)](#exec-kommando)
 
 [![URL abfragen](img/02aktionen/220.PNG)](#request-url)
 
 
 * ### [SendTo](#sendto)
-* 
+
 [![An telegram senden](img/.PNG)](#an-telegram-etwas-senden)
 
 [![An SayIt senden](img/.PNG)](#send-to-sayit)
@@ -56,7 +52,7 @@
 
 
 * ### [Datum und Zeit](#datum-und-zeit)
-* 
+
 [![Zeit vergleichen](img/.PNG)](#time-comparision)
 
 [![Aktuelle Zeit vergleichen](img/.PNG)](#actual-time-comparision)
