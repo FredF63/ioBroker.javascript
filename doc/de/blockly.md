@@ -3,25 +3,40 @@
 ## [Beschreibung](#beschreibung)
 ## [Editorfenster](#editorfenster)
 ## [Blöcke im einzelnen](#blöcke-im-einzelnen)
+
 * ### [System](#system)
 [![Debug output](img/01system/110debug.PNG)](#debug)
+
 [![Comment](img/01system/120kommentar.PNG)](#kommentar)
+
 [![Steuere Zustand](img/01system/130steuern.PNG)](#steuere-zustand)
+
 [![Zustand umschalten](img/01system/140umschalten.PNG)](#zustand-umschalten)
+
 [![Zustand aktualisieren](img/01system/150aktualisieren.PNG)](#aktualisiere-zustand)
+
 [![Binde zwei Zustände](img/01system/160binden.PNG)](#binde-zwei-zustände)
+
 [![Schreibe Zustand](img/01system/170schreiben.PNG)](#schreibe-zustand)
+
 [![Datenpunkt erzeugen](img/01system/180datenpunkterzeugen.PNG)](#datenpunkt-erzeugen)
+
 [![Wert eines Datenpunktes](img/01system/190werterzeugen.PNG)](#wert-eines-datenpunktes-1)
+
 [![Wert](img/01system/200werterzeugen.PNG)](#wert-eines-datenpunktes-2)
+
 [![Wert](img/01system/210wert.PNG)](#wert-eines-datenpunktes-3)
+
 [![Objekt ID auswählen](img/01system/220objekt.PNG)](#objekt-id)
+
 [![Attribut](img/01system/230attribut.PNG)](#attribut)
+
 
 * ### [Aktionen](#aktionen)
 [![Systembefehl ausführen](img/02aktionen/210.PNG)](#exec-kommando)
 
 [![URL abfragen](img/02aktionen/220.PNG)](#request-url)
+
 
 * ### [SendTo](#sendto)
 [![An telegram senden](img/.PNG)](#an-telegram-etwas-senden)
@@ -37,119 +52,204 @@
 
 * ### [Datum und Zeit](#datum-und-zeit)
 [![Zeit vergleichen](img/.PNG)](#time-comparision)
+
 [![Aktuelle Zeit vergleichen](img/.PNG)](#actual-time-comparision)
+
 [![Aktuelle Zeit im gewünschten Format erhalten](img/.PNG)](#get-actual-time-im-specific-format)
+
 [![Aktuelle Zeit eines Astro Ereignisses erhalten](img/.PNG)](#get-time-of-astro-events-for-today)
 
+
 * ### [Konvertierung](#konvertierung)
+* 
 [![Nach Zahl konvertieren](convert-to-number)
+
 [![Nach Logikwert konvertieren](convert-to-boolean)
+
 [![Nach String konvertieren]
+
 [![Get type of variable]
+
 [![Nach Datum/Zeit konvertieren](convert-to-datetime-object)
+
 [![Datum/Zeit Objekt nach String konvertieren](convert-datetime-object-to-string)
+
 [![JSON nach Objekt konvertieren](convert-json-to-object)
+
 [![Objekt nach JSON konvertieren](convert-object-to-json)
+
 
 * ### [Trigger](#trigger)
 [![Trigger bei mehreren Zustandswechsel](img/.PNG)](#trigger-on-states-change)
+
 [![Trigger bei einem Zustandswechsel](img/.PNG)](#trigger-on-state-change)
+
 [![Trigger info](img/.PNG)](#trigger-info)
+
 [![Zeitplan](img/.PNG)](#schedule)
+
 [![Trigger für Astro-Ereignis](img/.PNG)](#trigger-on-astro-event)
+
 [![Benannter Zeitplan](img/.PNG)](#named-schedule)
+
 [![Lösche benannten Zeitplan](img/.PNG)](#clear-schedule)
+
 [![CRON mit Dialogfenster](img/.PNG)](#cron-dialog)
+
 [![CRON Regeln](img/.PNG)](#cron-rule)
+
 
 * ### [Timeouts](#timeouts)
 [![Ausführung Verzögern](img/.PNG)](#delayed-execution)
+
 [![verzögerte Ausführung beenden](img/.PNG)](#clear-delayed-execution)
+
 [![Interval ausführen](img/.PNG)](#execution-by-interval)
+
 [![ausgeführtes Interval beenden](img/.PNG)](#stop-execution-by-interval)
+
 
 * ### [Logik](#logik)
 [![Falls mache](img/.PNG)](#if-else-block)
+
 [![Vergleichen](img/.PNG)](#comparision-block)
+
 [![Und/Oder](img/.PNG)](#logical-and-or-block)
+
 [![Negieren](img/.PNG)](#negation-block)
+
 [![Wahr/Falsch](img/.PNG)](#logical-value-true-false)
+
 [![Null](img/.PNG)](#null-block)
+
 [![Logik prüfen](img/.PNG)](#test-block)
+
 
 * ### [Schleifen](#schleifen)
 [![Wiederhole n-mal](img/.PNG)](#repeat-n-times)
+
 [![Wiederhole solange/bis](img/.PNG)](#repeat-while)
+
 [![Zähle](img/.PNG)](#count)
+
 [![For each]
+
 [![Schleife abbrechen](img/.PNG)](#break-out-of-loop)
+
 
 * ### [Mathematik](#mathematik)
 [![Zahlenwert](img/.PNG)](#number-value)
+
 [![Rechnen mit zwei Zahlen](img/.PNG)](#arithmetical-operations)
+
 [![Wurzel, Betrag](img/.PNG)](#square-root-abs---ln-log10-e-10)
+
 [![Trigonometrie](img/.PNG)](#sin-cos-tan-asin-acos-atan)
+
 [![Konstanten: pi, e, phi, sqrt(2), sqrt(1/2), infinity](img/.PNG)](#math)
+
 [![Zahl prüfen](img/.PNG)](#is-even-odd-)
+
 [![Variable Wert verändern](img/.PNG)](#modify-variably-by-value-plus-or-minus)
+
 [![Runden](img/.PNG)](#round-floor-ceil-value)
+
 [![Runden mit angabe der Nachkommastelle]
+
 [![Wert aus Liste berechnen]
+
 [![Rest nach Division (Modulus)]
+
 [![Zahl mit min und max begrenzen](img/.PNG)](#limit-some-value-by-min-and-max)
+
 [![ganzzahlige Zufallszahl](img/.PNG)](#random-value-between-min-and-max)
+
 [![Zufallszahl zwischen 0 und 1](img/.PNG)](#random-value-from-0-to-1)
+
 
 * ### [Text](#text)
 [![Zeichenfolge](img/.PNG)](#string-value)
+
 [![Zeilenumbruch](img/.PNG)](#zeilenumbruch)
+
 [![Zeichenfolgen verketten](img/.PNG)](#concatenate-strings)
+
 [![Zeichenfolge an Variable anhängen](img/.PNG)](#append-string-to-variable)
+
 [![Länge einer Zeichenfolge](img/.PNG)](#length-of-string)
+
 [![Ist Zeichenfolge leer](img/.PNG)](#is-string-empty)
+
 [![Suche Position einer Zeichenfolge](img/.PNG)](#find-position-in-string)
+
 [![Erhalte das Symbol in einer Zeichenfolge an bestimmter Position](img/.PNG)](#get-symbol-string-specific-position)
+
 [![Erhalte Abschnitt einer Zeichenfolge](img/.PNG)](#get-substring)
+
 [![In Groß- oder Kleinbuchstabe konvertieren](img/.PNG)](#Convert-to-upper-case-or-to-lower-case)
+
 [![Leerzeichen entfernen](img/.PNG)](#trim-string)
+
 
 * ### [Listen](#listen)
 [![Erzeuge leere Liste](img/.PNG)](#create-empty-list)
+
 [![Erzeuge Liste mit Werten](img/.PNG)](#create-list-with-values)
+
 [![Erzeuge Liste mit gleichem Wert n-mal](img/.PNG)](#create-list-with-same-value-n-times)
+
 [![Elementanzahl einer Liste ausgeben](img/.PNG)](#get-length-of-list)
+
 [![Ist Liste Leer](img/.PNG)](#is-list-empty)
+
 [![Suche Position eines Elements in Liste](img/.PNG)](#Find-position-of-item-in-list)
+
 [![Erhalte Element einer Position](img/.PNG)](#get-item-in-list)
+
 [![Setze Element einer Position](img/.PNG)](#set-item-in-list)
+
 [![Erhalte Teilliste einer Liste](img/.PNG)](#get-sublist-of-list)
+
 [![Text in Liste und umgekehrt konvertieren](img/.PNG)](#convert-text-to-list-and-vice-versa)
+
 [![Liste sortieren]
 
 * ### [Farbe](#farbe)
 [![Farbe](img/.PNG)](#colour-value)
+
 [![Zufällige Farbe](img/.PNG)](#random-colour)
+
 [![Farbe nach RGB](img/.PNG)](#rgb-colour)
+
 [![Farben mischen](img/.PNG)](#mix-colours)
+
 
 * ### [Variablen](#variablen)
 [![Setze Wert einer Variablen](img/.PNG)](#set-variables-value)
+
 [![Erhalte Wert einer Variablen](img/.PNG)](#get-variables-value)
+
 [![Addiere zur Variablen](img/.PNG)](#addiere-zur-variablen)
+
 
 * ### [Funktionen](#funktionen)
 [![Erzeuge Funktion *ohne* Rückgabewert](img/.PNG)](#create-function-from-blocks-with-no-return-value)
+
 [![Erzeuge Funktion *mit* Rückgabewert](img/.PNG)](#create-function-from-blocks-with-return-value)
+
 [![Return value in function ](img/.PNG)](#return-value-in-function)
+
 [![Erzeuge javascript Funktion *ohne* Rückgabewert](img/.PNG)](#create-custom-function-with-no-return-value)
+
 [![Erzeuge javascript Funktion *mit* Rückgabewert](img/.PNG)](#create-custom-function-with-return-value)
+
 [![Funktion aufrufen](img/.PNG)](#call-function)
 
 
 ## [Beispiele](#beispiele)
-- [1.](#beispiel-1)
-- [2.](#beispiel-2)
-- [3.](#beispiel-3)
+* [1.](#beispiel-1)
+* [2.](#beispiel-2)
+* [3.](#beispiel-3)
 
 
 # Beschreibung
@@ -271,6 +371,7 @@ Erklärungen einzelner Funktionen o.ä. zum Skript hinzuzufügen.
 Steuert den Zustand eines Objektes mit dem gewünschten Status
 
 Typische Anwendung dieses Blocks:
+
 ![Steuere Zustand](img/01system/131steuern.PNG)
 
 Die Object ID wird durch Klick ausgewählt. Abhängig vom Typ des Datenpunkts kann
@@ -327,6 +428,7 @@ werden, ob der Wert nur weitergeleitet wird, wenn sich die Quelle ändert, oder
 mit jeder Aktualisierung.
 
 Diese Blöcke:
+
 ![Binde zwei Zustände](img/01system/161binden.PNG)
 
 Dieses Beispiel zum importieren: ![code](img/01system/161code.txt)
@@ -405,14 +507,15 @@ Beschreibung fehlt noch!
 
 ### Wert eines Datenpunktes 3
 
-![Wert](img/01system/210Wert.PNG)]
+![Wert](img/01system/210Wert.PNG)
 
 Beschreibung fehlt noch!
 
 
 
 ### Objekt ID
-![Objekt ID auswählen](img/01system/220Objekt.PNG)
+
+![Objekt ID auswählen](img/01system/220objekt.PNG)
 
 Dieses ist ein einfacher Hilfsblock um komfortabel die Objekt ID zum triggern des Blocks auszuwählen.
 Der ID Auswahldialog wird durch Anklicken von "Objekt ID" geöffnet.
@@ -426,7 +529,8 @@ Dieses Beispiel zum importieren: ![code](img/01system/221code.txt)
 
 
 ### Attribut
-![Attribut](img/01system/230Attribut.PNG)
+
+![Attribut](img/01system/230attribut.PNG)
 
 Beschreibung fehlt noch!
 
@@ -448,7 +552,7 @@ Wenn keine Ausgabe gewünscht ist, kann diese unterdrückt werden:
 
 Wenn eine Ausgabe erfolgen soll:
 
-![Exec - execute](img/02aktionen/212.png)
+![Exec - execute](img/02aktionen/212.PNG)
 
 Dieses Beispiel zum importieren: ![code](img/02aktionen/212code.txt)
 
@@ -472,7 +576,7 @@ Ruft eine URL auf und gibt das Ergebnis zurück.
 
 Beispiel:
 
-![request URL](img/02aktionen/221.png)
+![request URL](img/02aktionen/221.PNG)
 
 Zur Anlayse der Ausgabe werden 3 besondere Variable erzeugt:
 
@@ -482,5 +586,7 @@ Zur Anlayse der Ausgabe werden 3 besondere Variable erzeugt:
 
 Wenn keine Ausgabe gewünscht ist, kann diese unterdrückt werden. Dazu die Option
 "mit Ergebnis" abhaken.
+
+to be continued...
 
 
