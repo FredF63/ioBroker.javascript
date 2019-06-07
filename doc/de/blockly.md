@@ -4,7 +4,8 @@
 * [Editorfenster](#editorfenster)
 * [Blöcke im einzelnen](#blöcke-im-einzelnen)
 	* [System](#system)
-		[![Debug output](img/01system/110debug.PNG)](#debug)
+
+        [![Debug output](img/01system/110debug.PNG)](#debug)
 
 		[![Comment](img/01system/120kommentar.PNG)](#kommentar)
 
@@ -14,255 +15,241 @@
 
 		[![Zustand aktualisieren](img/01system/150aktualisieren.PNG)](#aktualisiere-zustand)
 
-[![Binde zwei Zustände](img/01system/160binden.PNG)](#binde-zwei-zustände)
+		[![Binde zwei Zustände](img/01system/160binden.PNG)](#binde-zwei-zustände)
 
-[![Schreibe Zustand](img/01system/170schreiben.PNG)](#schreibe-zustand)
+		[![Schreibe Zustand](img/01system/170schreiben.PNG)](#schreibe-zustand)
 
-[![Datenpunkt erzeugen](img/01system/180datenpunkterzeugen.PNG)](#datenpunkt-erzeugen)
+		[![Datenpunkt erzeugen](img/01system/180datenpunkterzeugen.PNG)](#datenpunkt-erzeugen)
 
-[![Wert eines Datenpunktes](img/01system/190werterzeugen.PNG)](#wert-eines-datenpunktes-1)
+		[![Wert eines Datenpunktes](img/01system/190werterzeugen.PNG)](#wert-eines-datenpunktes-1)
 
-[![Wert](img/01system/200werterzeugen.PNG)](#wert-eines-datenpunktes-2)
+		[![Wert](img/01system/200werterzeugen.PNG)](#wert-eines-datenpunktes-2)
 
-[![Wert](img/01system/210wert.PNG)](#wert-eines-datenpunktes-3)
+		[![Wert](img/01system/210wert.PNG)](#wert-eines-datenpunktes-3)
 
-[![Objekt ID auswählen](img/01system/220objekt.PNG)](#objekt-id)
+		[![Objekt ID auswählen](img/01system/220objekt.PNG)](#objekt-id)
 
-[![Attribut](img/01system/230attribut.PNG)](#attribut)
+		[![Attribut](img/01system/230attribut.PNG)](#attribut)
 
+	* [Aktionen](#aktionen)
 
-* ### [Aktionen](#aktionen)
+		[![Systembefehl ausführen](img/02aktionen/210.PNG)](#exec-kommando)
 
-[![Systembefehl ausführen](img/02aktionen/210.PNG)](#exec-kommando)
+		[![URL abfragen](img/02aktionen/220.PNG)](#request-url)
 
-[![URL abfragen](img/02aktionen/220.PNG)](#request-url)
+	* [SendTo](#sendto)
 
+		[![An telegram senden](img/.PNG)](#an-telegram-etwas-senden)
 
-* ### [SendTo](#sendto)
+		[![An SayIt senden](img/.PNG)](#send-to-sayit)
 
-[![An telegram senden](img/.PNG)](#an-telegram-etwas-senden)
+		[![An pushover senden](img/.PNG)](#send-to-pushover)
 
-[![An SayIt senden](img/.PNG)](#send-to-sayit)
+		[![email versenden](img/.PNG)](#send-email)
 
-[![An pushover senden](img/.PNG)](#send-to-pushover)
+		[![Einem Adapter etwas senden](img/.PNG)](#custom-sendto-block)
 
-[![email versenden](img/.PNG)](#send-email)
+	* [Datum und Zeit](#datum-und-zeit)
 
-[![Einem Adapter etwas senden](img/.PNG)](#custom-sendto-block)
+		[![Zeit vergleichen](img/.PNG)](#time-comparision)
 
+		[![Aktuelle Zeit vergleichen](img/.PNG)](#actual-time-comparision)
 
-* ### [Datum und Zeit](#datum-und-zeit)
+		[![Aktuelle Zeit im gewünschten Format erhalten](img/.PNG)](#get-actual-time-im-specific-format)
 
-[![Zeit vergleichen](img/.PNG)](#time-comparision)
+		[![Aktuelle Zeit eines Astro Ereignisses erhalten](img/.PNG)](#get-time-of-astro-events-for-today)
 
-[![Aktuelle Zeit vergleichen](img/.PNG)](#actual-time-comparision)
+	* [Konvertierung](#konvertierung)
 
-[![Aktuelle Zeit im gewünschten Format erhalten](img/.PNG)](#get-actual-time-im-specific-format)
+		[![Nach Zahl konvertieren](convert-to-number)
 
-[![Aktuelle Zeit eines Astro Ereignisses erhalten](img/.PNG)](#get-time-of-astro-events-for-today)
+		[![Nach Logikwert konvertieren](convert-to-boolean)
 
+		[![Nach String konvertieren]
 
-* ### [Konvertierung](#konvertierung)
+		[![Get type of variable]
 
-[![Nach Zahl konvertieren](convert-to-number)
+		[![Nach Datum/Zeit konvertieren](convert-to-datetime-object)
 
-[![Nach Logikwert konvertieren](convert-to-boolean)
+		[![Datum/Zeit Objekt nach String konvertieren](convert-datetime-object-to-string)
 
-[![Nach String konvertieren]
+		[![JSON nach Objekt konvertieren](convert-json-to-object)
 
-[![Get type of variable]
+		[![Objekt nach JSON konvertieren](convert-object-to-json)
 
-[![Nach Datum/Zeit konvertieren](convert-to-datetime-object)
+	* [Trigger](#trigger)
 
-[![Datum/Zeit Objekt nach String konvertieren](convert-datetime-object-to-string)
+		[![Trigger bei mehreren Zustandswechsel](img/.PNG)](#trigger-on-states-change)
 
-[![JSON nach Objekt konvertieren](convert-json-to-object)
+		[![Trigger bei einem Zustandswechsel](img/.PNG)](#trigger-on-state-change)
 
-[![Objekt nach JSON konvertieren](convert-object-to-json)
+		[![Trigger info](img/.PNG)](#trigger-info)
 
+		[![Zeitplan](img/.PNG)](#schedule)
 
-* ### [Trigger](#trigger)
+		[![Trigger für Astro-Ereignis](img/.PNG)](#trigger-on-astro-event)
 
-[![Trigger bei mehreren Zustandswechsel](img/.PNG)](#trigger-on-states-change)
+		[![Benannter Zeitplan](img/.PNG)](#named-schedule)
 
-[![Trigger bei einem Zustandswechsel](img/.PNG)](#trigger-on-state-change)
+		[![Lösche benannten Zeitplan](img/.PNG)](#clear-schedule)
 
-[![Trigger info](img/.PNG)](#trigger-info)
+		[![CRON mit Dialogfenster](img/.PNG)](#cron-dialog)
 
-[![Zeitplan](img/.PNG)](#schedule)
+		[![CRON Regeln](img/.PNG)](#cron-rule)
 
-[![Trigger für Astro-Ereignis](img/.PNG)](#trigger-on-astro-event)
+	* [Timeouts](#timeouts)
 
-[![Benannter Zeitplan](img/.PNG)](#named-schedule)
+		[![Ausführung Verzögern](img/.PNG)](#delayed-execution)
 
-[![Lösche benannten Zeitplan](img/.PNG)](#clear-schedule)
+		[![verzögerte Ausführung beenden](img/.PNG)](#clear-delayed-execution)
 
-[![CRON mit Dialogfenster](img/.PNG)](#cron-dialog)
+		[![Interval ausführen](img/.PNG)](#execution-by-interval)
 
-[![CRON Regeln](img/.PNG)](#cron-rule)
+		[![ausgeführtes Interval beenden](img/.PNG)](#stop-execution-by-interval)
 
+	* [Logik](#logik)
 
-* ### [Timeouts](#timeouts)
+		[![Falls mache](img/.PNG)](#if-else-block)
 
-[![Ausführung Verzögern](img/.PNG)](#delayed-execution)
+		[![Vergleichen](img/.PNG)](#comparision-block)
 
-[![verzögerte Ausführung beenden](img/.PNG)](#clear-delayed-execution)
+		[![Und/Oder](img/.PNG)](#logical-and-or-block)
 
-[![Interval ausführen](img/.PNG)](#execution-by-interval)
+		[![Negieren](img/.PNG)](#negation-block)
 
-[![ausgeführtes Interval beenden](img/.PNG)](#stop-execution-by-interval)
+		[![Wahr/Falsch](img/.PNG)](#logical-value-true-false)
 
+		[![Null](img/.PNG)](#null-block)
 
-* ### [Logik](#logik)
+		[![Logik prüfen](img/.PNG)](#test-block)
 
-[![Falls mache](img/.PNG)](#if-else-block)
+	* [Schleifen](#schleifen)
 
-[![Vergleichen](img/.PNG)](#comparision-block)
+		[![Wiederhole n-mal](img/.PNG)](#repeat-n-times)
 
-[![Und/Oder](img/.PNG)](#logical-and-or-block)
+		[![Wiederhole solange/bis](img/.PNG)](#repeat-while)
 
-[![Negieren](img/.PNG)](#negation-block)
+		[![Zähle](img/.PNG)](#count)
 
-[![Wahr/Falsch](img/.PNG)](#logical-value-true-false)
+		[![For each]
 
-[![Null](img/.PNG)](#null-block)
+		[![Schleife abbrechen](img/.PNG)](#break-out-of-loop)
 
-[![Logik prüfen](img/.PNG)](#test-block)
+	* [Mathematik](#mathematik)
 
+		[![Zahlenwert](img/.PNG)](#number-value)
 
-* ### [Schleifen](#schleifen)
+		[![Rechnen mit zwei Zahlen](img/.PNG)](#arithmetical-operations)
 
-[![Wiederhole n-mal](img/.PNG)](#repeat-n-times)
+		[![Wurzel, Betrag](img/.PNG)](#square-root-abs---ln-log10-e-10)
 
-[![Wiederhole solange/bis](img/.PNG)](#repeat-while)
+		[![Trigonometrie](img/.PNG)](#sin-cos-tan-asin-acos-atan)
 
-[![Zähle](img/.PNG)](#count)
+		[![Konstanten: pi, e, phi, sqrt(2), sqrt(1/2), infinity](img/.PNG)](#math)
 
-[![For each]
+		[![Zahl prüfen](img/.PNG)](#is-even-odd-)
 
-[![Schleife abbrechen](img/.PNG)](#break-out-of-loop)
+		[![Variable Wert verändern](img/.PNG)](#modify-variably-by-value-plus-or-minus)
 
+		[![Runden](img/.PNG)](#round-floor-ceil-value)
 
-* ### [Mathematik](#mathematik)
+		[![Runden mit angabe der Nachkommastelle]
 
-[![Zahlenwert](img/.PNG)](#number-value)
+		[![Wert aus Liste berechnen]
 
-[![Rechnen mit zwei Zahlen](img/.PNG)](#arithmetical-operations)
+		[![Rest nach Division (Modulus)]
 
-[![Wurzel, Betrag](img/.PNG)](#square-root-abs---ln-log10-e-10)
+		[![Zahl mit min und max begrenzen](img/.PNG)](#limit-some-value-by-min-and-max)
 
-[![Trigonometrie](img/.PNG)](#sin-cos-tan-asin-acos-atan)
+		[![ganzzahlige Zufallszahl](img/.PNG)](#random-value-between-min-and-max)
 
-[![Konstanten: pi, e, phi, sqrt(2), sqrt(1/2), infinity](img/.PNG)](#math)
+		[![Zufallszahl zwischen 0 und 1](img/.PNG)](#random-value-from-0-to-1)
 
-[![Zahl prüfen](img/.PNG)](#is-even-odd-)
+	* [Text](#text)
 
-[![Variable Wert verändern](img/.PNG)](#modify-variably-by-value-plus-or-minus)
+		[![Zeichenfolge](img/.PNG)](#string-value)
 
-[![Runden](img/.PNG)](#round-floor-ceil-value)
+		[![Zeilenumbruch](img/.PNG)](#zeilenumbruch)
 
-[![Runden mit angabe der Nachkommastelle]
+		[![Zeichenfolgen verketten](img/.PNG)](#concatenate-strings)
 
-[![Wert aus Liste berechnen]
+		[![Zeichenfolge an Variable anhängen](img/.PNG)](#append-string-to-variable)
 
-[![Rest nach Division (Modulus)]
+		[![Länge einer Zeichenfolge](img/.PNG)](#length-of-string)
 
-[![Zahl mit min und max begrenzen](img/.PNG)](#limit-some-value-by-min-and-max)
+		[![Ist Zeichenfolge leer](img/.PNG)](#is-string-empty)
 
-[![ganzzahlige Zufallszahl](img/.PNG)](#random-value-between-min-and-max)
+		[![Suche Position einer Zeichenfolge](img/.PNG)](#find-position-in-string)
 
-[![Zufallszahl zwischen 0 und 1](img/.PNG)](#random-value-from-0-to-1)
+		[![Erhalte das Symbol in einer Zeichenfolge an bestimmter Position](img/.PNG)](#get-symbol-string-specific-position)
 
+		[![Erhalte Abschnitt einer Zeichenfolge](img/.PNG)](#get-substring)
 
-* ### [Text](#text)
+		[![In Groß- oder Kleinbuchstabe konvertieren](img/.PNG)](#Convert-to-upper-case-or-to-lower-case)
 
-[![Zeichenfolge](img/.PNG)](#string-value)
+		[![Leerzeichen entfernen](img/.PNG)](#trim-string)
 
-[![Zeilenumbruch](img/.PNG)](#zeilenumbruch)
+	*  [Listen](#listen)
 
-[![Zeichenfolgen verketten](img/.PNG)](#concatenate-strings)
+		[![Erzeuge leere Liste](img/.PNG)](#create-empty-list)
 
-[![Zeichenfolge an Variable anhängen](img/.PNG)](#append-string-to-variable)
+		[![Erzeuge Liste mit Werten](img/.PNG)](#create-list-with-values)
 
-[![Länge einer Zeichenfolge](img/.PNG)](#length-of-string)
+		[![Erzeuge Liste mit gleichem Wert n-mal](img/.PNG)](#create-list-with-same-value-n-times)
 
-[![Ist Zeichenfolge leer](img/.PNG)](#is-string-empty)
+		[![Elementanzahl einer Liste ausgeben](img/.PNG)](#get-length-of-list)
 
-[![Suche Position einer Zeichenfolge](img/.PNG)](#find-position-in-string)
+		[![Ist Liste Leer](img/.PNG)](#is-list-empty)
 
-[![Erhalte das Symbol in einer Zeichenfolge an bestimmter Position](img/.PNG)](#get-symbol-string-specific-position)
+		[![Suche Position eines Elements in Liste](img/.PNG)](#Find-position-of-item-in-list)
 
-[![Erhalte Abschnitt einer Zeichenfolge](img/.PNG)](#get-substring)
+		[![Erhalte Element einer Position](img/.PNG)](#get-item-in-list)
 
-[![In Groß- oder Kleinbuchstabe konvertieren](img/.PNG)](#Convert-to-upper-case-or-to-lower-case)
+        [![Setze Element einer Position](img/.PNG)](#set-item-in-list)
 
-[![Leerzeichen entfernen](img/.PNG)](#trim-string)
+		[![Erhalte Teilliste einer Liste](img/.PNG)](#get-sublist-of-list)
 
+		[![Text in Liste und umgekehrt konvertieren](img/.PNG)](#convert-text-to-list-and-vice-versa)
 
-* ### [Listen](#listen)
+		[![Liste sortieren]
 
-[![Erzeuge leere Liste](img/.PNG)](#create-empty-list)
+	* [Farbe](#farbe)
 
-[![Erzeuge Liste mit Werten](img/.PNG)](#create-list-with-values)
+		[![Farbe](img/.PNG)](#colour-value)
 
-[![Erzeuge Liste mit gleichem Wert n-mal](img/.PNG)](#create-list-with-same-value-n-times)
+		[![Zufällige Farbe](img/.PNG)](#random-colour)
 
-[![Elementanzahl einer Liste ausgeben](img/.PNG)](#get-length-of-list)
+		[![Farbe nach RGB](img/.PNG)](#rgb-colour)
 
-[![Ist Liste Leer](img/.PNG)](#is-list-empty)
+		[![Farben mischen](img/.PNG)](#mix-colours)
 
-[![Suche Position eines Elements in Liste](img/.PNG)](#Find-position-of-item-in-list)
+	* [Variablen](#variablen)
 
-[![Erhalte Element einer Position](img/.PNG)](#get-item-in-list)
+		[![Setze Wert einer Variablen](img/.PNG)](#set-variables-value)
 
-[![Setze Element einer Position](img/.PNG)](#set-item-in-list)
+		[![Erhalte Wert einer Variablen](img/.PNG)](#get-variables-value)
 
-[![Erhalte Teilliste einer Liste](img/.PNG)](#get-sublist-of-list)
+		[![Addiere zur Variablen](img/.PNG)](#addiere-zur-variablen)
 
-[![Text in Liste und umgekehrt konvertieren](img/.PNG)](#convert-text-to-list-and-vice-versa)
+	* [Funktionen](#funktionen)
 
-[![Liste sortieren]
+		[![Erzeuge Funktion *ohne* Rückgabewert](img/.PNG)](#create-function-from-blocks-with-no-return-value)
 
-* ### [Farbe](#farbe)
+		[![Erzeuge Funktion *mit* Rückgabewert](img/.PNG)](#create-function-from-blocks-with-return-value)
 
-[![Farbe](img/.PNG)](#colour-value)
+		[![Return value in function ](img/.PNG)](#return-value-in-function)
 
-[![Zufällige Farbe](img/.PNG)](#random-colour)
+		[![Erzeuge javascript Funktion *ohne* Rückgabewert](img/.PNG)](#create-custom-function-with-no-return-value)
 
-[![Farbe nach RGB](img/.PNG)](#rgb-colour)
+		[![Erzeuge javascript Funktion *mit* Rückgabewert](img/.PNG)](#create-custom-function-with-return-value)
 
-[![Farben mischen](img/.PNG)](#mix-colours)
+		[![Funktion aufrufen](img/.PNG)](#call-function)
 
+* [Beispiele](#beispiele)
 
-* ### [Variablen](#variablen)
-
-[![Setze Wert einer Variablen](img/.PNG)](#set-variables-value)
-
-[![Erhalte Wert einer Variablen](img/.PNG)](#get-variables-value)
-
-[![Addiere zur Variablen](img/.PNG)](#addiere-zur-variablen)
-
-
-* ### [Funktionen](#funktionen)
-
-[![Erzeuge Funktion *ohne* Rückgabewert](img/.PNG)](#create-function-from-blocks-with-no-return-value)
-
-[![Erzeuge Funktion *mit* Rückgabewert](img/.PNG)](#create-function-from-blocks-with-return-value)
-
-[![Return value in function ](img/.PNG)](#return-value-in-function)
-
-[![Erzeuge javascript Funktion *ohne* Rückgabewert](img/.PNG)](#create-custom-function-with-no-return-value)
-
-[![Erzeuge javascript Funktion *mit* Rückgabewert](img/.PNG)](#create-custom-function-with-return-value)
-
-[![Funktion aufrufen](img/.PNG)](#call-function)
-
-
-## [Beispiele](#beispiele)
-
-* [1.](#beispiel-1)
-* [2.](#beispiel-2)
-* [3.](#beispiel-3)
+	* [1.](#beispiel-1)
+	* [2.](#beispiel-2)
+	* [3.](#beispiel-3)
 
 
 # Beschreibung
@@ -520,7 +507,7 @@ Beschreibung fehlt noch!
 
 ### Wert eines Datenpunktes 3
 
-![Wert](img/01system/210Wert.PNG)
+![Wert](img/01system/210wert.PNG)
 
 Beschreibung fehlt noch!
 
