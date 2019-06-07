@@ -1,0 +1,35 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="comment" id="6)H;rH7WyHm{QumUWAy0" x="113" y="213">
+    <field name="COMMENT">Wird zweimal ausgeführt</field>
+    <next>
+      <block type="control" id="1ppu41apilB]o[)OdAes">
+        <mutation delay_input="true"></mutation>
+        <field name="OID">javascript.0.Licht</field>
+        <field name="WITH_DELAY">TRUE</field>
+        <field name="DELAY_MS">1000</field>
+        <field name="UNIT">ms</field>
+        <field name="CLEAR_RUNNING">FALSE</field>
+        <value name="VALUE">
+          <block type="logic_boolean" id="oR%b,V~W=H=o6A$`M(C7">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <next>
+          <block type="control" id="6%mE|Ksra3Tk*urKJr(M">
+            <mutation delay_input="true"></mutation>
+            <field name="OID">javascript.0.Licht</field>
+            <field name="WITH_DELAY">TRUE</field>
+            <field name="DELAY_MS">2000</field>
+            <field name="UNIT">ms</field>
+            <field name="CLEAR_RUNNING">FALSE</field>
+            <value name="VALUE">
+              <block type="logic_boolean" id="k,US@}-%AKX,/k64BynK">
+                <field name="BOOL">FALSE</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

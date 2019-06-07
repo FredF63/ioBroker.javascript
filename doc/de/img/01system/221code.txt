@@ -1,0 +1,30 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="comment" id="GVW732OFexZ9HP[q]B3," x="38" y="13">
+    <field name="COMMENT">Typische Nutzung von Objekt ID</field>
+    <next>
+      <block type="on_ext" id="D+1_tP(lF!R]wy?R#|~A">
+        <mutation items="1"></mutation>
+        <field name="CONDITION">ne</field>
+        <field name="ACK_CONDITION"></field>
+        <value name="OID0">
+          <shadow type="field_oid" id="rpg#*-DXMVqzexE8-^Xc">
+            <field name="oid">default</field>
+          </shadow>
+          <block type="field_oid" id="YYTRKxeC@l3WE~OJx4ei">
+            <field name="oid">javascript.0.meinDatenpunkt</field>
+          </block>
+        </value>
+        <statement name="STATEMENT">
+          <block type="debug" id="{;_x6LATJ,b^leE,xgz9">
+            <field name="Severity">log</field>
+            <value name="TEXT">
+              <shadow type="text" id="-)V}_9Cxt2kj:]36y,7#">
+                <field name="TEXT">Geändert</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

@@ -1,0 +1,33 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="6/k4`6s8I=I]sk5bRl5(">ergebnis</variable>
+  </variables>
+  <block type="comment" id="GVW732OFexZ9HP[q]B3," x="288" y="88">
+    <field name="COMMENT">Systembefehl ausführen</field>
+    <next>
+      <block type="exec" id="hGkHs.IkmiTa{jR^@-}S">
+        <mutation with_statement="true"></mutation>
+        <field name="WITH_STATEMENT">TRUE</field>
+        <field name="LOG">log</field>
+        <value name="COMMAND">
+          <shadow type="text" id=":KG#hyuPRhQJWFSk)6Yo">
+            <field name="TEXT">Is /opt/</field>
+          </shadow>
+        </value>
+        <statement name="STATEMENT">
+          <block type="debug" id="ELv(y5V4[hZ,F8,]D51x">
+            <field name="Severity">log</field>
+            <value name="TEXT">
+              <shadow type="text" id="J[o*Fylexfu41}smph).">
+                <field name="TEXT">result</field>
+              </shadow>
+              <block type="variables_get" id="gWo7Y^,QI=PqL(Q;7D=^">
+                <field name="VAR" id="6/k4`6s8I=I]sk5bRl5(" variabletype="">ergebnis</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

@@ -1,0 +1,35 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="comment" id="GVW732OFexZ9HP[q]B3," x="38" y="13">
+    <field name="COMMENT">Gibt letzte Änderung von meinDatenpunkt aus</field>
+    <next>
+      <block type="debug" id="t,GmgLjo]1d0{xT+@Yns">
+        <field name="Severity">log</field>
+        <value name="TEXT">
+          <shadow type="text" id="w{UF-|ashrP4e*jl~{9_">
+            <field name="TEXT">test</field>
+          </shadow>
+          <block type="text_join" id="i~L{r:B9oU}.ANc.AV8F">
+            <mutation items="2"></mutation>
+            <value name="ADD0">
+              <block type="text" id="r5=i|qvrII+NCAQ~t{p5">
+                <field name="TEXT">Letzte Änderung meinDatenpunkt war</field>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block type="convert_from_date" id="?cGS1/CwThX!tTDMVSoj">
+                <mutation format="false" language="false"></mutation>
+                <field name="OPTION">hh:mm:ss</field>
+                <value name="VALUE">
+                  <block type="get_value" id="k+#N2u^rx)u%Z9lA`Yps">
+                    <field name="ATTR">lc</field>
+                    <field name="OID">javascript.0.meinDatenpunkt</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>

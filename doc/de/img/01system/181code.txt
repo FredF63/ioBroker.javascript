@@ -1,0 +1,48 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="Z5h,X4*tBMeyJbObqZ^+">value</variable>
+  </variables>
+  <block type="comment" id="dBV.{0z/{Fr@RB+10H5i" x="38" y="13">
+    <field name="COMMENT">Datenpunkt erstellen und auf Änderungen reagieren</field>
+    <next>
+      <block type="create" id="D%[{T~!b9^V#Z.7bI+3y">
+        <field name="NAME">meinDatenpunkt</field>
+        <statement name="STATEMENT">
+          <block type="on_ext" id="H@F~z_,FpvXo8BptmAtL">
+            <mutation items="1"></mutation>
+            <field name="CONDITION">ne</field>
+            <field name="ACK_CONDITION"></field>
+            <value name="OID0">
+              <shadow type="field_oid" id="hn{OMH9y7AP_dns;KO6*">
+                <field name="oid">javascript.0.meinDatenpunkt</field>
+              </shadow>
+            </value>
+            <statement name="STATEMENT">
+              <block type="debug" id="DjP1pU?v=))`V;styIRR">
+                <field name="Severity">log</field>
+                <value name="TEXT">
+                  <shadow type="text" id="de?mCXefl4v#XrO])~7y">
+                    <field name="TEXT">test</field>
+                  </shadow>
+                  <block type="text_join" id="^33}.]#ov(vUAEEn8Hdp">
+                    <mutation items="2"></mutation>
+                    <value name="ADD0">
+                      <block type="text" id="_-p%CZq4%)v1EYvh)lf@">
+                        <field name="TEXT">Wert meines Datenpunktes ist</field>
+                      </block>
+                    </value>
+                    <value name="ADD1">
+                      <block type="variables_get" id="6r!TtpfrfQ@5Nf[4#[6l">
+                        <field name="VAR" id="Z5h,X4*tBMeyJbObqZ^+" variabletype="">value</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </statement>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

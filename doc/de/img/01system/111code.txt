@@ -1,0 +1,29 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="undefined" id="interval">interval</variable>
+  </variables>
+  <block type="comment" id="K|2AnJ|5})RoNZ1T%Hh#" x="38" y="13">
+    <field name="COMMENT">Aktuelle Zeit jede Sekunde ausgeben</field>
+    <next>
+      <block type="timeouts_setinterval" id="LNsHTl,!r6eR8J9Yg,Xn">
+        <field name="NAME">interval</field>
+        <field name="INTERVAL">1000</field>
+        <field name="UNIT">ms</field>
+        <statement name="STATEMENT">
+          <block type="debug" id=".oLS7P_oFU0%PWocRlYp">
+            <field name="Severity">log</field>
+            <value name="TEXT">
+              <shadow type="text" id="X^Z/.qUry9B5Rr#N`)Oy">
+                <field name="TEXT">test</field>
+              </shadow>
+              <block type="time_get" id="TPo6nim+=TBb-pnKMkRp">
+                <mutation format="false" language="false"></mutation>
+                <field name="OPTION">hh:mm:ss</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
