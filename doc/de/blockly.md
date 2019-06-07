@@ -1,10 +1,13 @@
 # Inhalt
 
 ## [Beschreibung](#beschreibung)
+
 ## [Editorfenster](#editorfenster)
+
 ## [Blöcke im einzelnen](#blöcke-im-einzelnen)
 
 * ### [System](#system)
+* 
 [![Debug output](img/01system/110debug.PNG)](#debug)
 
 [![Comment](img/01system/120kommentar.PNG)](#kommentar)
@@ -33,12 +36,14 @@
 
 
 * ### [Aktionen](#aktionen)
+* 
 [![Systembefehl ausführen](img/02aktionen/210.PNG)](#exec-kommando)
 
 [![URL abfragen](img/02aktionen/220.PNG)](#request-url)
 
 
 * ### [SendTo](#sendto)
+* 
 [![An telegram senden](img/.PNG)](#an-telegram-etwas-senden)
 
 [![An SayIt senden](img/.PNG)](#send-to-sayit)
@@ -51,6 +56,7 @@
 
 
 * ### [Datum und Zeit](#datum-und-zeit)
+* 
 [![Zeit vergleichen](img/.PNG)](#time-comparision)
 
 [![Aktuelle Zeit vergleichen](img/.PNG)](#actual-time-comparision)
@@ -61,7 +67,7 @@
 
 
 * ### [Konvertierung](#konvertierung)
-* 
+
 [![Nach Zahl konvertieren](convert-to-number)
 
 [![Nach Logikwert konvertieren](convert-to-boolean)
@@ -80,6 +86,7 @@
 
 
 * ### [Trigger](#trigger)
+
 [![Trigger bei mehreren Zustandswechsel](img/.PNG)](#trigger-on-states-change)
 
 [![Trigger bei einem Zustandswechsel](img/.PNG)](#trigger-on-state-change)
@@ -100,6 +107,7 @@
 
 
 * ### [Timeouts](#timeouts)
+
 [![Ausführung Verzögern](img/.PNG)](#delayed-execution)
 
 [![verzögerte Ausführung beenden](img/.PNG)](#clear-delayed-execution)
@@ -110,6 +118,7 @@
 
 
 * ### [Logik](#logik)
+
 [![Falls mache](img/.PNG)](#if-else-block)
 
 [![Vergleichen](img/.PNG)](#comparision-block)
@@ -126,6 +135,7 @@
 
 
 * ### [Schleifen](#schleifen)
+
 [![Wiederhole n-mal](img/.PNG)](#repeat-n-times)
 
 [![Wiederhole solange/bis](img/.PNG)](#repeat-while)
@@ -138,6 +148,7 @@
 
 
 * ### [Mathematik](#mathematik)
+
 [![Zahlenwert](img/.PNG)](#number-value)
 
 [![Rechnen mit zwei Zahlen](img/.PNG)](#arithmetical-operations)
@@ -168,6 +179,7 @@
 
 
 * ### [Text](#text)
+
 [![Zeichenfolge](img/.PNG)](#string-value)
 
 [![Zeilenumbruch](img/.PNG)](#zeilenumbruch)
@@ -192,6 +204,7 @@
 
 
 * ### [Listen](#listen)
+
 [![Erzeuge leere Liste](img/.PNG)](#create-empty-list)
 
 [![Erzeuge Liste mit Werten](img/.PNG)](#create-list-with-values)
@@ -215,6 +228,7 @@
 [![Liste sortieren]
 
 * ### [Farbe](#farbe)
+
 [![Farbe](img/.PNG)](#colour-value)
 
 [![Zufällige Farbe](img/.PNG)](#random-colour)
@@ -225,6 +239,7 @@
 
 
 * ### [Variablen](#variablen)
+
 [![Setze Wert einer Variablen](img/.PNG)](#set-variables-value)
 
 [![Erhalte Wert einer Variablen](img/.PNG)](#get-variables-value)
@@ -233,6 +248,7 @@
 
 
 * ### [Funktionen](#funktionen)
+
 [![Erzeuge Funktion *ohne* Rückgabewert](img/.PNG)](#create-function-from-blocks-with-no-return-value)
 
 [![Erzeuge Funktion *mit* Rückgabewert](img/.PNG)](#create-function-from-blocks-with-return-value)
@@ -247,6 +263,7 @@
 
 
 ## [Beispiele](#beispiele)
+
 * [1.](#beispiel-1)
 * [2.](#beispiel-2)
 * [3.](#beispiel-3)
