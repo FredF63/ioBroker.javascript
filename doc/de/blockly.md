@@ -3,7 +3,7 @@
 * [Beschreibung](#beschreibung)
 * [Editorfenster](#editorfenster)
 * [Blöcke im einzelnen](#blöcke-im-einzelnen)
-	* [System](#system)
+	* <details open><summary>[System](#system)</summary><p>
 
         [![Debug output](img/01system/110debug.PNG)](#debug)
 
