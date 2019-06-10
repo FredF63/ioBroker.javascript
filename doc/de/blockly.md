@@ -5,7 +5,7 @@
 * [Blöcke im einzelnen](#blöcke-im-einzelnen)
 	* <details open><summary> [System](#system)</summary><p>
 
-        [![Debug output](img/01system/110debug.PNG)](#debug)
+        [![Debug output][1]](#debug)
 
 		[![Comment](img/01system/120kommentar.PNG)](#kommentar)
 
@@ -334,7 +334,9 @@ Blöcke sind in folgenden Kategorien unterteilt:
 
 ### Debug
 
-![{Debug output}](img/01system/110debug.PNG "debug output")
+[1]: img/01system/110debug.PNG
+
+![Debug output][1]
 
 Schreibt den frei wählbaren Text, hier `test` ins log und dient zum debuggen
 eines Scripts wie dies:
