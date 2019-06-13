@@ -334,6 +334,7 @@ Blöcke sind in folgenden Kategorien unterteilt:
 
 ### Debug
 
+
 ![Debug output](img/01system/110debug.PNG)
 
 Schreibt den frei wählbaren Text, hier `test` ins log und dient zum debuggen
