@@ -3,7 +3,8 @@ title:       "ioBroker Blockly"
 lastChanged: "13.06.2019"
 ---
 
->! Achtung Seite ist im Aufbau
+
+!> Achtung, Seite befindet sich im Aufbau
 
 # Inhaltsverzeichnis
 
