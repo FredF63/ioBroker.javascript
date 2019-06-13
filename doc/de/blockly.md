@@ -47,19 +47,21 @@ lastChanged: "13.06.2019"
 
 	* [SendTo](#sendto)
 
-		[![An telegram senden](img/.PNG)](#an-telegram-etwas-senden)
+		[![An telegram senden](img/03sendto/0350.png)](#an-telegram-etwas-senden)
 
-		[![An SayIt senden](img/.PNG)](#send-to-sayit)
+		[![An SayIt senden](img/03sendto/0340.png)](#send-to-sayit)
 
-		[![An pushover senden](img/.PNG)](#send-to-pushover)
+		[![An pushover senden](img/03sendto/0330.PNG)](#send-to-pushover)
 
-		[![email versenden](img/.PNG)](#send-email)
+		[![email versenden](img/03sendto/0360.PNG)](#send-email)
 
-		[![Einem Adapter etwas senden](img/.PNG)](#custom-sendto-block)
+		[![Einem Adapter etwas senden](img/03sendto/0310.PNG)](#sendto-block)
+
+        [![IFTTT](de/img/03sendto/0320.PNG)](#ifttt)
 
 	* [Datum und Zeit](#datum-und-zeit)
 
-		[![Zeit vergleichen](img/.PNG)](#time-comparision)
+		[![Zeit vergleichen](img/04datumundzeit/410.PNG)](#time-comparision)
 
 		[![Aktuelle Zeit vergleichen](img/.PNG)](#actual-time-comparision)
 
@@ -838,6 +840,7 @@ If you will start value with "{" it will be interpreted as JSON string. Use doub
 
 ### Etwas an IFTTT senden
 
+![IFTTT](de/img/03sendto/0320.PNG)
 
 ## Datum und Zeit
 
