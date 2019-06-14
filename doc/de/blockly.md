@@ -734,7 +734,7 @@ ausgegeben.
 
 
 
-### Send email
+### email versenden
 ![Send to email](de/img/03sendto/0360.png)
 
 This block is used to send text as email.
@@ -764,10 +764,10 @@ Additionally if the log level is not "none", the same message will be sent to lo
 
 
 
-### Custom sendTo block
+### Einem Adapter etwas senden
 [Custom sendTo block](de/img/03sendto/_custom_en.png)
 
-This is just a help block to send internal system message (sendTo) to any adapter. 
+This is just a help block to send internal system message (sendTo) to any adapter.
 
 Of course you can use custom function block to do anything crazy, and to send messages too.
 
