@@ -541,7 +541,8 @@ des Datenpunktes können ausgelesen werden:
 	???
 
 - Quelle
-	Name der Instanz, die den letzten Wert geschrieben hat, wie z.B. "system.adapter.javascript.0"
+	Name der Instanz, die den letzten Wert geschrieben hat, wie z.B.
+    "system.adapter.javascript.0"
 
 Beispiel um die Zeit der letzten Änderung des Wertes auszugeben:
 
@@ -927,8 +928,8 @@ So, Mo, Di, Mi, Do, Fr, Sa.
 - SS:mm:ss.sss - 12:00:00.000
 
 
-### Die Zeit für aktuelle Astro-Events abrufen
-![Die Zeit für aktuelle Astro-Events abrufen](de/img/04datumundzeit/0440.png)
+### Zeit für aktuelle Astro-Events abrufen
+![Zeit für aktuelle Astro-Events abrufen](de/img/04datumundzeit/0440.png)
 
 Das Offset Attribut kann auch negativ eingegeben werden um Zeiten vor dem Astro-
 Event zu bestimmen.
@@ -963,18 +964,18 @@ Einstellung definiert sein.
 Um einen Datentyp in einen anderen umzuwandeln, stehen folgende Konvertierungsblöcke
 zur Verfügung:
 
-### In Zahl umwandeln
-![In Zahl umwandeln](de/img/05konvertierung/0510.png)
+### In Zahl konvertieren
+![Nach Zahl konvertieren](de/img/05konvertierung/0510.png)
 
 Wandelt einen Wert in eine Fließkommazahl mit Dezimalpunkt um.
 
-### In Logikwert umwandeln
-![In Logikwert umwandeln](de/img/05konvertierung/0520.png)
+### Nach Logikwert konvertieren
+![Nach Logikwert konvertieren](de/img/05konvertierung/0520.png)
 
 Wandelt einen Wert in booleschen Wert (true oder false) um.
 
-### In String umwandeln
-![In String umwandeln](de/img/05konvertierung/0530.png)
+### Nach String konvertieren
+![Nach String konvertieren](de/img/05konvertierung/0530.png)
 
 Wandelt einen Wert in einen String/Zeichenkette um.
 
@@ -983,24 +984,23 @@ Wandelt einen Wert in einen String/Zeichenkette um.
 
 Variablentyp kann boolean, number, string oder object sein.
 
-### In Datum/Zeit Objekt umwandeln
-![In Datum/Zeit Objekt umwandeln](de/img/05konvertierung/0550.png)
+### Nach Datum/Zeit konvertieren
+![Nach Datum/Zeit konvertieren](de/img/05konvertierung/0550.png)
 
 Wandelt einen Wert in ein Datum-Objekt um. [Hier](#get-actual-time-im-specific-format) sind die Datum Objekte beschrieben.
 
-### Datum/Zeit in String umwandeln
-![Datum/Zeit in String umwandeln](de/img/05konvertierung/0560.png)
+### Datum/Zeit Objekt nach String konvertieren
+![Datum/Zeit Objekt nach String konvertieren](de/img/05konvertierung/0560.png)
 
-Die Format Optionen sind wie [hier](#get-actual-time-im-specific-format) beschrieben.
 
-### JSON in Objekt umwandeln
-![JSON in Objekt umwandeln](de/img/05konvertierung/0570.png)
+### JSON nach Objekt konvertiere
+![JSON nach Objekt konvertiere](de/img/05konvertierung/0570.png)
 
 Wandelt JSON String in JavaScript Objekt. Bei Fehler wird das leere Objekt zurückgegeben.
 (Nur für Experten)
 
 ### Objekt in JSON umwandeln
-![Objekt in JSON umwandeln](de/img/05konvertierung/0580.png)
+![Objekt nach JSON konvertieren](de/img/05konvertierung/0580.png)
 
 Wandelt JavaScript Objekt in JSON String.
 Bei aktivierter Option formatieren sieht der String so aus:
@@ -1028,8 +1028,8 @@ Gewünschte Aufgaben müssen innerhalb der offenen Klammer platziert werden.
 > ![Trigger in Trigger](de/img/06trigger/0611.PNG)
 
 
-### Auslöser auf mehrere Status Änderungen
-![Trigger on states change](de/img/06trigger/0610.png)
+### Trigger bei mehreren Zustandswechseln
+![Trigger bei mehreren Zustandswechseln](de/img/06trigger/0610.png)
 
 Wenn sich der Status eins oder mehrerer Objekte ändert oder aktualisiert wird Dieser Block führt eine Aktion aus, hat. Dies ist der Hauptblock zum Aufbau von Interaktionen zwischen
 verschiedenen Zuständen und entsprechenden Systemen.
@@ -1037,7 +1037,7 @@ verschiedenen Zuständen und entsprechenden Systemen.
 Über das Zahnrad können beliebig viele Objekt ID's per Drag and Drop
 hinzugefügt werden:
 
-![Trigger on states change](de/img/06trigger/0613.png)
+![Trigger bei mehreren Zustandswechseln](de/img/06trigger/0613.png)
 
 Es kann gewählt werden ob das abgefragte Objekt
 wurde geändert
@@ -1058,13 +1058,13 @@ Update heißt, dass das Gerät oder der Ziel-Adapter die Änderung bestätigt, d
 
 Typisches Beispiel:
 
-![Trigger on states change](de/img/06trigger/0611.png)
+![Trigger bei mehreren Zustandswechseln](de/img/06trigger/0611.png)
 
 Dieses Beispiel zum importieren: ![code](de/img/01system/0612code.txt)
 
 
-### Auslöser auf eine Status Änderung
-![Trigger on state change](de/img/06trigger/0620.png)
+### Trigger bei mehreren Zustandswechseln
+![Trigger bei mehreren Zustandswechseln](de/img/06trigger/0620.png)
 
 Dies ist derselbe Block wie der zuvor genannte Auslöser auf mehrere Status
 Änderungen, jedoch ohne die Möglichkeit, mehrere Objekt-IDs zum Triggern zu
@@ -1141,14 +1141,14 @@ Vorheriger "zuletzt geänderter Wert" dieses Status, bevor der Trigger ausgelös
 
 Typisches Beispiel:
 
-![Trigger on states change](de/img/06trigger/0614.png)
+![Trigger bei mehreren Zustandswechseln](de/img/06trigger/0614.png)
 
 Dieses Beispiel zum importieren: ![code](de/img/01system/0614code.txt)
 
 
 
-### Schedule
-![Schedule](de/img/06trigger/0640.png)
+### Zeitplan
+![Zeitplan](de/img/06trigger/0640.png)
 
 This is second main block for automation after ["Trigger on states change"](#trigger-on-states-change). This block lets execute some actions periodically.
 
@@ -1203,13 +1203,13 @@ or if seconds used:
 
 But there is a good help for you to build such a rules. By clicking on rule the CRON dialog will be opened and you can specify by mouse your rule.
 
-[Schedule](de/img/06trigger/trigger_schedule_1_en.png)
+[Zeitplan](de/img/06trigger/trigger_schedule_1_en.png)
 
 
 
 
-### Trigger on astro event
-![Schedule](de/img/06trigger/0650.png)
+### Trigger auf Astro-Ereignis
+![Trigger auf Astro-Ereignis](de/img/06trigger/0650.png)
 
 Execute some action on astrological event. Following events are possible:
 
@@ -1230,45 +1230,45 @@ Execute some action on astrological event. Following events are possible:
 
 **Note:** to use "astro"-function the "latitude" and "longitude" must be defined in JavaScript adapter settings.
 
-Additionally you can set the offset in minutes to astrological event, e.g. to fire the trigger 1 hour before down: 
+Additionally you can set the offset in minutes to astrological event, e.g. to fire the trigger 1 hour before down:
 
-[Schedule](de/img/06trigger/trigger_astro_1_en.png)
+[Trigger auf Astro-Ereignis](de/img/06trigger/trigger_astro_1_en.png)
 
 As you can see the offset can be negative too to specify time before astrological events.
 
 
 
 
-### Named schedule
-![Schedule](de/img/06trigger/0660.png)
+### Benannter Zeitplan
+![Benannter Zeitplan](de/img/06trigger/0660.png)
 
-This block is the same as [Schedule](#schedule), but with possibility to set CRON rule by string and with possibility to stop the schedule.
+This block is the same as [Benannter Zeitplan](#zeitplan), but with possibility to set CRON rule by string and with possibility to stop the schedule.
 
 You can specify unique name of this schedule block and then later to clear it with [Clear schedule](#clear-schedule). 
 
 Here is an example of configurable alarm clock:
- 
+
 [Schedule](de/img/06trigger/trigger_schedule_ex_1_en.png)
 
-```xml 
+```xml
 
 ```
 
 
 
 
-### Clear schedule
-![Schedule](de/img/06trigger/0670.png)
+### Lösche benannten Zeitplan
+![Lösche benannten Zeitplan](de/img/06trigger/0670.png)
 
 With this function block you can clear named schedule. If you define named one more time without clearing it, the old one will still active.
 
-See an example in [Named schedule](#named-schedule)
+See an example in [Benannter Zeitplan](#benannter-zeitplan)
 
 
 
 
-### CRON dialog
-![Schedule](de/img/06trigger/0680.png)
+### CRON mit Dialog
+![CRON mit Dialog](de/img/06trigger/0680.png)
 
 Create CRON rule from dialog. This block can be connected with [Named schedule](#named-schedule).
 
@@ -1327,7 +1327,7 @@ Create CRON rule from dialog. This block can be connected with [Named schedule](
 
 
 
-### CRON rule
+### CRON Regel mit Dialog
 ![Schedule](de/img/06trigger/0690.png)
 
 Combine CRON rule from different parts.
@@ -1400,8 +1400,8 @@ Beispiel:
 
 
 
-### Ausführungsverzögerung anhalten
-![Ausführungsverzögerung anhalten](de/img/07timeouts/0720.png)
+### Verzögerte Ausführung beenden
+![Verzögerte Ausführung beenden](de/img/07timeouts/0720.png)
 
 Dieser Block beendet die benannte Verzögerung.
 
@@ -1410,7 +1410,7 @@ Simulation eines Bewegungserkennungsszenarios, wo bei der ersten Bewegung
 das Licht angehen und nach der letzten Bewegung und nach 30 Sekunden das
 Licht ausgehen soll.
 
-![Ausführungsverzögerung anhalten](de/img/07timeouts/0721.png)
+![Verzögerte Ausführung beenden](de/img/07timeouts/0721.png)
 
 ```xml
 <xml xmlns="http://www.w3.org/1999/xhtml">
@@ -1514,24 +1514,24 @@ Licht ausgehen soll.
 
 
 
-### Zyklische Ausführung
-![Zyklische Ausführung](de/img/07timeouts/0730.png)
+### Interval ausführen
+![Interval ausführen](de/img/07timeouts/0730.png)
 
-Dieser Block wiederholt Aktionen regelmäßig. Das kann zwar auch mit dem   
-CRON Block erfolgen, der kürzest mögliche Intervall ist dort aber 1 Sekunde.   
-Hier können wiederholte Aktionen in Millisekunden ausgeführt werden. 
+Dieser Block wiederholt Aktionen regelmäßig. Das kann zwar auch mit dem CRON Block
+erfolgen, der kürzest mögliche Intervall ist dort aber 1 Sekunde.
+Hier können wiederholte Aktionen in Millisekunden ausgeführt werden.
 
 If you set the interval too small (under 100ms) it can be, that intervals will be bigger.
 
 Similar to timeout block you can set unique interval name too.
 
-An aTTitional feature is to set the interval by using a variable, just replace the "ms" with an predefined variable:
+An additional feature is to set the interval by using a variable, just replace the "ms" with an predefined variable:
 
-![Zyklische Ausführung](de/img/07timeouts/Timer_variable_en.PN)
+![Interval ausführen](de/img/07timeouts/Timer_variable_en.PN)
 
 
-### Stop execution by interval
-![Stop execution by interval](de/img/07timeouts/0740.png)
+### Ausgeführtes Interval beenden
+![Ausgeführtes Interval beenden](de/img/07timeouts/0740.png)
 
 With the help of this block you can cancel periodically execution of interval block by its name.
 
@@ -1543,23 +1543,35 @@ With the help of this block you can cancel periodically execution of interval bl
 
 ## Logik
 
-### If else block
+### Falls mache
 
 Um den "falls ... sonst falls ..." Block zu erstellen klickt man auf das Zahnrad und fügt die zusätzlich benötigten Elemente dem "falls" Block hinzu.
 
-![Getting started 3](de/img/08logik/0810.PNG)
+![Falls mache](de/img/08logik/0810.PNG)
 
-### Comparision block
+### Vergleichen
 
-### Logical AND/OR block
+![Falls mache](de/img/08logik/0820.PNG)
 
-### Negation block
+### Und/Oder
 
-### Logical value TRUE/FALSE
+![Falls mache](de/img/08logik/0830.PNG)
 
-### null block
+### Negieren
 
-### Test block
+![Falls mache](de/img/08logik/0840.PNG)
+
+### Wahr/Falsch
+
+![Falls mache](de/img/08logik/0850.PNG)
+
+### Null
+
+![Falls mache](de/img/08logik/0860.PNG)
+
+### Logik prüfen
+
+![Falls mache](de/img/08logik/0870.PNG)
 
 
 
@@ -1571,23 +1583,23 @@ Um den "falls ... sonst falls ..." Block zu erstellen klickt man auf das Zahnrad
 
 
 
-### Repeat N times
+### Wiederhole n-mal
 
 ![Schleifen](de/img/09schleifen/091.PNG)
 
-### Repeat while
+### Wiederhole solange/bis
 
 ![Schleifen](de/img/09schleifen/092.PNG)
 
-### Count
+### Zähle
 
 ![Schleifen](de/img/09schleifen/093.PNG)
 
-### For each
+### Für jeden Wert
 
 ![Schleifen](de/img/09schleifen/094.PNG)
 
-### Break out of loop
+### Schleife abbrechen
 
 ![Schleifen](de/img/09schleifen/095.PNG)
 
@@ -1598,103 +1610,183 @@ Um den "falls ... sonst falls ..." Block zu erstellen klickt man auf das Zahnrad
 
 ## Mathematik
 
-### Number value
+### Zahlenwert
 
 ![Mathe](de/img/10mathematik/1010.PNG)
 
-### Arithmetical operations +-*/^
+### Rechnen mit zwei Zahlen
 
-### Square root, Abs, -, ln, log10, e^, 10^
+![Mathe](de/img/10mathematik/1020.PNG)
 
-### sin, cos, tan, asin, acos, atan
+### Wurzel, Betrag etc.
 
-### Math constants: pi, e, phi, sqrt(2), sqrt(1/2), infinity
+![Mathe](de/img/10mathematik/1030.PNG)
 
-### Is even, odd, prime, whole, positive, negative, divisibly by
+### Trigonometrie
 
-### Modify variably by value (plus or minus)
+![Mathe](de/img/10mathematik/1040.PNG)
 
-### Round, floor, ceil value
+### Konstanten: pi, e, phi, sqrt(2), sqrt(1/2), infinity
 
-### Operations on the list of values: sum, min, max, average, median, modes, deviation, random item
+![Mathe](de/img/10mathematik/1050.PNG)
 
-### Modulus
+### Zahl prüfen
 
-### Limit some value by min and max
+![Mathe](de/img/10mathematik/1060.PNG)
 
-### Random value from 0 to 1
+### Variable Wert verändern
 
-### Random value between min and max
+![Mathe](de/img/10mathematik/1070.PNG)
 
+### Runden
+
+![Mathe](de/img/10mathematik/1080.PNG)
+
+### Runden mit angabe der Nachkommastelle
+
+![Mathe](de/img/10mathematik/1081.PNG)
+
+### Wert aus Liste berechnen
+
+![Mathe](de/img/10mathematik/1090.PNG)
+
+### Rest nach Division (Modulus)
+
+![Mathe](de/img/10mathematik/1091.PNG)
+
+### Zahl mit min und max begrenzen
+
+![Mathe](de/img/10mathematik/1092.PNG)
+
+### ganzzahlige Zufallszahl
+
+![Mathe](de/img/10mathematik/1093.PNG)
+
+### Zufallszahl zwischen 0 und 1
+
+![Mathe](de/img/10mathematik/1094.PNG)
 
 
 ## Text
 
-### String value
+### Zeichenfolge
 
 ![Text](de/img/11text/1110.PNG)
 
-### Concatenate strings
+### Zeilenumbruch
 
-### Append string to variable
+![Text](de/img/11text/1111.PNG)
 
-### Length of string
+### Zeichenfolgen verketten
 
-### Is string empty
+![Text](de/img/11text/1120.PNG)
 
-### Find position in string
+### Zeichenfolge an Variable anhängen
 
-### Get symbol in string on specific position
+![Text](de/img/11text/1130.PNG)
 
-### Get substring
+### Länge einer Zeichenfolge
 
-### Convert to upper case or to lower case
+![Text](de/img/11text/1140.PNG)
 
-### Trim string
+### Ist Zeichenfolge leer
+
+![Text](de/img/11text/1150.PNG)
+
+### Suche Position einer Zeichenfolge
+
+![Text](de/img/11text/1160.PNG)
+
+### Erhalte das Symbol in einer Zeichenfolge an bestimmter Position
+
+![Text](de/img/11text/1170.PNG)
+
+### Erhalte Abschnitt einer Zeichenfolge
+
+![Text](de/img/11text/1180.PNG)
+
+### In Groß- oder Kleinbuchstabe konvertieren
+
+![Text](de/img/11text/1190.PNG)
+
+### Leerzeichen entfernen
+
+![Text](de/img/11text/1191.PNG)
 
 
 
 ## Listen
+###Erzeuge leere Liste
 
-### Create empty list
+![Erzeuge leere Liste](img/12listen/1210.PNG)
 
-![Listen](de/img/12listen/1210.PNG)
+### [Erzeuge Liste mit Werten
 
-### Create list with values
+![Erzeuge Liste mit Werten](img/12listen/1220.PNG)
 
-### Create list with same value N times
+###Erzeuge Liste mit gleichem Wert n-mal
 
-### Get length of list
+![Erzeuge Liste mit gleichem Wert n-mal](img/12listen/1230.PNG)
 
-### Is list empty
+###Elementanzahl einer Liste ausgeben
 
-### Find position of item in list
+![Elementanzahl einer Liste ausgeben](img/12listen/1240.PNG)
 
-### Get item in list
+### Ist Liste Leer
 
-### Set item in list
+![Ist Liste Leer](img/12listen/1250.PNG)
 
-### Get sublist of list
+### Suche Position eines Elements in Liste
 
-### Convert text to list and vice versa
+![Suche Position eines Elements in Liste](img/12listen/1260.PNG)
 
+### Erhalte Element einer Position
+
+![Erhalte Element einer Position](img/12listen/1270.PNG)
+
+### Setze Element einer Position
+
+![Setze Element einer Position](img/12listen/1280.PNG)
+
+### Erhalte Teilliste einer Liste
+
+![Erhalte Teilliste einer Liste](img/12listen/1290.PNG)
+
+### Text in Liste und umgekehrt konvertieren
+
+![Text in Liste und umgekehrt konvertieren](img/12listen/1291.PNG)
+
+### Liste sortieren
+
+![Liste sortieren](img/12listen/1292.PNG)]
 
 
 
 ## Farbe
 
-### Erzeugt eine Farbe aus der Farbpalette
+### Farbe
+
 ![Farbe](de/img/13farbe/1310.png)
 
-### Erzeugt eine zufällige Farbe
+Erzeugt eine Farbe aus der Farbpalette
+
+### Zufällige Farbe
+
 ![Farbe](de/img/13farbe/1320.png)
 
-### Erzeugt eine Farbe mit selbst gewählten RGB Werten zwischen 0 und 100
+Erzeugt eine zufällige Farbe
+
+### Farbe nach RGB
+
 ![Farbe](de/img/13farbe/1330.png)
 
-### Mischt 2 Farben mit einstellbarem Farbverhältnis zwischen 0.0 und 1.0
+Erzeugt eine Farbe mit selbst gewählten RGB Werten zwischen 0 und 100
+
+### Farben mischen
+
 ![Farbe](de/img/13farbe/1340.png)
 
+Mischt 2 Farben mit einstellbarem Farbverhältnis zwischen 0.0 und 1.0
 
 
 
@@ -1705,8 +1797,8 @@ Um den "falls ... sonst falls ..." Block zu erstellen klickt man auf das Zahnrad
 Bei Verwendung von Variablen, sollten grundlegende Programmierregeln wie
 Variablen zu nutzen sind, vorhanden sein.
 
-### Wert einer variablen setzen
-![Wert einer variablen setzen](de/img/14variablen/1410.png)
+### Setze Wert einer Variablen
+![Setze Wert einer Variablen](de/img/14variablen/1410.png)
 
 Mit diesem Block kann eine globale (in jedem Skript sichtbare) Variable
 geschrieben werden und diese zum Speichern von Werten verwenden. Wenn
@@ -1715,22 +1807,11 @@ die Variable nicht existiert, wird sie automatisch deklariert.
 Es kann eine neue Variable erstellt werden oder eine vorhandene verwendet
 werden.
 
-![Wert einer variablen setzen](de/img/14variablen/1411.png)
+![Setze Wert einer Variablen](de/img/14variablen/1411.png)
 
 Dieser Block:
 
-![Wert einer variablen setzen](de/img/14variablen/1412.png)
-
-```xml
-<block xmlns="http://www.w3.org/1999/xhtml" type="variables_set" id="ch{H@omhfzI(QA{syxAG" x="212.99999999999977" y="37.99999999999994">
-  <field name="VAR">item</field>
-  <value name="VALUE">
-    <block type="math_number" id="SbmD7,uR:hMW(P%IZRc">
-      <field name="NUM">0</field>
-    </block>
-  </value>
-</block>
-```
+![Setze Wert einer Variablen](de/img/14variablen/1412.png)
 
 macht dies:
 ```javascript
@@ -1738,22 +1819,26 @@ var item;
 item = 0;
 ```
 
+```
+1412code.txt
+```
+
+### Addiere zur Variable
+
+![Addiere zur Variablen](img/14variablen/1420.PNG)
 
 
-
-### Wert einer variablen zurück geben
-![Wert einer variablen zurück geben](de/img/14variablen/1420.png)
+### Erhalte Wert einer Variablen
+![Erhalte Wert einer Variablen](de/img/14variablen/1430.png)
 
 Es können Variablen erstellt oder umbenannt werden.
 
-![Wert einer variablen zurück geben](de/img/14variablen/1421.png)
+![Erhalte Wert einer Variablen](de/img/14variablen/1431.png)
 
 There is one exception with trigger blocks [Trigger on states change](#trigger-on-states-change) and [Trigger on state change](#trigger-on-state-change).
 Inside these blocks variable "value" yet exist, but anyway to read their values you must rename variable into value and then use it.
 
 [Get variable's value](de/img/14variablen/variables_get_2_en.png)
-
-
 
 
 ## Funktionen
@@ -1762,13 +1847,13 @@ Mit diesen Blöcken können sich wiederholende Sequenzen als Funktion erstellt
 werden und dann überall im aktuellen Skript verwendet werden.
 
 
-### Funktion ohne Rückgabewert erstellen
+### Erzeuge Funktion *ohne* Rückgabewert
 
-![Funktion ohne Rückgabewert](de/img/15funktionen/1510.PNG)
+![Erzeuge Funktion ohne Rückgabewert](de/img/15funktionen/1510.PNG)
 
 Beispiel: _Schreibe die aktuelle Zeit ins Log:_
 
-![Funktion ohne Rückgabewert Beispiel](de/img/15funktionen/1512.PNG)
+![Erzeuge Funktion ohne Rückgabewert](de/img/15funktionen/1512.PNG)
 
 ```
 1512code.txt
@@ -1776,7 +1861,7 @@ Beispiel: _Schreibe die aktuelle Zeit ins Log:_
 
 Nachdem die Funktion erzeugt wurde, kann sie z.B: so weiter verwendet werden:
 
-![Funktion ohne Rückgabewert Beispiel1](de/img/15funktionen/1513.PNG)
+![Erzeuge Funktion ohne Rückgabewert](de/img/15funktionen/1513.PNG)
 
 ```
 1513code.txt
@@ -1784,50 +1869,50 @@ Nachdem die Funktion erzeugt wurde, kann sie z.B: so weiter verwendet werden:
 
 Die neue Funktion erscheint in der Block-Sidebar:
 
-![Funktion ohne Rückgabewert Sidebar](de/img/15funktionen/1514.PNg)
+![Erzeuge Funktion ohne Rückgabewert](de/img/15funktionen/1514.PNg)
 
 Zusätzlich kann über das Zahnrad Argumente hinzugefügt und bearbeitet werden:
 
-![Funktion ohne Rückgabewert Zahnrad](de/img/15funktionen/1515.PNg)
+![Erzeuge Funktion ohne Rückgabewert](de/img/15funktionen/1515.PNg)
 
 Beispiel: _Gebe die Summe des ersten und des zweiten Arguments aus_:
 
-![Funktion ohne Rückgabewert Argument](de/img/15funktionen/1516.PNg)
+![Erzeuge Funktion ohne Rückgabewert](de/img/15funktionen/1516.PNg)
 
 ```
 1516code.txt
 ```
 Die angelegen Variablen sind dann unter Variablen zu finden:
 
-![Funktion ohne Rückgabewert Variable](de/img/15funktionen/1517.PNg)
+![Erzeuge Funktion ohne Rückgabewert](de/img/15funktionen/1517.PNg)
 
 Die Funktion kann z.B: so genutzt werden:
 
-![Funktion ohne Rückgabewert VariableBSP](de/img/15funktionen/1518.PNg)
+![Erzeuge Funktion ohne RückgabewertP](de/img/15funktionen/1518.PNg)
 
 ```
 1518code.txt
 ```
 
-### Funktion mit Rückgabewert erstellen
+### Erzeuge Funktion *mit* Rückgabewert
 
 ![Funktion mit Rückgabewert](de/img/15funktionen/1520.PNg)
 
 Dieser Block gibt zusätzlich ein Ergebnis einer Funktion aus, um es in anderen
 Blöcken zu verwenden.
 
-![Funktion mit RückgabewertBsp](de/img/15funktionen/1521.png)
+!Erzeuge Funktion mit Rückgabewert](de/img/15funktionen/1521.png)
 
 ```
 1521code.txt
 ```
 Spezielles Rückgabe Element aktivieren:
 
-![Funktion mit RückgabewertBsp](de/img/15funktionen/1522.png)
+![Erzeuge Funktion mit Rückgabewert](de/img/15funktionen/1522.png)
 
 Beispiel:
 
-![Funktion mit RückgabewertBsp1](de/img/15funktionen/1523.png)
+![Erzeuge Funktion mit Rückgabewert](de/img/15funktionen/1523.png)
 
 ```
 1523code.txt
@@ -1838,10 +1923,10 @@ Beispiel:
 
 ![Wert in Funktion](de/img/15funktionen/1530.png)
 
-Dies kann nur hier [Funktion mit Rückgabewert erzeugen] verwendet werden
+Dies kann nur hier [Erzeuge Funktion mit Rückgabewer] verwendet werden
 und liefert den zurückzugebenden Wert in der Mitte der Funkion.
 
-### Benutzerdefinierte Funktionen ohne Rückgabewert erstellen
+### Erzeuge javascript Funktion *ohne* Rückgabewert
 
 ![Eigene Funktion ohne](de/img/15funktionen/1540.png)
 
@@ -1860,11 +1945,11 @@ wird geöffnet.
 Ansonsten ist die Nutzung dieses Blocks ähnlich wie [Funktion mit Rückgabewert
 erzeugen] oder [Funktion ohne Rückgabewert erzeugen].
 
-### Benutzerdefinierte Funktionen mit Rückgabewert erstellen
+### Erzeuge javascript Funktion *mit* Rückgabewert
 
 ![Eigene Funktion mit](de/img/15funktionen/1550.png)
 
-Genau wie ohne Rückgabewert sind benutzerdefinierte Funktionen auch mit 
+Genau wie ohne Rückgabewert sind benutzerdefinierte Funktionen auch mit
 Rückgabewert möglich. Rückgabewert im Editor-Dialog:
 
 ```return 'das Ergebnis'```
@@ -1877,7 +1962,7 @@ Beispiel:
 1552code.txt
 ```
 
-### Call Funktion
+### Funktion aufrufen
 Für jede erstellte Funktion erscheint ein zugehöriger Block mit dem Namen der
 Funktion in der Block-Sidebar unter Funktionen und kann so einfach wieder
 verwendet werden.
