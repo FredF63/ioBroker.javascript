@@ -255,11 +255,6 @@ lastChanged: "13.06.2019"
 
 		[![Funktion aufrufen](img/.PNG)](#call-function)
 
-* [Beispiele](#beispiele)
-
-	* [1.](#beispiel-1)
-	* [2.](#beispiel-2)
-	* [3.](#beispiel-3)
 
 
 # Beschreibung
@@ -1883,82 +1878,12 @@ Beispiel:
 ```
 
 ### Call Funktion
-Für jede erstellte Funktion erscheint ein zugehöriger Block mit dem Namen der  
-Funktion in der Block-Sidebar unter Funktionen und kann so einfach wieder  
+Für jede erstellte Funktion erscheint ein zugehöriger Block mit dem Namen der
+Funktion in der Block-Sidebar unter Funktionen und kann so einfach wieder
 verwendet werden.
-Auch in den den Funktionen erstellte Variablen erscheinen in der Block-Sidebar,  
+Auch in den den Funktionen erstellte Variablen erscheinen in der Block-Sidebar,
 aber unter Variablen.
 
 
-
-
-# Beispiele
-
-## Beispiel 1
-**Zustand eines Datenpunkts bei Änderung eines anderen Datenpunkts ändern**
-
-![Beispiel1](de/img/16beispiele/beispiel1.1.PNG)
-
-Dies ist das klassische Beispiel bei Änderung eines Datenpunktes etwas anderes zu schalten.
-
->Das Licht wird an/ausgeschaltet wenn Bewegung/keine Bewegung erkannt wird.
-
-Zuerst den Block "Triggers=>Falls Objekt" einfügen. Die Objekt ID auswählen um den Zustand des Objekts als Trigger für dieses Skript zu benutzen.
-
-Einen anderen Block - "System=>Steuere" hinzufügen und im Dialog den anderen Zustand der durch den Trigger geändert werden soll auswählen.
-
-In diesen Steuerungsblock einen Block "System=>Wert von Objekt ID" einfügen und im Dialog das Objekt "Bewegung" auswählen, um dessen Zustand in "Licht": zu schreiben.
-
-Dieses Beispiel zum importieren: ![code](de/img/16beispiele/beispiel1code.txt)
-
-**Es gibt bei den Trigger Blöcken eine spezielle Variable "Wert". Diese wird immer hier definiert und kann für verschiedene Zwecke verwendet werden. Sie enthält den aktuellen Wert des triggernden Objekts und man kann daher einfacherer Skripte erzeugen indem man den Block "Variable=>Objekt ID" benutzt und ihn in "Wert" umbenennt.**
-
-![Beispiel1](de/img/16beispiele/beispiel1.2.PNG)
-
-
-
-Dieses Beispiel zum importieren: ![code](de/img/16beispiele/beispiel1code2.txt)
-
-
-
-
-## Beispiel 2
-**Licht bei Bewegung anschalten und ausschalten wenn 10 Minuten keine Bewegung.**
-
-![Beispiel2](de/img/16beispiele/Beispiel2.PNG)
-
-Wenn der Zustand "Bewegung" mit dem Wert "wahr" aktualisiert :
-1. mache "Licht" an und
-2. starte eine Verzögerung von 10 Minuten um "Licht" auszuschalten und lösche
-alle bisherigen Verzögerungen für diesen Datenpunkt.
-
-Der Flag "löschen falls läuft" wird durch den letzten Befehl gesetzt. Dadurch
-werden alle laufenden Timer für diesen Datenpunkt beendet und der Timer startet
-neu.
-
-
-Dieses Beispiel zum importieren: ![code](de/img/16beispiele/beispiel2code.txt)
-
-
-
-
-## Beispiel 3
-**Verschicke eine eMail wenn die Außentemperatur höher als 25 Grad Celsius ist.**
-
-![Getting started 3](de/img/16beispiele/beispiel3.PNG)
-
-Erklärung:
-
-Zuerst müssen wir eine Variable definieren um zu speichern, dass die eMail für den aktuellen Temperaturalarm bereits gesendet wurde und diese Variable auf "falsch" setzen.
-Dann beobachten wir die Veränderungen der Temperatur. Wir könnten dieses Skript auch periodisch ausführen, aber das ist nicht so effektiv.
-
-Wenn sich die Temperatur ändert vergleichen wir den aktuellen Wert mit 25 und prüfen ob die eMail bereits verschickt wurde oder nicht.
-Wenn die eMail noch nicht versendet war, speichern wir dass wir sie jetzt senden und senden sie auch. Natürlich muss der eMail-Adapter vorher installiert und konfiguriert worden sein.
-
-Wenn die Temperatur unter 23 Grad fällt setzen wir die Variable "emailSent" zurück, damit beim nächsten Temperaturalarm wieder eine eMail gesendet wird.
-Dazu wird die aktuelle Temperatur mit 23 verglichen und es werden keine eMails geschickt, solange die Temperatur um 25 Grad schwankt.
-
-
-Dieses Beispiel zum importieren: ![code](de/img/16beispiele/beispiel3code.txt)
 
 
