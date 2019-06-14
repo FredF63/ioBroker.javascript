@@ -1,0 +1,44 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="comment" id="s7s**k+Cc_KjDnJW`(h~" x="112" y="63">
+    <field name="COMMENT">Schalte Licht ein und nach 10 Minuten ohne Bewegung aus</field>
+    <next>
+      <block type="on_ext" id="#}:B(M-o5:/]k,_msr%y">
+        <mutation items="1"></mutation>
+        <field name="CONDITION">true</field>
+        <field name="ACK_CONDITION">true</field>
+        <value name="OID0">
+          <shadow type="field_oid" id="o~6)!C0IVy{WD%Km(lkc">
+            <field name="oid">javascript.0.Licht</field>
+          </shadow>
+        </value>
+        <statement name="STATEMENT">
+          <block type="control" id="(ZqzhS_7*jGpk;`zJAZg">
+            <mutation delay_input="false"></mutation>
+            <field name="OID">javascript.0.Licht</field>
+            <field name="WITH_DELAY">FALSE</field>
+            <value name="VALUE">
+              <block type="logic_boolean" id="%^ADwe*2l0tLw8Ga5F*Y">
+                <field name="BOOL">TRUE</field>
+              </block>
+            </value>
+            <next>
+              <block type="control" id="=]vmzp6j^V9:3?R?2Y,x">
+                <mutation delay_input="true"></mutation>
+                <field name="OID">javascript.0.Licht</field>
+                <field name="WITH_DELAY">TRUE</field>
+                <field name="DELAY_MS">600000</field>
+                <field name="UNIT">ms</field>
+                <field name="CLEAR_RUNNING">TRUE</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="!;DiIh,D]l1oN{D;skYl">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

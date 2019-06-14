@@ -1,0 +1,29 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="comment" id="]L0d;6j+=OH*[4n{C7v^" x="112" y="13">
+    <field name="COMMENT">Schalte Licht ein wenn Bewegung erkannt</field>
+    <next>
+      <block type="on_ext" id="QYVeQlu|#2hwniNg)=z8">
+        <mutation items="1"></mutation>
+        <field name="CONDITION">ne</field>
+        <field name="ACK_CONDITION"></field>
+        <value name="OID0">
+          <shadow type="field_oid" id="Xe6D#r|nf9SEK`.oAuS0">
+            <field name="oid">javascript.0.Bewegung</field>
+          </shadow>
+        </value>
+        <statement name="STATEMENT">
+          <block type="control" id="J(HiEvnNKw2B%V1~WXsX">
+            <mutation delay_input="false"></mutation>
+            <field name="OID">javascript.0.Licht</field>
+            <field name="WITH_DELAY">FALSE</field>
+            <value name="VALUE">
+              <block type="logic_boolean" id="o;j8lE#h.XE,0:0_LcW{">
+                <field name="BOOL">TRUE</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

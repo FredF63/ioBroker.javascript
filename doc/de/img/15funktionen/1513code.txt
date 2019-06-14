@@ -1,0 +1,10 @@
+<block xmlns="http://www.w3.org/1999/xhtml" type="timeouts_setinterval" id="{,)+c[#@`U%g0t2IUTTF" x="-362.00000000000034" y="212.99999999999966">
+  <field name="NAME">Intervall</field>
+  <field name="INTERVAL">1000</field>
+  <field name="UNIT">ms</field>
+  <statement name="STATEMENT">
+    <block type="procedures_callnoreturn" id="-lyw5pk{/#I-MM)e*s(C">
+      <mutation name="Gebe die Zeit aus"></mutation>
+    </block>
+  </statement>
+</block>

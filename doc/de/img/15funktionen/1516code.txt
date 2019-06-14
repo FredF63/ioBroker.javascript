@@ -1,0 +1,37 @@
+<block xmlns="http://www.w3.org/1999/xhtml" type="procedures_defnoreturn" id="5%l=g]k@i)nIeALZf*46" x="-362" y="38">
+  <mutation>
+    <arg name="a" varid="!/M#{ltC|EUBrB$53Xp;"></arg>
+    <arg name="x" varid="?T|IGJQL;3t#uVWlsl#+"></arg>
+  </mutation>
+  <field name="NAME">DruckeSumme</field>
+  <comment pinned="false" h="80" w="160">Beschreibe diese Funktion …</comment>
+  <statement name="STACK">
+    <block type="debug" id="oP:Bt-atb]ix^4~HWWN!">
+      <field name="Severity">log</field>
+      <value name="TEXT">
+        <shadow type="text" id="l(?Agz#,|I`Yqix6MNL%">
+          <field name="TEXT">test</field>
+        </shadow>
+        <block type="math_arithmetic" id=",}l|i-`aKqS#1JA-|4*!">
+          <field name="OP">ADD</field>
+          <value name="A">
+            <shadow type="math_number" id="^2fNkVA6QWXd=Xy3]BeC">
+              <field name="NUM">1</field>
+            </shadow>
+            <block type="variables_get" id="nAW#}Hdv#/NmZ5WN~D2E">
+              <field name="VAR" id="!/M#{ltC|EUBrB$53Xp;" variabletype="">a</field>
+            </block>
+          </value>
+          <value name="B">
+            <shadow type="math_number" id="^]Rmqk.*(4pHCF_tE]0#">
+              <field name="NUM">1</field>
+            </shadow>
+            <block type="variables_get" id="w3oZdALu[2{T*W+SF*O-">
+              <field name="VAR" id="?T|IGJQL;3t#uVWlsl#+" variabletype="">x</field>
+            </block>
+          </value>
+        </block>
+      </value>
+    </block>
+  </statement>
+</block>

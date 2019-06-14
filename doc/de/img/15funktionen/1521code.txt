@@ -1,0 +1,35 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="!/M#{ltC|EUBrB$53Xp;">a</variable>
+    <variable type="" id="V9Jfrat7I)XOVKle}Z-j">b</variable>
+  </variables>
+  <block type="procedures_defreturn" id="}|4asSepheSER@7/J~Jb" x="-588" y="88">
+    <mutation statements="false">
+      <arg name="a" varid="!/M#{ltC|EUBrB$53Xp;"></arg>
+      <arg name="b" varid="V9Jfrat7I)XOVKle}Z-j"></arg>
+    </mutation>
+    <field name="NAME">etwas tun</field>
+    <comment pinned="false" h="80" w="160">Beschreibe diese Funktion …</comment>
+    <value name="RETURN">
+      <block type="math_arithmetic" id="WfJ_blJtTOG9.SvhvzQK">
+        <field name="OP">ADD</field>
+        <value name="A">
+          <shadow type="math_number" id=".RU3MlD`mVY=Xz+uqg.1">
+            <field name="NUM">1</field>
+          </shadow>
+          <block type="variables_get" id="miF{+UXnAblZFQz(G_vX">
+            <field name="VAR" id="!/M#{ltC|EUBrB$53Xp;" variabletype="">a</field>
+          </block>
+        </value>
+        <value name="B">
+          <shadow type="math_number" id="H5Hs%=6HrwX6UN^F*sV5">
+            <field name="NUM">1</field>
+          </shadow>
+          <block type="variables_get" id="VK(-t,,Sr]:0446j;S_1">
+            <field name="VAR" id="V9Jfrat7I)XOVKle}Z-j" variabletype="">b</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+</xml>

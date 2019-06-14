@@ -1,0 +1,130 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="w%QRCSimuW_,x6KOUF0v">emailSenden</variable>
+  </variables>
+  <block type="variables_set" id="|`gDi;L_87DhZtSOR+0w" x="-287" y="-87">
+    <field name="VAR" id="w%QRCSimuW_,x6KOUF0v" variabletype="">emailSenden</field>
+    <value name="VALUE">
+      <block type="logic_boolean" id="3QD`Ek5zJaw]LM)V-_Tl">
+        <field name="BOOL">FALSE</field>
+      </block>
+    </value>
+    <next>
+      <block type="on_ext" id="UhT[t;V^FgZ=o/u2iPaA">
+        <mutation items="1"></mutation>
+        <field name="CONDITION">ne</field>
+        <field name="ACK_CONDITION"></field>
+        <value name="OID0">
+          <shadow type="field_oid" id="{rANXzv75mW6jyq~pZYR">
+            <field name="oid">javascript.0.Temperatur</field>
+          </shadow>
+        </value>
+        <statement name="STATEMENT">
+          <block type="controls_if" id="BS@%lJ9Rb|Fp[b-q6*Ke">
+            <mutation elseif="1"></mutation>
+            <value name="IF0">
+              <block type="logic_operation" id="*.Q_{HQ}rdfRrm7=PWnR">
+                <field name="OP">AND</field>
+                <value name="A">
+                  <block type="logic_compare" id="bjEyxn{bIkLUD*0|87qS">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="variables_get" id="7|4P/tEkO%2!!r0I#EG6">
+                        <field name="VAR" id="w%QRCSimuW_,x6KOUF0v" variabletype="">emailSenden</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="logic_boolean" id="DqfK){=]4l)xl@HA`nlB">
+                        <field name="BOOL">FALSE</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="logic_compare" id="d/3(te6bz*TP`j]8G^jq">
+                    <field name="OP">GT</field>
+                    <value name="A">
+                      <block type="convert_tonumber" id="K1ZSfK-ZYmVq1fs!.=XN">
+                        <value name="VALUE">
+                          <block type="on_source" id="f5bryNRTVmLInNCf2.bc">
+                            <field name="ATTR">state.val</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="%Y~*4xAE3_3a{M(8;vZ-">
+                        <field name="NUM">25</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="variables_set" id=",p7n0*8D^9JV!xo:Y5u;">
+                <field name="VAR" id="w%QRCSimuW_,x6KOUF0v" variabletype="">emailSenden</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="w#ME`9RZ8vRM%LBpEAW~">
+                    <field name="BOOL">TRUE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="email" id="+Qf{{yPK*nCevR/5gN3(">
+                    <field name="INSTANCE"></field>
+                    <field name="IS_HTML">FALSE</field>
+                    <field name="LOG"></field>
+                    <value name="TO">
+                      <shadow type="text" id="Fi7n|$Aazj576Lp8O4pe">
+                        <field name="TEXT">meine Adresse@domain.com</field>
+                      </shadow>
+                    </value>
+                    <value name="TEXT">
+                      <shadow type="text" id="L.$Og;3~AEm#J+1GH:CM">
+                        <field name="TEXT">Temperatur ist über 25°C</field>
+                      </shadow>
+                    </value>
+                    <value name="SUBJECT">
+                      <shadow type="text" id="Pe)G@N]56)U@ZRc5/+`c">
+                        <field name="TEXT">Temperatur Alarm</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <value name="IF1">
+              <block type="logic_compare" id="3|x!|hMu0n*X$+UCj^Un">
+                <field name="OP">LT</field>
+                <value name="A">
+                  <block type="convert_tonumber" id="kon9YI+S%^hDd|-aFt`;">
+                    <value name="VALUE">
+                      <block type="on_source" id="Q*d1OGE#D!;IeR[5(MSq">
+                        <field name="ATTR">state.val</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="#BM*v@X7`h4X5+[Ho~x3">
+                    <field name="NUM">23</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO1">
+              <block type="variables_set" id="|~fz8YxLt^lbGj)XxqBy">
+                <field name="VAR" id="w%QRCSimuW_,x6KOUF0v" variabletype="">emailSenden</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="U[uH=8|*jQ-vuQSUEieK">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

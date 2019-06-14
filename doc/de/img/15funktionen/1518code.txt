@@ -1,0 +1,16 @@
+<block xmlns="http://www.w3.org/1999/xhtml" type="procedures_callnoreturn" id="M6]]ZYID=jqZR9.mR=Cq" x="-612" y="163">
+  <mutation name="DruckeSumme">
+    <arg name="a"></arg>
+    <arg name="x"></arg>
+  </mutation>
+  <value name="ARG0">
+    <block type="math_number" id="N-z-(r9.fcfDf.+ccbIu">
+      <field name="NUM">5</field>
+    </block>
+  </value>
+  <value name="ARG1">
+    <block type="math_number" id="b;qSS`K5v0^O|S}-~7|+">
+      <field name="NUM">6</field>
+    </block>
+  </value>
+</block>

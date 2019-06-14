@@ -1,0 +1,20 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="procedures_defnoreturn" id="_}`n9DPFTaNpqZ6_CLDA" x="-362" y="38">
+    <field name="NAME">Gebe die Zeit aus</field>
+    <coMMent pinned="false" h="80" w="160">Beschreibe diese Funktion …</coMMent>
+    <statement name="STACK">
+      <block type="debug" id="iE]cg%np`bR|H@O7M(_-">
+        <field name="Severity">log</field>
+        <value name="TEXT">
+          <shadow type="text" id="FzpF~SY.8,IPlgRyLLuq">
+            <field name="TEXT">test</field>
+          </shadow>
+          <block type="time_get" id="5#h4q_k.CfSnMMq)yvbb">
+            <mutation format="false" language="false"></mutation>
+            <field name="OPTION">SS:MM:ss.sss</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+</xml>

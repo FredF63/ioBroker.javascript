@@ -1,0 +1,233 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="debug" id="BhVr^xDB3*^;!zo0L{Fl" x="-713" y="-62">
+    <field name="Severity">log</field>
+    <value name="TEXT">
+      <shadow type="text" id="DR%}Q]MTaI^DFUT1BpoT">
+        <field name="TEXT">test</field>
+      </shadow>
+      <block type="procedures_callreturn" id="!F!6w`]V74v_sjtwE_O_">
+        <mutation name="etwas tun">
+          <arg name="Tag"></arg>
+        </mutation>
+        <value name="ARG0">
+          <block type="time_get" id="E=,*_|GmJ{!@~p5)6!G*">
+            <mutation format="false" language="false"></mutation>
+            <field name="OPTION">wd</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="procedures_defreturn" id="}|4asSepheSER@7/J~Jb" x="-213" y="13">
+    <mutation>
+      <arg name="Tag"></arg>
+    </mutation>
+    <field name="NAME">etwas tun</field>
+    <coMMent pinned="false" h="80" w="160">Beschreibe diese Funktion …</coMMent>
+    <statement name="STACK">
+      <block type="procedures_ifreturn" id="COiBk;uAhNM[M}T153F~">
+        <mutation value="1"></mutation>
+        <value name="CONDITION">
+          <block type="logic_compare" id="w?8V1NHoWC{t%-=rK/`Z">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="variables_get" id="=DH6TI5,8Gdz60X`oUBR">
+                <field name="VAR">Tag</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="^JOdxkv~V5mXvT*6U9y/">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="VALUE">
+          <block type="text" id="ri=~]ft;h1_JSlWB+Z7@">
+            <field name="TEXT">Sonntag</field>
+          </block>
+        </value>
+        <next>
+          <block type="procedures_ifreturn" id="4r(RuTd@l8#:N~t.Q-a{">
+            <mutation value="1"></mutation>
+            <value name="CONDITION">
+              <block type="logic_compare" id="-w)-XgN/%-bfo2FOtvpB">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="variables_get" id="ikkwpSg#J]:_{intL?X8">
+                    <field name="VAR">Tag</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="1qDe@]Otahcz%(L7L^03">
+                    <field name="NUM">1</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="VALUE">
+              <block type="text" id="BqF:C66x+x||,Lj---]%">
+                <field name="TEXT">Montag</field>
+              </block>
+            </value>
+            <next>
+              <block type="procedures_ifreturn" id="]161[Ny[-[bvb7JFpPC6">
+                <mutation value="1"></mutation>
+                <value name="CONDITION">
+                  <block type="logic_compare" id="9g58J#OesMw]/KcN[qa;">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="variables_get" id="c8|Vi2s|g%0z*ckY[5rz">
+                        <field name="VAR">Tag</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="1K{EREh~Ipb.9p];=OaD">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="VALUE">
+                  <block type="text" id="Qg_?2iK1l_ha3I7T)Nbh">
+                    <field name="TEXT">Dienstag</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="procedures_ifreturn" id="r?O3dwUj_4z*|Z;NhXU)">
+                    <mutation value="1"></mutation>
+                    <value name="CONDITION">
+                      <block type="logic_compare" id="52z{xh|8|87:{u=VfAhn">
+                        <field name="OP">EQ</field>
+                        <value name="A">
+                          <block type="variables_get" id="o-AB)`PW`{/4hf^ghV9W">
+                            <field name="VAR">Tag</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="math_number" id="fH00[ho.RxSEKKG}*I*)">
+                            <field name="NUM">3</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="VALUE">
+                      <block type="text" id=".KFbtxO2ANc(i?9Snst[">
+                        <field name="TEXT">Mittwoch</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="procedures_ifreturn" id="#JZfzg6UZ-ORFPZ9WHVC">
+                        <mutation value="1"></mutation>
+                        <value name="CONDITION">
+                          <block type="logic_compare" id="`BIR}!R[0;*7:N/d7x{O">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="variables_get" id="9_5?tOq0w8TTTY{T.Y?q">
+                                <field name="VAR">Tag</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="math_number" id="R|bp[]Sd%Mv~HfDO?Ep0">
+                                <field name="NUM">4</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="VALUE">
+                          <block type="text" id="%i6PRE.K9._Mk@,z(_*r">
+                            <field name="TEXT">Donnerstag</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="procedures_ifreturn" id="nWO|7y9mKO@J5q@2pHZ8">
+                            <mutation value="1"></mutation>
+                            <value name="CONDITION">
+                              <block type="logic_compare" id="P+MEeg!_D5X=vv;]YqyM">
+                                <field name="OP">EQ</field>
+                                <value name="A">
+                                  <block type="variables_get" id="Ype_63z2w|Qp81{MW*XL">
+                                    <field name="VAR">Tag</field>
+                                  </block>
+                                </value>
+                                <value name="B">
+                                  <block type="math_number" id="X44+%k?8~_V:Tr0eWMXH">
+                                    <field name="NUM">5</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="VALUE">
+                              <block type="text" id="+7;ZY)FoztH)PB=E]nmi">
+                                <field name="TEXT">Freitag</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="procedures_ifreturn" id="#wd=[|Thz0A!=+ID}-e(">
+                                <mutation value="1"></mutation>
+                                <value name="CONDITION">
+                                  <block type="logic_compare" id="YP[/u?qK~wQ,4FPl!n8@">
+                                    <field name="OP">EQ</field>
+                                    <value name="A">
+                                      <block type="variables_get" id="IQjT)p_nNxv:e/9Yk5%)">
+                                        <field name="VAR">Tag</field>
+                                      </block>
+                                    </value>
+                                    <value name="B">
+                                      <block type="math_number" id="uLSnwX=wQ5/iZ0kl6A,B">
+                                        <field name="NUM">6</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <value name="VALUE">
+                                  <block type="text" id="Wz*htf3`apc=1d0uq{9c">
+                                    <field name="TEXT">Samstag</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="procedures_ifreturn" id="q{oH`Hi+avB:N3|,`z6c">
+                                    <mutation value="1"></mutation>
+                                    <value name="CONDITION">
+                                      <block type="logic_compare" id="Een}Ehej2DlfP1.VQ-b)">
+                                        <field name="OP">EQ</field>
+                                        <value name="A">
+                                          <block type="variables_get" id="O2)I2=gLS7c;Gb1hcot(">
+                                            <field name="VAR">Tag</field>
+                                          </block>
+                                        </value>
+                                        <value name="B">
+                                          <block type="math_number" id="~:8#myz]gLIIlx4v?ZiH">
+                                            <field name="NUM">7</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <value name="VALUE">
+                                      <block type="text" id="YDJICtoKJ*aDklrvPz~d">
+                                        <field name="TEXT">Sonntag</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="RETURN">
+      <block type="text" id="8[l^PLqlEXIjk{H43cZi">
+        <field name="TEXT">ungültiger Tag</field>
+      </block>
+    </value>
+  </block>
+</xml>

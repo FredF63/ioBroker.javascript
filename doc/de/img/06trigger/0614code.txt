@@ -1,0 +1,95 @@
+
+BlocklyJavascriptTypeScript
+Skript läuft nicht
+Protokoll
+Ausgewählte Blöcke exportieren
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="on_ext" id="QYVeQlu|#2hwniNg)=z8" x="112" y="39">
+    <mutation items="1"></mutation>
+    <field name="CONDITION">ne</field>
+    <field name="ACK_CONDITION"></field>
+    <value name="OID0">
+      <shadow type="field_oid" id="Xe6D#r|nf9SEK`.oAuS0">
+        <field name="oid">javascript.0.Bewegung</field>
+      </shadow>
+    </value>
+    <statement name="STATEMENT">
+      <block type="debug" id="YnLhCAth!t-HmO(m2OP5">
+        <field name="Severity">log</field>
+        <value name="TEXT">
+          <shadow type="text" id="R3PG?OL`0$e%E``sK=%~">
+            <field name="TEXT">test</field>
+          </shadow>
+          <block type="text_join" id="0=[W_B9$M83D|)K,a`TF">
+            <mutation items="4"></mutation>
+            <value name="ADD0">
+              <block type="text" id="sWMMiM}UlnT~DHZ.#4%t">
+                <field name="TEXT">Aktueller Wert ist</field>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block type="on_source" id="RooYZgsBvbGUgmMS/k5`">
+                <field name="ATTR">state.val</field>
+              </block>
+            </value>
+            <value name="ADD2">
+              <block type="text" id="@2M7h58-e8.:$x.VKG(a">
+                <field name="TEXT">Vorheriger Wert ist</field>
+              </block>
+            </value>
+            <value name="ADD3">
+              <block type="on_source" id="_{t4aClwG+{H*yqL%%bw">
+                <field name="ATTR">oldState.val</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+</xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="on_ext" id="QYVeQlu|#2hwniNg)=z8" x="112" y="39">
+    <mutation items="1"></mutation>
+    <field name="CONDITION">ne</field>
+    <field name="ACK_CONDITION"></field>
+    <value name="OID0">
+      <shadow type="field_oid" id="Xe6D#r|nf9SEK`.oAuS0">
+        <field name="oid">javascript.0.Bewegung</field>
+      </shadow>
+    </value>
+    <statement name="STATEMENT">
+      <block type="debug" id="YnLhCAth!t-HmO(m2OP5">
+        <field name="Severity">log</field>
+        <value name="TEXT">
+          <shadow type="text" id="R3PG?OL`0$e%E``sK=%~">
+            <field name="TEXT">test</field>
+          </shadow>
+          <block type="text_join" id="0=[W_B9$M83D|)K,a`TF">
+            <mutation items="4"></mutation>
+            <value name="ADD0">
+              <block type="text" id="sWMMiM}UlnT~DHZ.#4%t">
+                <field name="TEXT">Aktueller Wert ist</field>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block type="on_source" id="RooYZgsBvbGUgmMS/k5`">
+                <field name="ATTR">state.val</field>
+              </block>
+            </value>
+            <value name="ADD2">
+              <block type="text" id="@2M7h58-e8.:$x.VKG(a">
+                <field name="TEXT">Vorheriger Wert ist</field>
+              </block>
+            </value>
+            <value name="ADD3">
+              <block type="on_source" id="_{t4aClwG+{H*yqL%%bw">
+                <field name="ATTR">oldState.val</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+</xml>

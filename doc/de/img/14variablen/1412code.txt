@@ -1,0 +1,13 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="TAbxBGR{ip)49:JQnA!A">etwas</variable>
+  </variables>
+  <block type="variables_set" id="ch{H@omhfzI(QA{syxAG" x="113" y="88">
+    <field name="VAR" id="TAbxBGR{ip)49:JQnA!A" variabletype="">etwas</field>
+    <value name="VALUE">
+      <block type="math_number" id="SbmD7,uR:hMW(P%IZRc">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+  </block>
+</xml>

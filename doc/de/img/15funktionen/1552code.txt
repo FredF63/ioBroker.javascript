@@ -1,0 +1,39 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="*ZV:{X#:easEB#fbbrs=">a</variable>
+    <variable type="" id="cc=Z$3/C!n0J+5{gVK^T">b</variable>
+  </variables>
+  <block type="procedures_defcustomreturn" id="IPZgA?c%gqB[Q}ajyo^t" x="-637" y="212">
+    <mutation statements="false">
+      <arg name="a" varid="*ZV:{X#:easEB#fbbrs="></arg>
+      <arg name="b" varid="cc=Z$3/C!n0J+5{gVK^T"></arg>
+    </mutation>
+    <field name="NAME">summe</field>
+    <field name="SCRIPT">cmV0dXJuIGEgKyBiOw==</field>
+    <comment pinned="false" h="80" w="160">Beschreibe diese Funktion …</comment>
+  </block>
+  <block type="debug" id="t4/gU)3gibe!5du6,5`:" x="-638" y="287">
+    <field name="Severity">log</field>
+    <value name="TEXT">
+      <shadow type="text" id="s]2R/_MwzkRyNg|z0q[+">
+        <field name="TEXT">test</field>
+      </shadow>
+      <block type="procedures_callcustomreturn" id="TxKIm/Nlj8;p_eW-I#oL">
+        <mutation name="summe">
+          <arg name="a"></arg>
+          <arg name="b"></arg>
+        </mutation>
+        <value name="ARG0">
+          <block type="math_number" id="6/PAv!?lg)7BP]SSau?:">
+            <field name="NUM">5</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block type="math_number" id="-mGlvTX/a8y4Y|0/,-Ud">
+            <field name="NUM">6</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+</xml>
