@@ -4,7 +4,7 @@ lastChanged: "14.06.2019"
 ---
 
 
-!> Achtung, Seite befindet sich im Aufbau
+!> Achtung, Seite befindet sich noch im Aufbau
 
 # Inhaltsverzeichnis
 
@@ -29,93 +29,93 @@ lastChanged: "14.06.2019"
 
 		[![Datenpunkt erzeugen](img/01system/180datenpunkterzeugen.PNG)](#datenpunkt-erzeugen)
 
-		[![Wert eines Datenpunktes](img/01system/190werterzeugen.PNG)](#wert-eines-datenpunktes-1)
+		[![Wert eines Datenpunktes nach ID](img/01system/190werterzeugen.PNG)](#wert-eines-datenpunktes-nach-id)
 
-		[![Wert](img/01system/200werterzeugen.PNG)](#wert-eines-datenpunktes-2)
+		[![Wert eines Datenpunktes nach Namen](img/01system/200werterzeugen.PNG)](#wert-eines-datenpunktes-nach-namen)
 
-		[![Wert](img/01system/210wert.PNG)](#wert-eines-datenpunktes-3)
+		[![Wert eines Datenpunktes nach ID und Funktion](img/01system/210wert.PNG)](#wert-eines-datenpunktes-nach-id-und-funktion)
 
-		[![Objekt ID auswählen](img/01system/220objekt.PNG)](#objekt-id)
+		[![Objekt ID](img/01system/220objekt.PNG)](#objekt-id)
 
 		[![Attribut](img/01system/230attribut.PNG)](#attribut)
 
 	* [Aktionen](#aktionen)
 
-		[![Systembefehl ausführen](img/02aktionen/210.PNG)](#exec-kommando)
+		[![Systembefehl ausführen](img/02aktionen/210.PNG)](#systembefehl-ausführen)
 
-		[![URL abfragen](img/02aktionen/220.PNG)](#request-url)
+		[![URL abfragen](img/02aktionen/220.PNG)](#url-abfragen)
 
 	* [SendTo](#sendto)
 
-		[![An telegram senden](img/03sendto/0350.PNG)](#an-telegram-etwas-senden)
+		[![An telegram etwas senden](img/03sendto/0350.png)](#an-telegram-etwas-senden)
 
-		[![An SayIt senden](img/03sendto/0340.PNG)](#send-to-sayit)
+		[![Über SayIt Text aussprechen](img/03sendto/0340.png)](#über-sayit-text-aussprechen)
 
-		[![An pushover senden](img/03sendto/0330.PNG)](#send-to-pushover)
+		[![An pushover etwas senden](img/03sendto/0330.PNG)](#an-pushover-etwas-senden)
 
-		[![email versenden](img/03sendto/0360.PNG)](#send-email)
+		[![email versenden](img/03sendto/0360.PNG)](#email-versenden)
 
-		[![Einem Adapter etwas senden](img/03sendto/0310.PNG)](#sendto-block)
+		[![Einem Adapter etwas senden](img/03sendto/0310.PNG)](#einem-adapter-etwas-senden)
 
-        [![IFTTT](img/03sendto/0320.PNG)](#ifttt)
+        [![Etwas an IFTTT senden](img/03sendto/0320.PNG)](#etwas-an-ifttt-senden)
 
 	* [Datum und Zeit](#datum-und-zeit)
 
-		[![Zeit vergleichen](img/04datumundzeit/410.PNG)](#time-comparision)
+		[![Zeit vergleichen](img/04datumundzeit/0410.PNG)](#zeit-vergleichen)
 
-		[![Aktuelle Zeit vergleichen](img/.PNG)](#actual-time-comparision)
+		[![Vergleich mit aktueller Uhrzeit](img/04datumundzeit/420.PNG)](#vergleich-mit-aktueller-uhrzeit)
 
-		[![Aktuelle Zeit im gewünschten Format erhalten](img/.PNG)](#get-actual-time-im-specific-format)
+		[![Aktuelle Zeit in einem bestimmten Format abrufen](img/04datumundzeit/0430.PNG)](#aktuelle-zeit-in-einem-bestimmten-format-abrufen)
 
-		[![Aktuelle Zeit eines Astro Ereignisses erhalten](img/.PNG)](#get-time-of-astro-events-for-today)
+		[![Zeit für aktuelle Astro-Events abrufen](img/04datumundzeit/0440.PNG)](#zeit-für-aktuelle-astro-events-abrufen)
 
 	* [Konvertierung](#konvertierung)
 
-		[![Nach Zahl konvertieren](convert-to-number)
+		[![Nach Zahl konvertieren](img/05konvertierung/0510.png)](#[nach-Zahl-konvertieren)
 
-		[![Nach Logikwert konvertieren](convert-to-boolean)
+		[![Nach Logikwert konvertieren](img/05konvertierung/0520.png)](#nach-logikwert-konvertieren)
 
-		[![Nach String konvertieren]
+		[![Nach String konvertieren](img/05konvertierung/0530.png)](#nach-string-konvertieren)
 
-		[![Get type of variable]
+		[![Variablentyp abrufen](img/05konvertierung/0540.png)](#variablentyp-abrufen)
 
-		[![Nach Datum/Zeit konvertieren](convert-to-datetime-object)
+		[![Nach Datum-Zeit konvertieren](img/05konvertierung/0550.png)](#nachdatum-zeit-konvertieren)
 
-		[![Datum/Zeit Objekt nach String konvertieren](convert-datetime-object-to-string)
+		[![Datum-Zeit Objekt nach String konvertieren](img/05konvertierung/0560.png)](#datum-zeit-objekt-nach-string-konvertieren)
 
-		[![JSON nach Objekt konvertieren](convert-json-to-object)
+		[![JSON nach Objekt konvertieren](img/05konvertierung/0570.png)](#json-nach-objekt-konvertieren)
 
-		[![Objekt nach JSON konvertieren](convert-object-to-json)
+		[![Objekt nach JSON konvertieren](img/05konvertierung/0580.png)](#objekt-nach-json-konvertieren)
 
 	* [Trigger](#trigger)
 
-		[![Trigger bei mehreren Zustandswechsel](img/.PNG)](#trigger-on-states-change)
+		[![Trigger bei mehreren Zustandswechseln](img/06trigger/0610.PNG)](#trigger-bei-mehreren-zustandswechseln)
 
-		[![Trigger bei einem Zustandswechsel](img/.PNG)](#trigger-on-state-change)
+		[![Trigger bei einem Zustandswechsel](img/06trigger/0620.PNG)](#trigger-bei-einem-zustandswechsel)
 
-		[![Trigger info](img/.PNG)](#trigger-info)
+		[![Trigger info](img/06trigger/0630.PNG)](#trigger-info)
 
-		[![Zeitplan](img/.PNG)](#schedule)
+		[![Zeitplan](img/06trigger/0640.PNG)](#zeitplan)
 
-		[![Trigger für Astro-Ereignis](img/.PNG)](#trigger-on-astro-event)
+		[![Trigger auf Astro-Ereignis](img/06trigger/0650.PNG)](#trigger-auf-astro-ereignis)
 
-		[![Benannter Zeitplan](img/.PNG)](#named-schedule)
+		[![Benannter Zeitplan](img/06trigger/0660.PNG)](#benannter-zeitplan)
 
-		[![Lösche benannten Zeitplan](img/.PNG)](#clear-schedule)
+		[![Lösche benannten Zeitplan](img/06trigger/0670.PNG)](#lösche-benannten-zeitplan)
 
-		[![CRON mit Dialogfenster](img/.PNG)](#cron-dialog)
+		[![CRON mit Dialog](img/06trigger/0680.PNG)](#cron-mit-dialog)
 
-		[![CRON Regeln](img/.PNG)](#cron-rule)
+		[![CRON Regel mit Dialog](img/06trigger/0690.PNG)](#cron-regel-mit-dialog)
 
 	* [Timeouts](#timeouts)
 
-		[![Ausführung Verzögern](img/.PNG)](#delayed-execution)
+		[![Ausführung Verzögern](img/07timeouts/0710.PNG)](#ausführung-verzögern)
 
-		[![verzögerte Ausführung beenden](img/.PNG)](#clear-delayed-execution)
+		[![Verzögerte Ausführung beenden](img/07timeouts/0720.PNG)](#verzögerte-ausführung-beenden)
 
-		[![Interval ausführen](img/.PNG)](#execution-by-interval)
+		[![Interval ausführen](img/07timeouts/0730.PNG)](#interval-ausführen)
 
-		[![ausgeführtes Interval beenden](img/.PNG)](#stop-execution-by-interval)
+		[![Ausgeführtes Interval beenden](img/07timeouts/0740.PNG)](#ausgeführtes-interval-beenden)
 
 	* [Logik](#logik)
 
@@ -512,15 +512,15 @@ Dieses Beispiel zum importieren: ![code](img/01system/181code.txt)
 
 Man kann den neu erzeugten State bereits in dem Block selber nutzen.
 
-Bei der ersten Ausführung dieses Blocklys wird ein Fehler ausgegeben, da der
-Datenpunkt erst nach der Ausführung zu finden ist.
-Bei der zweiten Ausführung wird kein Fehler mehr ausgegeben, weil der Datenpunkt
-jetzt existiert.
+> Bei der ersten Ausführung dieses Blocklys wird ein Fehler ausgegeben, da der
+> Datenpunkt erst nach der Ausführung des Skripts erzeugt wurd.
+> Bei der zweiten Ausführung wird kein Fehler mehr ausgegeben, weil der Datenpunkt
+> jetzt existiert.
 
 
 
-### Wert eines Datenpunktes 1
-![Wert eines Datenpunktes](img/01system/190werterzeugen.PNG)
+### Wert eines Datenpunktes nach ID
+![Wert eines Datenpunktes nach ID](img/01system/190werterzeugen.PNG)
 
 Dieser Block dient dazu den Wert eines Datenpunktes auszulesen. Folgende Attribute
 des Datenpunktes können ausgelesen werden:
@@ -552,7 +552,7 @@ Dieses Beispiel zum importieren: ![code](img/01system/191code.txt)
 
 
 
-### Wert eines Datenpunktes 2
+### Wert eines Datenpunktes nach Namen
 
 ![Wert](img/01system/200werterzeugen.PNG)
 
@@ -560,7 +560,7 @@ Beschreibung fehlt noch!
 
 
 
-### Wert eines Datenpunktes 3
+### Wert eines Datenpunktes nach ID und Funktion
 
 ![Wert](img/01system/210wert.PNG)
 
@@ -570,14 +570,14 @@ Beschreibung fehlt noch!
 
 ### Objekt ID
 
-![Objekt ID auswählen](img/01system/220objekt.PNG)
+![Objekt ID](img/01system/220objekt.PNG)
 
 Dieses ist ein einfacher Hilfsblock um komfortabel die Objekt ID zum triggern des Blocks auszuwählen.
 Der ID Auswahldialog wird durch Anklicken von "Objekt ID" geöffnet.
 
 Typische Anwendung dieses Blocks:
 
-![Objekt ID auswählen](img/01system/221.PNG)
+![Objekt ID](img/01system/221.PNG)
 
 Dieses Beispiel zum importieren: ![code](img/01system/221code.txt)
 
@@ -597,8 +597,8 @@ String zu analysieren.
 
 ## Aktionen
 
-### Exec-Kommando
-![Exec - execute](img/02aktionen/210.PNG)
+### Systembefehl ausführen
+![Systembefehl ausführene](img/02aktionen/210.PNG)
 
 Dieser Block führt das eingegebene Kommando im System aus, so als ob man es in
 der SSH Konsole eingegeben hätte.
@@ -634,7 +634,7 @@ nicht auf 'none' steht.
 
 
 
-### request URL
+### URL abfragen
 ![request URL](img/02aktionen/220.PNG)
 
 Ruft eine URL auf und gibt das Ergebnis zurück.
@@ -984,12 +984,12 @@ Wandelt einen Wert in einen String/Zeichenkette um.
 
 Variablentyp kann boolean, number, string oder object sein.
 
-### Nach Datum/Zeit konvertieren
+### Nach Datum-Zeit konvertieren
 ![Nach Datum/Zeit konvertieren](img/05konvertierung/0550.PNG)
 
 Wandelt einen Wert in ein Datum-Objekt um. [Hier](#get-actual-time-im-specific-format) sind die Datum Objekte beschrieben.
 
-### Datum/Zeit Objekt nach String konvertieren
+### Datum-Zeit Objekt nach String konvertieren
 ![Datum/Zeit Objekt nach String konvertieren](img/05konvertierung/0560.PNG)
 
 
@@ -1064,8 +1064,8 @@ Typisches Beispiel:
 Dieses Beispiel zum importieren: ![code](img/01system/0612code.txt)
 
 
-### Trigger bei mehreren Zustandswechseln
-![Trigger bei mehreren Zustandswechseln](img/06trigger/0620.PNG)
+### Trigger bei einem Zustandswechsel
+![Trigger bei einem Zustandswechsel](img/06trigger/0620.PNG)
 
 Dies ist derselbe Block wie der zuvor genannte Auslöser auf mehrere Status
 Änderungen, jedoch ohne die Möglichkeit, mehrere Objekt-IDs zum Triggern zu
