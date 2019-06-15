@@ -47,9 +47,9 @@ lastChanged: "14.06.2019"
 
 	* [SendTo](#sendto)
 
-		[![An telegram senden](img/03sendto/0350.png)](#an-telegram-etwas-senden)
+		[![An telegram senden](img/03sendto/0350.PNG)](#an-telegram-etwas-senden)
 
-		[![An SayIt senden](img/03sendto/0340.png)](#send-to-sayit)
+		[![An SayIt senden](img/03sendto/0340.PNG)](#send-to-sayit)
 
 		[![An pushover senden](img/03sendto/0330.PNG)](#send-to-pushover)
 
@@ -301,7 +301,7 @@ Im Fenster links ist die Symbolleiste und die Ordner- und Dateileiste zu finden.
 Rechts das Editor Fenster mit Block-Sidebar und Arbeitsfläche und unten das
 Log-Fenster.
 
-![Editor](img/Start1.png)
+![Editor](img/Start1.PNG)
 
 Gewünschte Blöcke werden über die verschiedenen [Kategorien](#verfügbare-blöcke) ausgewählt und
 per Drag and Drop auf der Arbeitsfläche abgelegt.
@@ -666,7 +666,7 @@ der entsprechende Adapter installiert und konfiguriert wurde.
 
 
 ### An telegram etwas senden
-![Send to telegram](img/03sendto/0350.png)
+![Send to telegram](img/03sendto/0350.PNG)
 
 Dieser Block dient dazu eine Nachricht über telegram mit Hilfe des telegram-
 Adapters zu senden.
@@ -688,7 +688,7 @@ ausgegeben.
 
 
 ### Über SayIt Text aussprechen
-![Send to SayIt](img/03sendto/0340.png)
+![Send to SayIt](img/03sendto/0340.PNG)
 
 Dieser Block wird verwendet, um Text an eine SayIt-Instanz zu senden, um diesen
 Text auszusprechen.
@@ -710,7 +710,7 @@ ausgegeben.
 
 ### An pushover etwas senden
 
-![Send to pushover](img/03sendto/0330.png)
+![Send to pushover](img/03sendto/0330.PNG)
 
 This block is used to send text to pushover client. You can read about pushover driver [here](https://github.com/ioBroker/ioBroker.pushover).
 
@@ -736,7 +736,7 @@ ausgegeben.
 
 
 ### email versenden
-![Send to email](img/03sendto/0360.png)
+![Send to email](img/03sendto/0360.PNG)
 
 This block is used to send text as email.
 
@@ -759,14 +759,14 @@ You can refer to files as ```<img src='cid:file1'/>```. "file1" and "file2" are 
 
 "file name" must consist full path to image on disk.
 
-[Send to email](img/03sendto/_email_1_en.png)
+[Send to email](img/03sendto/_email_1_en.PNG)
 
 Additionally if the log level is not "none", the same message will be sent to log.
 
 
 
 ### Einem Adapter etwas senden
-[Custom sendTo block](img/03sendto/_custom_en.png)
+[Custom sendTo block](img/03sendto/_custom_en.PNG)
 
 This is just a help block to send internal system message (sendTo) to any adapter.
 
@@ -774,13 +774,13 @@ Of course you can use custom function block to do anything crazy, and to send me
 
 You can define your own parameters for sendTo command:
 
-[Custom sendTo block](img/03sendto/_custom_1_en.png)
+[Custom sendTo block](img/03sendto/_custom_1_en.PNG)
 
 Read more [here](https://github.com/ioBroker/ioBroker.javascript#sendto) about "sendTo".
 
 Example how to send SQL query to sql adapter:
 
-[Custom sendTo block](img/03sendto/_custom_2_en.png)
+[Custom sendTo block](img/03sendto/_custom_2_en.PNG)
 
 
 If you will use only one parameter with empty name, so no structure will created, like here:
@@ -805,7 +805,7 @@ console.log("sql.0: " + "");
 
 Or how to request history from SQL adapter:
 
-[Custom sendTo block](img/03sendto/_custom_3_en.png)
+[Custom sendTo block](img/03sendto/_custom_3_en.PNG)
 
 
 
@@ -846,7 +846,7 @@ If you will start value with "{" it will be interpreted as JSON string. Use doub
 Falls über Dropdown `zwischen` oder `nicht zwischen` ausgewählt wird, ändert sich der
 Block folgendermaßen:
 
-![Zeitvergleich](img/04datumundzeit/0411.png)
+![Zeitvergleich](img/04datumundzeit/0411.PNG)
 
 Folgende Vergleiche möglich:
 
@@ -866,7 +866,7 @@ Es wird geprüft ob die aktuelle Zeit kleiner als die erst genannt Zeit (Startze
 Durch abwählen des Hakens ist es möglich auch andere Zeitformate mit Datumsobjekten
 zu vergleichen:
 
-![Zeitvergleich](img/04datumundzeit/0412.png)
+![Zeitvergleich](img/04datumundzeit/0412.PNG)
 
 Folgende Zeitformate sind gültig:
 
@@ -877,7 +877,7 @@ Folgende Zeitformate sind gültig:
 
 
 ### Vergleich mit aktueller Uhrzeit
-![Vergleich mit aktueller Uhrzeit](img/04datumundzeit/0420.png)
+![Vergleich mit aktueller Uhrzeit](img/04datumundzeit/0420.PNG)
 
 Auch dieser Block wird verwendet, um die Tageszeit mit der aktuellen Zeit zu vergleichen.
 Die Logik entspricht [Zeiten vergleichen](#time-comparision), es können aber keine Datumsobjekte eingefügt
@@ -885,7 +885,7 @@ werden und der Vergleich ist immer mit der aktuellen Zeit.
 
 
 ### Aktuelle Uhrzeit in einem bestimmten Format abrufen
-![Aktuelle Uhrzeit in einem bestimmten Format abrufen](img/04datumundzeit/0430.png)
+![Aktuelle Uhrzeit in einem bestimmten Format abrufen](img/04datumundzeit/0430.PNG)
 
 Folgende Formate sind möglich auszugeben:
 
@@ -929,7 +929,7 @@ So, Mo, Di, Mi, Do, Fr, Sa.
 
 
 ### Zeit für aktuelle Astro-Events abrufen
-![Zeit für aktuelle Astro-Events abrufen](img/04datumundzeit/0440.png)
+![Zeit für aktuelle Astro-Events abrufen](img/04datumundzeit/0440.PNG)
 
 Das Offset Attribut kann auch negativ eingegeben werden um Zeiten vor dem Astro-
 Event zu bestimmen.
@@ -965,42 +965,42 @@ Um einen Datentyp in einen anderen umzuwandeln, stehen folgende Konvertierungsbl
 zur Verfügung:
 
 ### In Zahl konvertieren
-![Nach Zahl konvertieren](img/05konvertierung/0510.png)
+![Nach Zahl konvertieren](img/05konvertierung/0510.PNG)
 
 Wandelt einen Wert in eine Fließkommazahl mit Dezimalpunkt um.
 
 ### Nach Logikwert konvertieren
-![Nach Logikwert konvertieren](img/05konvertierung/0520.png)
+![Nach Logikwert konvertieren](img/05konvertierung/0520.PNG)
 
 Wandelt einen Wert in booleschen Wert (true oder false) um.
 
 ### Nach String konvertieren
-![Nach String konvertieren](img/05konvertierung/0530.png)
+![Nach String konvertieren](img/05konvertierung/0530.PNG)
 
 Wandelt einen Wert in einen String/Zeichenkette um.
 
 ### Variablentyp abrufen
-![Variablentyp abrufen](img/05konvertierung/0540.png)
+![Variablentyp abrufen](img/05konvertierung/0540.PNG)
 
 Variablentyp kann boolean, number, string oder object sein.
 
 ### Nach Datum/Zeit konvertieren
-![Nach Datum/Zeit konvertieren](img/05konvertierung/0550.png)
+![Nach Datum/Zeit konvertieren](img/05konvertierung/0550.PNG)
 
 Wandelt einen Wert in ein Datum-Objekt um. [Hier](#get-actual-time-im-specific-format) sind die Datum Objekte beschrieben.
 
 ### Datum/Zeit Objekt nach String konvertieren
-![Datum/Zeit Objekt nach String konvertieren](img/05konvertierung/0560.png)
+![Datum/Zeit Objekt nach String konvertieren](img/05konvertierung/0560.PNG)
 
 
 ### JSON nach Objekt konvertiere
-![JSON nach Objekt konvertiere](img/05konvertierung/0570.png)
+![JSON nach Objekt konvertiere](img/05konvertierung/0570.PNG)
 
 Wandelt JSON String in JavaScript Objekt. Bei Fehler wird das leere Objekt zurückgegeben.
 (Nur für Experten)
 
 ### Objekt in JSON umwandeln
-![Objekt nach JSON konvertieren](img/05konvertierung/0580.png)
+![Objekt nach JSON konvertieren](img/05konvertierung/0580.PNG)
 
 Wandelt JavaScript Objekt in JSON String.
 Bei aktivierter Option formatieren sieht der String so aus:
@@ -1029,7 +1029,7 @@ Gewünschte Aufgaben müssen innerhalb der offenen Klammer platziert werden.
 
 
 ### Trigger bei mehreren Zustandswechseln
-![Trigger bei mehreren Zustandswechseln](img/06trigger/0610.png)
+![Trigger bei mehreren Zustandswechseln](img/06trigger/0610.PNG)
 
 Wenn sich der Status eins oder mehrerer Objekte ändert oder aktualisiert wird Dieser Block führt eine Aktion aus, hat. Dies ist der Hauptblock zum Aufbau von Interaktionen zwischen
 verschiedenen Zuständen und entsprechenden Systemen.
@@ -1037,7 +1037,7 @@ verschiedenen Zuständen und entsprechenden Systemen.
 Über das Zahnrad können beliebig viele Objekt ID's per Drag and Drop
 hinzugefügt werden:
 
-![Trigger bei mehreren Zustandswechseln](img/06trigger/0613.png)
+![Trigger bei mehreren Zustandswechseln](img/06trigger/0613.PNG)
 
 Es kann gewählt werden ob das abgefragte Objekt
 wurde geändert
@@ -1058,13 +1058,13 @@ Update heißt, dass das Gerät oder der Ziel-Adapter die Änderung bestätigt, d
 
 Typisches Beispiel:
 
-![Trigger bei mehreren Zustandswechseln](img/06trigger/0611.png)
+![Trigger bei mehreren Zustandswechseln](img/06trigger/0611.PNG)
 
 Dieses Beispiel zum importieren: ![code](img/01system/0612code.txt)
 
 
 ### Trigger bei mehreren Zustandswechseln
-![Trigger bei mehreren Zustandswechseln](img/06trigger/0620.png)
+![Trigger bei mehreren Zustandswechseln](img/06trigger/0620.PNG)
 
 Dies ist derselbe Block wie der zuvor genannte Auslöser auf mehrere Status
 Änderungen, jedoch ohne die Möglichkeit, mehrere Objekt-IDs zum Triggern zu
@@ -1072,7 +1072,7 @@ verwenden.
 
 
 ### Trigger info
-![Trigger info](img/06trigger/0630.png)
+![Trigger info](img/06trigger/0630.PNG)
 
 Abrufen von Informationen des Status der den Trigger ausgelöst hat.
 
@@ -1141,14 +1141,14 @@ Vorheriger "zuletzt geänderter Wert" dieses Status, bevor der Trigger ausgelös
 
 Typisches Beispiel:
 
-![Trigger bei mehreren Zustandswechseln](img/06trigger/0614.png)
+![Trigger bei mehreren Zustandswechseln](img/06trigger/0614.PNG)
 
 Dieses Beispiel zum importieren: ![code](img/01system/0614code.txt)
 
 
 
 ### Zeitplan
-![Zeitplan](img/06trigger/0640.png)
+![Zeitplan](img/06trigger/0640.PNG)
 
 This is second main block for automation after ["Trigger on states change"](#trigger-on-states-change). This block lets execute some actions periodically.
 
@@ -1203,13 +1203,13 @@ or if seconds used:
 
 But there is a good help for you to build such a rules. By clicking on rule the CRON dialog will be opened and you can specify by mouse your rule.
 
-[Zeitplan](img/06trigger/trigger_schedule_1_en.png)
+[Zeitplan](img/06trigger/trigger_schedule_1_en.PNG)
 
 
 
 
 ### Trigger auf Astro-Ereignis
-![Trigger auf Astro-Ereignis](img/06trigger/0650.png)
+![Trigger auf Astro-Ereignis](img/06trigger/0650.PNG)
 
 Execute some action on astrological event. Following events are possible:
 
@@ -1232,7 +1232,7 @@ Execute some action on astrological event. Following events are possible:
 
 Additionally you can set the offset in minutes to astrological event, e.g. to fire the trigger 1 hour before down:
 
-[Trigger auf Astro-Ereignis](img/06trigger/trigger_astro_1_en.png)
+[Trigger auf Astro-Ereignis](img/06trigger/trigger_astro_1_en.PNG)
 
 As you can see the offset can be negative too to specify time before astrological events.
 
@@ -1240,7 +1240,7 @@ As you can see the offset can be negative too to specify time before astrologica
 
 
 ### Benannter Zeitplan
-![Benannter Zeitplan](img/06trigger/0660.png)
+![Benannter Zeitplan](img/06trigger/0660.PNG)
 
 This block is the same as [Benannter Zeitplan](#zeitplan), but with possibility to set CRON rule by string and with possibility to stop the schedule.
 
@@ -1248,7 +1248,7 @@ You can specify unique name of this schedule block and then later to clear it wi
 
 Here is an example of configurable alarm clock:
 
-[Schedule](img/06trigger/trigger_schedule_ex_1_en.png)
+[Schedule](img/06trigger/trigger_schedule_ex_1_en.PNG)
 
 ```xml
 
@@ -1258,7 +1258,7 @@ Here is an example of configurable alarm clock:
 
 
 ### Lösche benannten Zeitplan
-![Lösche benannten Zeitplan](img/06trigger/0670.png)
+![Lösche benannten Zeitplan](img/06trigger/0670.PNG)
 
 With this function block you can clear named schedule. If you define named one more time without clearing it, the old one will still active.
 
@@ -1268,11 +1268,11 @@ See an example in [Benannter Zeitplan](#benannter-zeitplan)
 
 
 ### CRON mit Dialog
-![CRON mit Dialog](img/06trigger/0680.png)
+![CRON mit Dialog](img/06trigger/0680.PNG)
 
 Create CRON rule from dialog. This block can be connected with [Named schedule](#named-schedule).
 
-[Schedule](img/06trigger/trigger_cron_input_1_en.png)
+[Schedule](img/06trigger/trigger_cron_input_1_en.PNG)
 
 ```xml 
 <xml xmlns="http://www.w3.org/1999/xhtml">
@@ -1328,17 +1328,17 @@ Create CRON rule from dialog. This block can be connected with [Named schedule](
 
 
 ### CRON Regel mit Dialog
-![Schedule](img/06trigger/0690.png)
+![Schedule](img/06trigger/0690.PNG)
 
 Combine CRON rule from different parts.
 
 You can display rule as block or as line:
 
-[Schedule](img/06trigger/trigger_cron_rule_1_en.png)
+[Schedule](img/06trigger/trigger_cron_rule_1_en.PNG)
 
 With additional parameter "with seconds" you can specify seconds for CRON rule too
 
-[Schedule](img/06trigger/trigger_cron_rule_2_en.png)
+[Schedule](img/06trigger/trigger_cron_rule_2_en.PNG)
 
 This block can be used (like [CRON dialog](#cron-dialog)) only with [Named schedule](#named-schedule) block.
 
@@ -1352,7 +1352,7 @@ This block can be used (like [CRON dialog](#cron-dialog)) only with [Named sched
 
 ### Ausführung verzögern
 
-![Ausführung verzögern](img/07timeouts/0710.png)
+![Ausführung verzögern](img/07timeouts/0710.PNG)
 
 Mit diesem Block können andere Blöcke Zeit verzögert ausgeführt werden. Die
 Zeit ist wählbar in Millisekunden, Sekunden oder Minuten.
@@ -1365,7 +1365,7 @@ werden.
 
 Beispiel:
 
-![Ausführung verzögern](img/07timeouts/0711.png)
+![Ausführung verzögern](img/07timeouts/0711.PNG)
 
 
 ```xml
@@ -1401,7 +1401,7 @@ Beispiel:
 
 
 ### Verzögerte Ausführung beenden
-![Verzögerte Ausführung beenden](img/07timeouts/0720.png)
+![Verzögerte Ausführung beenden](img/07timeouts/0720.PNG)
 
 Dieser Block beendet die benannte Verzögerung.
 
@@ -1410,7 +1410,7 @@ Simulation eines Bewegungserkennungsszenarios, wo bei der ersten Bewegung
 das Licht angehen und nach der letzten Bewegung und nach 30 Sekunden das
 Licht ausgehen soll.
 
-![Verzögerte Ausführung beenden](img/07timeouts/0721.png)
+![Verzögerte Ausführung beenden](img/07timeouts/0721.PNG)
 
 ```xml
 <xml xmlns="http://www.w3.org/1999/xhtml">
@@ -1515,7 +1515,7 @@ Licht ausgehen soll.
 
 
 ### Interval ausführen
-![Interval ausführen](img/07timeouts/0730.png)
+![Interval ausführen](img/07timeouts/0730.PNG)
 
 Dieser Block wiederholt Aktionen regelmäßig. Das kann zwar auch mit dem CRON Block
 erfolgen, der kürzest mögliche Intervall ist dort aber 1 Sekunde.
@@ -1531,7 +1531,7 @@ An additional feature is to set the interval by using a variable, just replace t
 
 
 ### Ausgeführtes Interval beenden
-![Ausgeführtes Interval beenden](img/07timeouts/0740.png)
+![Ausgeführtes Interval beenden](img/07timeouts/0740.PNG)
 
 With the help of this block you can cancel periodically execution of interval block by its name.
 
@@ -1766,25 +1766,25 @@ Um den "falls ... sonst falls ..." Block zu erstellen klickt man auf das Zahnrad
 
 ### Farbe
 
-![Farbe](img/13farbe/1310.png)
+![Farbe](img/13farbe/1310.PNG)
 
 Erzeugt eine Farbe aus der Farbpalette
 
 ### Zufällige Farbe
 
-![Farbe](img/13farbe/1320.png)
+![Farbe](img/13farbe/1320.PNG)
 
 Erzeugt eine zufällige Farbe
 
 ### Farbe nach RGB
 
-![Farbe](img/13farbe/1330.png)
+![Farbe](img/13farbe/1330.PNG)
 
 Erzeugt eine Farbe mit selbst gewählten RGB Werten zwischen 0 und 100
 
 ### Farben mischen
 
-![Farbe](img/13farbe/1340.png)
+![Farbe](img/13farbe/1340.PNG)
 
 Mischt 2 Farben mit einstellbarem Farbverhältnis zwischen 0.0 und 1.0
 
@@ -1798,7 +1798,7 @@ Bei Verwendung von Variablen, sollten grundlegende Programmierregeln wie
 Variablen zu nutzen sind, vorhanden sein.
 
 ### Setze Wert einer Variablen
-![Setze Wert einer Variablen](img/14variablen/1410.png)
+![Setze Wert einer Variablen](img/14variablen/1410.PNG)
 
 Mit diesem Block kann eine globale (in jedem Skript sichtbare) Variable
 geschrieben werden und diese zum Speichern von Werten verwenden. Wenn
@@ -1807,11 +1807,11 @@ die Variable nicht existiert, wird sie automatisch deklariert.
 Es kann eine neue Variable erstellt werden oder eine vorhandene verwendet
 werden.
 
-![Setze Wert einer Variablen](img/14variablen/1411.png)
+![Setze Wert einer Variablen](img/14variablen/1411.PNG)
 
 Dieser Block:
 
-![Setze Wert einer Variablen](img/14variablen/1412.png)
+![Setze Wert einer Variablen](img/14variablen/1412.PNG)
 
 macht dies:
 ```javascript
@@ -1829,16 +1829,16 @@ item = 0;
 
 
 ### Erhalte Wert einer Variablen
-![Erhalte Wert einer Variablen](img/14variablen/1430.png)
+![Erhalte Wert einer Variablen](img/14variablen/1430.PNG)
 
 Es können Variablen erstellt oder umbenannt werden.
 
-![Erhalte Wert einer Variablen](img/14variablen/1431.png)
+![Erhalte Wert einer Variablen](img/14variablen/1431.PNG)
 
 There is one exception with trigger blocks [Trigger on states change](#trigger-on-states-change) and [Trigger on state change](#trigger-on-state-change).
 Inside these blocks variable "value" yet exist, but anyway to read their values you must rename variable into value and then use it.
 
-[Get variable's value](img/14variablen/variables_get_2_en.png)
+[Get variable's value](img/14variablen/variables_get_2_en.PNG)
 
 
 ## Funktionen
@@ -1869,26 +1869,26 @@ Nachdem die Funktion erzeugt wurde, kann sie z.B: so weiter verwendet werden:
 
 Die neue Funktion erscheint in der Block-Sidebar:
 
-![Erzeuge Funktion ohne Rückgabewert](img/15funktionen/1514.PNg)
+![Erzeuge Funktion ohne Rückgabewert](img/15funktionen/1514.PNG)
 
 Zusätzlich kann über das Zahnrad Argumente hinzugefügt und bearbeitet werden:
 
-![Erzeuge Funktion ohne Rückgabewert](img/15funktionen/1515.PNg)
+![Erzeuge Funktion ohne Rückgabewert](img/15funktionen/1515.PNG)
 
 Beispiel: _Gebe die Summe des ersten und des zweiten Arguments aus_:
 
-![Erzeuge Funktion ohne Rückgabewert](img/15funktionen/1516.PNg)
+![Erzeuge Funktion ohne Rückgabewert](img/15funktionen/1516.PNG)
 
 ```
 1516code.txt
 ```
 Die angelegen Variablen sind dann unter Variablen zu finden:
 
-![Erzeuge Funktion ohne Rückgabewert](img/15funktionen/1517.PNg)
+![Erzeuge Funktion ohne Rückgabewert](img/15funktionen/1517.PNG)
 
 Die Funktion kann z.B: so genutzt werden:
 
-![Erzeuge Funktion ohne RückgabewertP](img/15funktionen/1518.PNg)
+![Erzeuge Funktion ohne RückgabewertP](img/15funktionen/1518.PNG)
 
 ```
 1518code.txt
@@ -1896,23 +1896,23 @@ Die Funktion kann z.B: so genutzt werden:
 
 ### Erzeuge Funktion *mit* Rückgabewert
 
-![Funktion mit Rückgabewert](img/15funktionen/1520.PNg)
+![Funktion mit Rückgabewert](img/15funktionen/1520.PNG)
 
 Dieser Block gibt zusätzlich ein Ergebnis einer Funktion aus, um es in anderen
 Blöcken zu verwenden.
 
-!Erzeuge Funktion mit Rückgabewert](img/15funktionen/1521.png)
+!Erzeuge Funktion mit Rückgabewert](img/15funktionen/1521.PNG)
 
 ```
 1521code.txt
 ```
 Spezielles Rückgabe Element aktivieren:
 
-![Erzeuge Funktion mit Rückgabewert](img/15funktionen/1522.png)
+![Erzeuge Funktion mit Rückgabewert](img/15funktionen/1522.PNG)
 
 Beispiel:
 
-![Erzeuge Funktion mit Rückgabewert](img/15funktionen/1523.png)
+![Erzeuge Funktion mit Rückgabewert](img/15funktionen/1523.PNG)
 
 ```
 1523code.txt
@@ -1921,14 +1921,14 @@ Beispiel:
 
 ### Wert in Funktion zurückgeben
 
-![Wert in Funktion](img/15funktionen/1530.png)
+![Wert in Funktion](img/15funktionen/1530.PNG)
 
 Dies kann nur hier [Erzeuge Funktion mit Rückgabewer] verwendet werden
 und liefert den zurückzugebenden Wert in der Mitte der Funkion.
 
 ### Erzeuge javascript Funktion *ohne* Rückgabewert
 
-![Eigene Funktion ohne](img/15funktionen/1540.png)
+![Eigene Funktion ohne](img/15funktionen/1540.PNG)
 
 Manchmal sind vorhandene Blöcke ungeeignet, um ein bestiMMtes Problem zu
 lösen. Mit diesem Block ist es möglich einen eigenen Block als Funktion zu
@@ -1940,14 +1940,14 @@ Funktionen für reines Skripting verwendet werden.
 Um den Code zu schreiben, auf das '...' am Block klicken und der Editor-Dialog
 wird geöffnet.
 
-![Eigene Funktion ohne1](img/15funktionen/1542.png)
+![Eigene Funktion ohne1](img/15funktionen/1542.PNG)
 
 Ansonsten ist die Nutzung dieses Blocks ähnlich wie [Funktion mit Rückgabewert
 erzeugen] oder [Funktion ohne Rückgabewert erzeugen].
 
 ### Erzeuge javascript Funktion *mit* Rückgabewert
 
-![Eigene Funktion mit](img/15funktionen/1550.png)
+![Eigene Funktion mit](img/15funktionen/1550.PNG)
 
 Genau wie ohne Rückgabewert sind benutzerdefinierte Funktionen auch mit
 Rückgabewert möglich. Rückgabewert im Editor-Dialog:
@@ -1956,7 +1956,7 @@ Rückgabewert möglich. Rückgabewert im Editor-Dialog:
 
 Beispiel:
 
-![Eigene Funktion mit](img/15funktionen/1552.png)
+![Eigene Funktion mit](img/15funktionen/1552.PNG)
 
 ```
 1552code.txt
