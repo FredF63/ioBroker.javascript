@@ -1717,19 +1717,19 @@ Um den "falls ... sonst falls ..." Block zu erstellen klickt man auf das Zahnrad
 
 
 ## Listen
-###Erzeuge leere Liste
+### Erzeuge leere Liste
 
 ![Erzeuge leere Liste](img/12listen/1210.PNG)
 
-### [Erzeuge Liste mit Werten
+### Erzeuge Liste mit Werten
 
 ![Erzeuge Liste mit Werten](img/12listen/1220.PNG)
 
-###Erzeuge Liste mit gleichem Wert n-mal
+### Erzeuge Liste mit gleichem Wert n-mal
 
 ![Erzeuge Liste mit gleichem Wert n-mal](img/12listen/1230.PNG)
 
-###Elementanzahl einer Liste ausgeben
+### Elementanzahl einer Liste ausgeben
 
 ![Elementanzahl einer Liste ausgeben](img/12listen/1240.PNG)
 
@@ -1967,8 +1967,8 @@ Beispiel:
 Für jede erstellte Funktion erscheint ein zugehöriger Block mit dem Namen der
 Funktion in der Block-Sidebar unter Funktionen und kann so einfach wieder
 verwendet werden.
-Auch in den den Funktionen erstellte Variablen erscheinen in der Block-Sidebar,
-aber unter Variablen.
+Auch in Funktionen erstellte Variablen erscheinen in der Block-Sidebar, aber
+unter Variablen.
 
 
 
