@@ -1024,7 +1024,8 @@ Bei nicht aktivierter Option formatieren so:
 Trigger (Auslöser) werden prinzipiell benötigt um Aufgaben wiederholt durchzuführen.
 Gewünschte Aufgaben müssen innerhalb der offenen Klammer platziert werden.
 
-> Trigger in einem Triggerbaustein sind nicht möglich!
+> Trigger in Trigger funktionieren nicht!
+>
 > ![Trigger in Trigger](img/06trigger/0611.PNG)
 
 
