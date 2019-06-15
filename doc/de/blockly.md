@@ -47,9 +47,9 @@ lastChanged: "14.06.2019"
 
 	* [SendTo](#sendto)
 
-		[![An telegram etwas senden](img/03sendto/0350.png)](#an-telegram-etwas-senden)
+		[![An telegram etwas senden](img/03sendto/0350.PNG)](#an-telegram-etwas-senden)
 
-		[![Über SayIt Text aussprechen](img/03sendto/0340.png)](#über-sayit-text-aussprechen)
+		[![Über SayIt Text aussprechen](img/03sendto/0340.PNG)](#über-sayit-text-aussprechen)
 
 		[![An pushover etwas senden](img/03sendto/0330.PNG)](#an-pushover-etwas-senden)
 
@@ -71,21 +71,21 @@ lastChanged: "14.06.2019"
 
 	* [Konvertierung](#konvertierung)
 
-		[![Nach Zahl konvertieren](img/05konvertierung/0510.png)](#[nach-Zahl-konvertieren)
+		[![Nach Zahl konvertieren](img/05konvertierung/0510.PNG)](#[nach-Zahl-konvertieren)
 
-		[![Nach Logikwert konvertieren](img/05konvertierung/0520.png)](#nach-logikwert-konvertieren)
+		[![Nach Logikwert konvertieren](img/05konvertierung/0520.PNG)](#nach-logikwert-konvertieren)
 
-		[![Nach String konvertieren](img/05konvertierung/0530.png)](#nach-string-konvertieren)
+		[![Nach String konvertieren](img/05konvertierung/0530.PNG)](#nach-string-konvertieren)
 
-		[![Variablentyp abrufen](img/05konvertierung/0540.png)](#variablentyp-abrufen)
+		[![Variablentyp abrufen](img/05konvertierung/0540.PNG)](#variablentyp-abrufen)
 
-		[![Nach Datum-Zeit konvertieren](img/05konvertierung/0550.png)](#nachdatum-zeit-konvertieren)
+		[![Nach Datum-Zeit konvertieren](img/05konvertierung/0550.PNG)](#nachdatum-zeit-konvertieren)
 
-		[![Datum-Zeit Objekt nach String konvertieren](img/05konvertierung/0560.png)](#datum-zeit-objekt-nach-string-konvertieren)
+		[![Datum-Zeit Objekt nach String konvertieren](img/05konvertierung/0560.PNG)](#datum-zeit-objekt-nach-string-konvertieren)
 
-		[![JSON nach Objekt konvertieren](img/05konvertierung/0570.png)](#json-nach-objekt-konvertieren)
+		[![JSON nach Objekt konvertieren](img/05konvertierung/0570.PNG)](#json-nach-objekt-konvertieren)
 
-		[![Objekt nach JSON konvertieren](img/05konvertierung/0580.png)](#objekt-nach-json-konvertieren)
+		[![Objekt nach JSON konvertieren](img/05konvertierung/0580.PNG)](#objekt-nach-json-konvertieren)
 
 	* [Trigger](#trigger)
 
