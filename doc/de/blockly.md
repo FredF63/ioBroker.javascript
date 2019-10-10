@@ -386,16 +386,20 @@ Dieses Beispiel zum importieren: ![code](img/01system/111code.txt)
 Es können 4 verschiedene Level für die Nachrichten definiert werden:
 
 - _debug_
+
 dazu muss der debug-Level der JavaScript Instanz aktiviert sein.
 
 - _info_
+
 default, zumindest der info log level muss in der JavaScript Instanz aktiviert
 sein.
 
 - _warning_
+
 fehlt
 
 - _error_
+
 wird immer angezeigt. Die anderen Level können ignoriert werden, wenn
 es entsprechend in  der JavaScript Instanz eingestellt ist.
 
@@ -532,21 +536,27 @@ Dieser Block dient dazu den Inhalt eines Datenpunktes auszulesen. Folgende Attri
 des Datenpunktes können ausgelesen werden:
 
 - _Wert_
+
 true, false oder Wert des Datenpunktes
 
 - _Anerkannt_
+
 Befehl = falsch oder update = wahr
 
 - _Zeitstempel_
+
 in ms seit dem 01.01.1970 (Typ "Datumsobjekt")
 
 - _Letzte Änderung_
+
 des Wertes in ms seit dem 01.01.1970 (Typ "Datumsobjekt")
 
 - _Qualität_
+
 ???
 
 - _Quelle_
+
 Name der Instanz, die den letzten Wert geschrieben hat, wie z.B.
 "system.adapter.javascript.0"
 
@@ -625,13 +635,16 @@ Dieses Beispiel zum importieren: ![code](img/02aktionen/212code.txt)
 Zur Analyse der Ausgabe werden 3 besondere Variablen erzeugt:
 
 - _Ergebnis_
+
 enthält die reguläre Ausgabe auf die Konsole (z.B für den Befehl "ls /opt/"
 lautet die Ausgabe "iobroker nodejs")
 
 - _Fehlerobjekt_
+
 wenn der Befehl vom JavaScript Modul nicht ausgeführt werden konnte
 
- _stderr_
+- _stderr_
+
 die Fehlerausgabe des ausgeführten Programms
 
 
@@ -652,13 +665,16 @@ Beispiel:
 Zur Anlayse der Ausgabe werden 3 besondere Variable erzeugt:
 
 
-* _Ergebnis_
+- _Ergebnis_
+
 enthält den body der angeforderten Seite
 
-* _Fehler_
+- _Fehler_
+
 enthält eine Fehlerbeschreibung
 
-* _Antwort_
+- _Antwort_
+
 (nur für Fortgeschrittene), Spezialobjekt vom Typ [http.IncomingMessage](https://nodejs.org/api/http.html#http_class_http_incomingmessage)
 
 Wenn keine Ausgabe gewünscht ist, kann diese unterdrückt werden. Dazu die Option
@@ -729,21 +745,28 @@ Eigenschaft * Nachricht * ist obligatorisch und genau dieser Text wird an den Ku
 Alle anderen Eigenschaften sind optional und können [hier](https://pushover.net/api) nachgelesen werden.
 
 - *device ID*
+
 Gerätename an den eine Nachricht gesendet werden soll (mehrere Geräte können mit  Komma getrennt eingegeben werden).
 - *title*
+
 Titel der Nachricht, andernfalls wird der Name der App verwendet 
 - *URL*
+
 eine zusätzliche URL, die mit der Nachricht gesendet wird
 - *URL title*
+
 Titel für die zusätzliche URL, ansonsten wird nur die URL angezeigt 
 - *priority*  
+
 -2 für keine Benachrichtigung/Warnung zu generieren
 -1 um immer eine stille Benachrichtigung zu senden,
 1 um sie mit hoher Priorität anzuzeigen und die Ruhezeit des Benutzers zu umgehen,
 2 um eine Benutzerbestätigung anzufordern 
 - *time in ms*
+
 ein Unix-Zeitstempel von Datum und Uhrzeit, die dem Benutzer angezeigt werden soll, anstatt der Uhrzeit, zu der die Nachricht von der API empfangen wird 
 - *sound*
+
 Der Name eines der von Geräteclients unterstützten Sounds, um die Standard-Soundauswahl des Benutzers zu überschreiben 
 
 Bei Loglevel ungleich `keins` wird die gesendete Nachricht auch im Log Fenster
