@@ -1080,31 +1080,39 @@ werden:
 Es kann gewählt werden auf was der Trigger reagieren soll:
 
 - _wurde geändert_
+
 (ungleich) Der neue Wert darf nicht mit dem alten übereinstimmen (state.val! =
 oldState.val). Wenn das Muster eine ID-Zeichenfolge ist, wird dieser Wert 
 standardmäßig verwendet 
 
 - _wurde aktualisiert_
+
 Trigger wird ausgelöst, wenn ein neuer Wert kommt
 
 - _ist größer als letztes_
+
 (größer) Neuer Wert muss größer als alter Wert sein (state.val> oldState.val) 
 
 - _ist gleich oder größer als letztes_
+
 (größer oder gleich) Neuer Wert muss größer oder gleich dem alten Wert sein
 (state.val> = oldState.val) 
 
 - _ist kleiner als letztes_
+
 (kleiner) Neuer Wert muss kleiner als alter Wert sein (state.val <oldState.val) 
 
 - _ist gleich oder kleiner als letztes_
+
 (kleiner oder gleich) Neuer Wert muss kleiner oder gleich dem alten Wert sein
 (state.val <= oldState.val) 
 
 - _ist wahr_
+
 Wert muss wahr sein
 
 - _ist unwahr_
+
 Wert muss unwahr sein
 
 
