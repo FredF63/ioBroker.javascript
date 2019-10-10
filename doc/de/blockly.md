@@ -664,15 +664,12 @@ Beispiel:
 
 Zur Anlayse der Ausgabe werden 3 besondere Variable erzeugt:
 
-
 - _Ergebnis_
 
 enthält den body der angeforderten Seite
-
 - _Fehler_
 
 enthält eine Fehlerbeschreibung
-
 - _Antwort_
 
 (nur für Fortgeschrittene), Spezialobjekt vom Typ [http.IncomingMessage](https://nodejs.org/api/http.html#http_class_http_incomingmessage)
