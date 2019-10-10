@@ -1,6 +1,6 @@
----
+ ---
 title:       "ioBroker Blockly"
-lastChanged: "14.06.2019"
+lastChanged: "10.10.2019"
 ---
 
 
@@ -291,7 +291,7 @@ ort hat keine Auswirkungen auf die Funktionalität eines Skriptes.
 Ein Suchfeld erleichtert das Wiederfinden von Skripten.
 
 Damit ein Skript läuft, muss es links in der Ordnerstruktur durch klick auf den
-roten Play-Knopf aktiviert werden. Zum Stoppen auf den grünen Pause-Knopf
+roten Play Knopf aktiviert werden. Zum Stoppen auf den grünen Pause-Knopf
 drücken.
 Für jedes Skript wird ein neues Objekt angelegt. Es trägt den Skriptnamen mit
 dem Zusatz `_enabled` und liegt im Ordner `javascript.0.ScriptEnabled`.
@@ -315,7 +315,7 @@ Befehle verfügbar:
 
 
 - _Kopieren:_
-Kopiert einen Block und mit ihm verbundene Blöcke und fügt ihn direkt ein.
+Kopiert einen Block (und mit ihm verbundene Blöcke) und fügt ihn direkt ein.
 
 - _Kommentar hinzufügen:_
 Für jeden Block ist es möglich einen Kommentar zu hinterlegen um dessen Funktion
@@ -376,31 +376,31 @@ eines Scripts wie dies:
 
 Dieses Beispiel zum importieren: ![code](img/01system/111code.txt)
 
-Man kann 4 verschiedene Level für die Nachrichten definieren:
+Es können 4 verschiedene Level für die Nachrichten definiert werden:
 
-* debug
- 	*dazu muss der debug-Level der JavaScript Instanz aktiviert sein.*
+- _debug_
+dazu muss der debug-Level der JavaScript Instanz aktiviert sein.
 
-* info
-	*default, zumindest der info log level muss in der JavaScript Instanz aktiviert
-    sein.*
+- _info_
+default, zumindest der info log level muss in der JavaScript Instanz aktiviert
+sein.
 
-* warning
-	*fehlt*
+- _warning_
+fehlt
 
-* error
-	*wird immer angezeigt. Die anderen Level können ignoriert werden, wenn
-	es entsprechend in  der JavaScript Instanz eingestellt ist.*
+- _error_
+wird immer angezeigt. Die anderen Level können ignoriert werden, wenn
+es entsprechend in  der JavaScript Instanz eingestellt ist.
 
 
 ### Kommentar
 ![Comment](img/01system/120kommentar.PNG)
 
-Ohne weitere Funktion dient dieser Block ausschließlich dazu einen Kommentar für
-Erklärungen einzelner Funktionen o.ä. zum Skript hinzuzufügen.
+Dieser Block dient ausschließlich dazu einen Kommentar für z.B.
+Erklärungen einzelner Funktionen zum Skript hinzuzufügen.
 
-> Pro Kommentar sind max. 48 Zeichen einzeilig sichtbar. Für längere Texte mehrere
-> Kommentar Blöcke verwenden und Text aufteilen
+> Tipp: Pro Kommentar Block sind max. 48 Zeichen zulässig. Für längere Texte
+> deswegen mehrere Kommentar Blöcke verwenden 
 
 
 
@@ -409,24 +409,24 @@ Erklärungen einzelner Funktionen o.ä. zum Skript hinzuzufügen.
 
 Steuert den Zustand eines Objektes mit dem gewünschten Status
 
-Typische Anwendung dieses Blocks:
+Typische Anwendung:
 
 ![Steuere Zustand](img/01system/131steuern.PNG)
 
-Die Object ID wird durch Klick ausgewählt. Abhängig vom Typ des Datenpunkts kann
-der Wert vom Typ [string](#string-value), [number](#number-value) oder [boolean](#ogical-value-trueflase) sein.
+Die Object ID wird durch Klick ausgewählt. Abhängig vom Datenpunkt kann der Wert
+vom Typ [string](#string-value), [number](#number-value) oder [boolean](#ogical-value-trueflase) sein.
 
 Weitere Erklärungen sind [hier](https://github.com/ioBroker/ioBroker/wiki/Adapter-Development-Documentation#commands-and-statuses) in Englisch zu finden.
 
 Dieser Block schreibt den Befehl in den Datenpunkt mit (ack=false). Zusätzlich
-kann eine Verzögerung angegeben werden. Wenn die Verzögerung ungleich 0
-ist, wird der Zustand nicht sofort, sondern erst nach dem angegebenen Wert in
-Millisekunden, Sekunden oder Minuten gesetzt.
+kann eine Verzögerung mit klicken auf die Checkbox eingeschaltet werden. Bei
+einer Verzögerung ungleich 0, wird der Zustand nicht sofort, sondern erst nach
+dem angegebenen Wert in Millisekunden, Sekunden oder Minuten gesetzt.
 
-Man kann weitere eventuell vorhandene Verzögerungen für diesen Datenpunkt
-löschen, indem man die Checkbox `löschen falls läuft` anklickt.
+Es können weitere eventuell vorhandene Verzögerungen für diesen Datenpunkt
+gelöscht werden, indem die Checkbox `löschen falls läuft` angeklickt wird.
 
-Im folgenden Beispiel wird der Datenpunkt `Licht` nur einmal nach 2 Sekunden
+Im folgenden Beispiel wird der Datenpunkt `Licht` nur __einmal__ nach 2 Sekunden
 geschaltet:
 
 ![Steuere Zustand](img/01system/132steuern.PNG)
@@ -455,26 +455,26 @@ Dieser Block schaltet zwischen den Werten um, von true nach false und umgekehrt.
 Dieser Block aktualisiert einen Wert. Es wird kein Befehl zum steuern von Hardware
 gesendet.
 
-Typische Anwendung dieses Blocks:
+Typische Anwendung:
 ![Zustand aktualisieren](img/01system/151aktualisieren.PNG)
 
 
 
 ### Binde zwei Zustände
 ![Binde zwei Zustände](img/01system/160binden.PNG)
-Dieser Block bindet zwei Zustände miteinander. Über `nur Änderungen` kann ausgewählt
-werden, ob der Wert nur weitergeleitet wird, wenn sich die Quelle ändert, oder
-mit jeder Aktualisierung.
+
+Dieser Block bindet zwei Zustände miteinander. 
+Über `nur Änderungen` kann ausgewählt werden, ob der Wert nur weitergeleitet
+wird, wenn sich die Quelle ändert, oder mit jeder Aktualisierung.
 
 Diese Blöcke:
 
 ![Binde zwei Zustände](img/01system/161binden.PNG)
 
-Dieses Beispiel zum importieren: ![code](img/01system/161code.txt)
-
 entsprechend mit dem Binde Block:
 ![Binde zwei Zustände](img/01system/162binden.PNG)
 
+Dieses Beispiel zum importieren: ![code](img/01system/161code.txt)
 
 
 ### Schreibe Zustand
@@ -488,33 +488,32 @@ Object ID und Verzögerung mit anderen Bausteinen kann aber definiert werden.
 ### Datenpunkt erzeugen
 ![Datenpunkt erzeugen](img/01system/180datenpunkterzeugen.PNG)
 
-Zwei Arten von Variablen können in Skripten erzeugt werden:
+Dieser Block erzeugt globale Datenpunkte. Wenn dieser bereits existiert wird der
+Befehl ignoriert, somit kann dieser Block ohne Gefahr immer im Skript bleiben.
 
-- locale [variablen](#set-variables-value)
-- globale variablen oder Zustände (states).
+In javascript können Variablen/Datenpunkte in Skripten auf zwei Arten genutzt
+werden:
 
-Global Zustände sind in allen Skripten sichtbar, Lokale hingegen nur im
-aktuellen Skript.
+- lokal [variablen](#set-variables-value)
+- global
 
-Global Zustände können in vis und allen anderen Visualisierungsmodulen
-genutzt werden und können in eine DB geloggt werden.
+Globale Datenpunkte sind in allen Skripten nutzbar, Lokale hingegen nur im
+Skript in denen sie angelegt wurden.
 
-Dieser Block erzeugt globale Zustände und wenn dieser bereits existiert wird der
-Befehl ignoriert. Daher kann dieser Block ohne Risiko zu jedem Skriptstart
-verwendet werden.
+Globale Datenpunkte können in vis und allen anderen Visualisierungsmodulen
+genutzt werden und können in Datenbanken geloggt werden.
 
-
-Typische Anwendung dieses Blocks:
+Typische Anwendung:
 
 ![Datenpunkt erzeugen](img/01system/181.PNG)
 
 Dieses Beispiel zum importieren: ![code](img/01system/181code.txt)
 
-Man kann den neu erzeugten State bereits in dem Block selber nutzen.
+Man kann den neu erzeugten Datenpunkt direkt in dem Blockly selber nutzen.
 
-> Bei der ersten Ausführung dieses Blocklys wird ein Fehler ausgegeben, da der
-> Datenpunkt erst nach der Ausführung des Skripts erzeugt wurd.
-> Bei der zweiten Ausführung wird kein Fehler mehr ausgegeben, weil der Datenpunkt
+> Bei der ersten Ausführung des Skripts mit einem solchen Blocklys wird ein Fehler
+> ausgegeben, da der Datenpunkt erst nach der Ausführung des Skripts erzeugt wird.
+> Bei der zweiten Ausführung wird kein Fehler mehr ausgegeben, da der Datenpunkt
 > jetzt existiert.
 
 
@@ -522,27 +521,27 @@ Man kann den neu erzeugten State bereits in dem Block selber nutzen.
 ### Wert eines Datenpunktes nach ID
 ![Wert eines Datenpunktes nach ID](img/01system/190werterzeugen.PNG)
 
-Dieser Block dient dazu den Wert eines Datenpunktes auszulesen. Folgende Attribute
+Dieser Block dient dazu den Inhalt eines Datenpunktes auszulesen. Folgende Attribute
 des Datenpunktes können ausgelesen werden:
 
-- Wert
-	true, false oder Wert des Datenpunktes
+- _Wert_
+true, false oder Wert des Datenpunktes
 
-- Anerkannt
-    Befehl = falsch oder update = wahr
+- _Anerkannt_
+Befehl = falsch oder update = wahr
 
-- Zeitstempel
-	in ms seit dem 01.01.1970 (Typ "Datumsobjekt")
+- _Zeitstempel_
+in ms seit dem 01.01.1970 (Typ "Datumsobjekt")
 
-- Letzte Änderung
-	des Wertes in ms seit dem 01.01.1970 (Typ "Datumsobjekt")
+- _Letzte Änderung_
+des Wertes in ms seit dem 01.01.1970 (Typ "Datumsobjekt")
 
-- Qualität
-	???
+- _Qualität_
+???
 
-- Quelle
-	Name der Instanz, die den letzten Wert geschrieben hat, wie z.B.
-    "system.adapter.javascript.0"
+- _Quelle_
+Name der Instanz, die den letzten Wert geschrieben hat, wie z.B.
+"system.adapter.javascript.0"
 
 Beispiel um die Zeit der letzten Änderung des Wertes auszugeben:
 
@@ -572,10 +571,10 @@ Beschreibung fehlt noch!
 
 ![Objekt ID](img/01system/220objekt.PNG)
 
-Dieses ist ein einfacher Hilfsblock um komfortabel die Objekt ID zum triggern des Blocks auszuwählen.
+Hilfsblock um komfortabel die Objekt ID zum triggern eines Blocklys zu wählen.
 Der ID Auswahldialog wird durch Anklicken von "Objekt ID" geöffnet.
 
-Typische Anwendung dieses Blocks:
+Typische Anwendung:
 
 ![Objekt ID](img/01system/221.PNG)
 
@@ -600,12 +599,12 @@ String zu analysieren.
 ### Systembefehl ausführen
 ![Systembefehl ausführene](img/02aktionen/210.PNG)
 
-Dieser Block führt das eingegebene Kommando im System aus, so als ob man es in
-der SSH Konsole eingegeben hätte.
-Der Befehl wird mit den rechten des Users ausgeführt unter dem ioBroker gestartet
-wurde.
+Dieser Block führt das eingegebene Kommando im System so aus, als ob es in
+der SSH Konsole eingegeben wurde.
 
-Ohne Ausgabe eines Ergebnisses:
+> Der Befehl wird mit den Userrechten ausgeführt mit dem ioBroker gestartet wurde.
+
+Ohne Ergebnissausgabe:
 
 ![Exec - execute](img/02aktionen/211.PNG)
 
@@ -616,16 +615,16 @@ Wenn eine Ausgabe erfolgen soll, den Haken bei `mit Ergebnissen` setzen:
 Dieses Beispiel zum importieren: ![code](img/02aktionen/212code.txt)
 
 
-Zur Anlayse der Ausgabe werden 3 besondere Variablen erzeugt:
+Zur Analyse der Ausgabe werden 3 besondere Variablen erzeugt:
 
-* _Ergebnis_
+- _Ergebnis_
 enthält die reguläre Ausgabe auf die Konsole (z.B für den Befehl "ls /opt/"
 lautet die Ausgabe "iobroker nodejs")
 
-* _Fehlerobjekt_
+- _Fehlerobjekt_
 wenn der Befehl vom JavaScript Modul nicht ausgeführt werden konnte
 
-* _stderr_
+ _stderr_
 die Fehlerausgabe des ausgeführten Programms
 
 
@@ -672,17 +671,17 @@ Dieser Block dient dazu eine Nachricht über telegram mit Hilfe des telegram-
 Adapters zu senden.
 
 Über Dropdown kann ausgewählt werden ob die Nachricht entweder über alle
-verfügbargen Instanzen oder über eine Instanz (üblicherweise telegram.0) gesendet
-werden soll.
+verfügbaren Instanzen oder nur über eine Instanz (üblicherweise telegram.0)
+gesendet werden soll.
 
-Das Feld `Meldung`beinhaltet den zu sendenen Text und ist zwingen Notwendig.
+Das Feld `Meldung` beinhaltet den zu sendenden Text und ist zwingend Notwendig.
 
 > Texte können auch aus Textblöcken erstellt werden
 
 Empfänger Angabe  ist optional. Dies ist die ID von [telegram](https://core.telegram.org/bots/api#user) (Eindeutige Kennung für
 user oder bot).
 
-Wenn der Loglevel ungleich `keins` ist, wird dieselbe Nachricht auch im Log Fenster
+Bei Loglevel ungleich `keins` wird die gesendete Nachricht auch im Log Fenster
 ausgegeben.
 
 
@@ -690,20 +689,20 @@ ausgegeben.
 ### Über SayIt Text aussprechen
 ![Send to SayIt](img/03sendto/0340.PNG)
 
-Dieser Block wird verwendet, um Text an eine SayIt-Instanz zu senden, um diesen
+Dieser Block wird verwendet, um Text an eine SayIt-Instanz zu senden und diesen
 Text auszusprechen.
 
 Über Dropdown kann ausgewählt werden ob die Nachricht entweder über alle
-verfügbargen Instanzen oder über eine Instanz (üblicherweise sayit.0) gesendet
+verfügbaren Instanzen oder nur über eine Instanz (üblicherweise sayit.0) gesendet
 werden soll.
 
-Das Feld `Meldung`beinhaltet den zu sendenen Text und ist zwingen Notwendig.
+Das Feld `Meldung` beinhaltet den zu sendenden Text und ist zwingend Notwendig.
 
-Die Spracheinstellungen der text2speech egine müssen geprüft werden.
+Die Spracheinstellungen der text2speech engine müssen geprüft werden.
 
 Die Angabe der Lautstärke in Werten von 0 bis 100 ist optional.
 
-Wenn der Loglevel ungleich `keins` ist, wird dieselbe Nachricht auch im Log Fenster
+Bei Loglevel ungleich `keins` wird die gesendete Nachricht auch im Log Fenster
 ausgegeben.
 
 
@@ -712,25 +711,35 @@ ausgegeben.
 
 ![Send to pushover](img/03sendto/0330.PNG)
 
-This block is used to send text to pushover client. You can read about pushover driver [here](https://github.com/ioBroker/ioBroker.pushover).
+Dieser Block sendet Text an einen pushover-Client. [Infos](https://github.com/ioBroker/ioBroker.pushover) zum pushover Adapter.
 
+Um eine Nachricht an eine bestimmte Instanz zu senden, muss die installierte
+Adapterinstanz (normalerweise pushover.0) ausgewählt werden. Andernfalls 
+wird eine Nachricht an alle vorhandenen Instanzen gesendet.
 
+Eigenschaft * Nachricht * ist obligatorisch und genau dieser Text wird an den Kunden gesendet.
 
-To send message to some specific instance, you should select the installed adapter instance (Normally pushover.0), elsewise message will be sent to all existing instances.
+Alle anderen Eigenschaften sind optional und können [hier](https://pushover.net/api) nachgelesen werden.
 
-Property *message* is mandatory and exactly this text will be sent to client.
+- *device ID*
+Gerätename an den eine Nachricht gesendet werden soll (mehrere Geräte können mit  Komma getrennt eingegeben werden).
+- *title*
+Titel der Nachricht, andernfalls wird der Name der App verwendet 
+- *URL*
+eine zusätzliche URL, die mit der Nachricht gesendet wird
+- *URL title*
+Titel für die zusätzliche URL, ansonsten wird nur die URL angezeigt 
+- *priority*  
+-2 für keine Benachrichtigung/Warnung zu generieren
+-1 um immer eine stille Benachrichtigung zu senden,
+1 um sie mit hoher Priorität anzuzeigen und die Ruhezeit des Benutzers zu umgehen,
+2 um eine Benutzerbestätigung anzufordern 
+- *time in ms*
+ein Unix-Zeitstempel von Datum und Uhrzeit, die dem Benutzer angezeigt werden soll, anstatt der Uhrzeit, zu der die Nachricht von der API empfangen wird 
+- *sound*
+Der Name eines der von Geräteclients unterstützten Sounds, um die Standard-Soundauswahl des Benutzers zu überschreiben 
 
-All other properties are optional and you can read bout them [here](https://pushover.net/api):
-
-- *device ID* - your user's device name to send the message directly to that device, rather than all of the user's devices (multiple devices may be separated by a comma)
-- *title* - your message's title, otherwise your app's name is used
-- *URL* - a supplementary URL to show with your message
-- *URL title* - a title for your supplementary URL, otherwise just the URL is shown
-- *priority* - send as -2 to generate no notification/alert, -1 to always send as a quiet notification, 1 to display as high-priority and bypass the user's quiet hours, or 2 to also require confirmation from the user
-- *time in ms* - a Unix timestamp of your message's date and time to display to the user, rather than the time your message is received by our API
-- *sound* - the name of one of the sounds supported by device clients to override the user's default sound choice
-
-Wenn der Loglevel ungleich `keins` ist, wird dieselbe Nachricht auch im Log Fenster
+Bei Loglevel ungleich `keins` wird die gesendete Nachricht auch im Log Fenster
 ausgegeben.
 
 
@@ -761,7 +770,8 @@ You can refer to files as ```<img src='cid:file1'/>```. "file1" and "file2" are 
 
 [Send to email](img/03sendto/_email_1_en.PNG)
 
-Additionally if the log level is not "none", the same message will be sent to log.
+Bei Loglevel ungleich `keins` wird die gesendete Nachricht auch im Log Fenster
+ausgegeben.
 
 
 
@@ -1021,10 +1031,10 @@ Bei nicht aktivierter Option formatieren so:
 
 ## Trigger
 
-Trigger (Auslöser) werden prinzipiell benötigt um Aufgaben wiederholt durchzuführen.
-Gewünschte Aufgaben müssen innerhalb der offenen Klammer platziert werden.
+Trigger (Auslöser) reagiert auf Änderungen o.ä. von Objekten und führt Aufgaben,
+die innerhalb der offenen Klammer platziert werden, aus.
 
-> Trigger in Trigger funktionieren nicht!
+> Trigger in Trigger funktionieren nicht und sind zu vermeiden!
 >
 > ![Trigger in Trigger](img/06trigger/0611.PNG)
 
@@ -1032,23 +1042,43 @@ Gewünschte Aufgaben müssen innerhalb der offenen Klammer platziert werden.
 ### Trigger bei mehreren Zustandswechseln
 ![Trigger bei mehreren Zustandswechseln](img/06trigger/0610.PNG)
 
-Wenn sich der Status eins oder mehrerer Objekte ändert oder aktualisiert wird Dieser Block führt eine Aktion aus, hat. Dies ist der Hauptblock zum Aufbau von Interaktionen zwischen
-verschiedenen Zuständen und entsprechenden Systemen.
+Wenn sich der Status eines oder mehrerer Objekte ändert oder aktualisiert wird
+eine Aktion ausgeführt.
 
-Über das Zahnrad können beliebig viele Objekt ID's per Drag and Drop
-hinzugefügt werden:
+Über das Zahnrad können beliebig viele Objekt ID's per Drag and Drop hinzugefügt
+werden:
 
 ![Trigger bei mehreren Zustandswechseln](img/06trigger/0613.PNG)
 
-Es kann gewählt werden ob das abgefragte Objekt
-wurde geändert
-wurde aktualisiert
-ist größer als letztes
-ist gleich dier größer als letztes
-ist kleiner als letztes
-ist gleich ider kleiner als letztes
-ist wahr
-ist unwahr
+Es kann gewählt werden auf was der Trigger reagieren soll:
+
+- _wurde geändert_
+(ungleich) Der neue Wert darf nicht mit dem alten übereinstimmen (state.val! =
+oldState.val). Wenn das Muster eine ID-Zeichenfolge ist, wird dieser Wert 
+standardmäßig verwendet 
+
+- _wurde aktualisiert_
+Trigger wird ausgelöst, wenn ein neuer Wert kommt
+
+- _ist größer als letztes_
+(größer) Neuer Wert muss größer als alter Wert sein (state.val> oldState.val) 
+
+- _ist gleich oder größer als letztes_
+(größer oder gleich) Neuer Wert muss größer oder gleich dem alten Wert sein
+(state.val> = oldState.val) 
+
+- _ist kleiner als letztes_
+(kleiner) Neuer Wert muss kleiner als alter Wert sein (state.val <oldState.val) 
+
+- _ist gleich oder kleiner als letztes_
+(kleiner oder gleich) Neuer Wert muss kleiner oder gleich dem alten Wert sein
+(state.val <= oldState.val) 
+
+- _ist wahr_
+Wert muss wahr sein
+
+- _ist unwahr_
+Wert muss unwahr sein
 
 
 Das ist das Ack-Flag (bestätigt) des Zustandes (state) eines Datenpunktes, welches anzeigt, ob ein Befehl (ack == false) an den Adapter (z.B. von Vis) durch die Gegenseite bestätigt wurde (Update: ack == true). Bei "egal" wird Ack nicht ausgewertet.
@@ -1969,7 +1999,6 @@ Funktion in der Block-Sidebar unter Funktionen und kann so einfach wieder
 verwendet werden.
 Auch in Funktionen erstellte Variablen erscheinen in der Block-Sidebar, aber
 unter Variablen.
-
 
 
 
