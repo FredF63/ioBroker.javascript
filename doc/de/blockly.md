@@ -315,25 +315,32 @@ Befehle verfügbar:
 
 
 - _Kopieren:_
+
 Kopiert einen Block (und mit ihm verbundene Blöcke) und fügt ihn direkt ein.
 
 - _Kommentar hinzufügen:_
+
 Für jeden Block ist es möglich einen Kommentar zu hinterlegen um dessen Funktion
 zu beschreiben.
 
 - _interne Eingänge:_
+
 Ändert Ansicht eines Blocks für eine bessere Übersicht.
 
 - _Baustein zusammenfalten:_
+
 um eine bessere Übersicht zu erhalten können Bausteine,zusammengefaltet werden.
 
 - _Baustein deaktivieren:_
+
 Deaktiviert einzelne Blöcke.
 
 - _x Bausteine löschen:_
+
 Löscht einen Block bzw. alle verbundenen Blöcke.
 
 - _Hilfe:_
+
 Ruft die dem Block zugeordnete ioBroker Dokumentation auf. (in Arbeit)
 
 
