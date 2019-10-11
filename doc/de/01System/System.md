@@ -1,3 +1,5 @@
+# System
+
 [![Debug output](img/110debug.PNG)](#debug)
 
 [![Comment](img/120kommentar.PNG)](#kommentar)
@@ -24,12 +26,9 @@
 
 [![Attribut](img/230attribut.PNG)](#attribut)
 
-## System
 
 
-
-### Debug
-
+## Debug
 
 ![Debug output](img/110debug.PNG)
 
@@ -61,18 +60,18 @@ wird immer angezeigt. Die anderen Level können ignoriert werden, wenn
 es entsprechend in  der JavaScript Instanz eingestellt ist.
 
 
-### Kommentar
+## Kommentar
 ![Comment](img/120kommentar.PNG)
 
 Dieser Block dient ausschließlich dazu einen Kommentar für z.B.
 Erklärungen einzelner Funktionen zum Skript hinzuzufügen.
 
 > Tipp: Pro Kommentar Block sind max. 48 Zeichen zulässig. Für längere Texte
-> deswegen mehrere Kommentar Blöcke verwenden 
+> deswegen mehrere Kommentar Blöcke verwenden
 
 
 
-### Steuere Zustand
+## Steuere Zustand
 ![Steuere Zustand](img/130steuern.PNG)
 
 Steuert den Zustand eines Objektes mit dem gewünschten Status
@@ -110,14 +109,14 @@ Dieses Beispiel zum importieren: ![code](img/133code.txt)
 
 
 
-### Zustand umschalten
+## Zustand umschalten
 ![Zustand umschalten](img/140umschalten.PNG)
 
 Dieser Block schaltet zwischen den Werten um, von true nach false und umgekehrt.
 
 
 
-### Aktualisiere Zustand
+## Aktualisiere Zustand
 ![Zustand aktualisieren](img/150aktualisieren.PNG)
 
 Dieser Block aktualisiert einen Wert. Es wird kein Befehl zum steuern von Hardware
@@ -128,7 +127,7 @@ Typische Anwendung:
 
 
 
-### Binde zwei Zustände
+## Binde zwei Zustände
 ![Binde zwei Zustände](img/160binden.PNG)
 
 Dieser Block bindet zwei Zustände miteinander. 
@@ -145,7 +144,7 @@ entsprechend mit dem Binde Block:
 Dieses Beispiel zum importieren: ![code](img/161code.txt)
 
 
-### Schreibe Zustand
+## Schreibe Zustand
 ![Schreibe Zustand](img/170schreiben.PNG)
 
 Block, der [Aktualisiere Zustand](#aktualisiere-zustand) und [Steuere Zustand](#steuere-zustand) zusammen ausführt.
@@ -153,7 +152,7 @@ Object ID und Verzögerung mit anderen Bausteinen kann aber definiert werden.
 
 
 
-### Datenpunkt erzeugen
+## Datenpunkt erzeugen
 ![Datenpunkt erzeugen](img/180datenpunkterzeugen.PNG)
 
 Dieser Block erzeugt globale Datenpunkte. Wenn dieser bereits existiert wird der
@@ -177,16 +176,16 @@ Typische Anwendung:
 
 Dieses Beispiel zum importieren: ![code](img/181code.txt)
 
-Man kann den neu erzeugten Datenpunkt direkt in dem Blockly selber nutzen.
+Der neu erzeugte Datenpunkt kann direkt in dem Blockly selbst genutzt werden.
 
-> Bei der ersten Ausführung des Skripts mit einem solchen Blocklys wird ein Fehler
+> Bei der ersten Ausführung des Skripts mit einem solchen Blockly wird ein Fehler
 > ausgegeben, da der Datenpunkt erst nach der Ausführung des Skripts erzeugt wird.
 > Bei der zweiten Ausführung wird kein Fehler mehr ausgegeben, da der Datenpunkt
 > jetzt existiert.
 
 
 
-### Wert eines Datenpunktes nach ID
+## Wert eines Datenpunktes nach ID
 ![Wert eines Datenpunktes nach ID](img/190werterzeugen.PNG)
 
 Dieser Block dient dazu den Inhalt eines Datenpunktes auszulesen. Folgende Attribute
@@ -225,7 +224,7 @@ Dieses Beispiel zum importieren: ![code](img/191code.txt)
 
 
 
-### Wert eines Datenpunktes nach Namen
+## Wert eines Datenpunktes nach Namen
 
 ![Wert](img/200werterzeugen.PNG)
 
@@ -233,7 +232,7 @@ Beschreibung fehlt noch!
 
 
 
-### Wert eines Datenpunktes nach ID und Funktion
+## Wert eines Datenpunktes nach ID und Funktion
 
 ![Wert](img/210wert.PNG)
 
@@ -241,7 +240,7 @@ Beschreibung fehlt noch!
 
 
 
-### Objekt ID
+## Objekt ID
 
 ![Objekt ID](img/220objekt.PNG)
 
@@ -256,7 +255,7 @@ Dieses Beispiel zum importieren: ![code](img/221code.txt)
 
 
 
-### Attribut
+## Attribut
 
 ![Attribut](img/230attribut.PNG)
 
