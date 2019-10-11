@@ -1,4 +1,4 @@
-[![Debug output](img/01system/110debug.PNG)](#debug)
+[![Debug output](01system/img/110debug.PNG)](#debug)
 
 [![Comment](img/01system/120kommentar.PNG)](#kommentar)
 
