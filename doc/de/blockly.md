@@ -4,7 +4,7 @@ lastChanged: "10.10.2019"
 ---
 
 
-!> Achtung, Seite befindet sich noch im Aufbau
+!> Bitte beachten, die Seite befindet sich noch in Bearbeitung
 
 # Inhaltsverzeichnis
 
@@ -13,247 +13,31 @@ lastChanged: "10.10.2019"
 * [Blöcke im einzelnen](#blöcke-im-einzelnen)
 	* [System](#system)
 
-        [![Debug output](img/01system/110debug.PNG)](#debug)
-
-		[![Comment](img/01system/120kommentar.PNG)](#kommentar)
-
-		[![Steuere Zustand](img/01system/130steuern.PNG)](#steuere-zustand)
-
-		[![Zustand umschalten](img/01system/140umschalten.PNG)](#zustand-umschalten)
-
-		[![Zustand aktualisieren](img/01system/150aktualisieren.PNG)](#aktualisiere-zustand)
-
-		[![Binde zwei Zustände](img/01system/160binden.PNG)](#binde-zwei-zustände)
-
-		[![Schreibe Zustand](img/01system/170schreiben.PNG)](#schreibe-zustand)
-
-		[![Datenpunkt erzeugen](img/01system/180datenpunkterzeugen.PNG)](#datenpunkt-erzeugen)
-
-		[![Wert eines Datenpunktes nach ID](img/01system/190werterzeugen.PNG)](#wert-eines-datenpunktes-nach-id)
-
-		[![Wert eines Datenpunktes nach Namen](img/01system/200werterzeugen.PNG)](#wert-eines-datenpunktes-nach-namen)
-
-		[![Wert eines Datenpunktes nach ID und Funktion](img/01system/210wert.PNG)](#wert-eines-datenpunktes-nach-id-und-funktion)
-
-		[![Objekt ID](img/01system/220objekt.PNG)](#objekt-id)
-
-		[![Attribut](img/01system/230attribut.PNG)](#attribut)
-
 	* [Aktionen](#aktionen)
-
-		[![Systembefehl ausführen](img/02aktionen/210.PNG)](#systembefehl-ausführen)
-
-		[![URL abfragen](img/02aktionen/220.PNG)](#url-abfragen)
-
-	* [SendTo](#sendto)
-
-		[![An telegram etwas senden](img/03sendto/0350.PNG)](#an-telegram-etwas-senden)
-
-		[![Über SayIt Text aussprechen](img/03sendto/0340.PNG)](#über-sayit-text-aussprechen)
-
-		[![An pushover etwas senden](img/03sendto/0330.PNG)](#an-pushover-etwas-senden)
-
-		[![email versenden](img/03sendto/0360.PNG)](#email-versenden)
-
-		[![Einem Adapter etwas senden](img/03sendto/0310.PNG)](#einem-adapter-etwas-senden)
-
-        [![Etwas an IFTTT senden](img/03sendto/0320.PNG)](#etwas-an-ifttt-senden)
 
 	* [Datum und Zeit](#datum-und-zeit)
 
-		[![Zeit vergleichen](img/04datumundzeit/0410.PNG)](#zeit-vergleichen)
-
-		[![Vergleich mit aktueller Uhrzeit](img/04datumundzeit/420.PNG)](#vergleich-mit-aktueller-uhrzeit)
-
-		[![Aktuelle Zeit in einem bestimmten Format abrufen](img/04datumundzeit/0430.PNG)](#aktuelle-zeit-in-einem-bestimmten-format-abrufen)
-
-		[![Zeit für aktuelle Astro-Events abrufen](img/04datumundzeit/0440.PNG)](#zeit-für-aktuelle-astro-events-abrufen)
-
 	* [Konvertierung](#konvertierung)
-
-		[![Nach Zahl konvertieren](img/05konvertierung/0510.PNG)](#[nach-Zahl-konvertieren)
-
-		[![Nach Logikwert konvertieren](img/05konvertierung/0520.PNG)](#nach-logikwert-konvertieren)
-
-		[![Nach String konvertieren](img/05konvertierung/0530.PNG)](#nach-string-konvertieren)
-
-		[![Variablentyp abrufen](img/05konvertierung/0540.PNG)](#variablentyp-abrufen)
-
-		[![Nach Datum-Zeit konvertieren](img/05konvertierung/0550.PNG)](#nachdatum-zeit-konvertieren)
-
-		[![Datum-Zeit Objekt nach String konvertieren](img/05konvertierung/0560.PNG)](#datum-zeit-objekt-nach-string-konvertieren)
-
-		[![JSON nach Objekt konvertieren](img/05konvertierung/0570.PNG)](#json-nach-objekt-konvertieren)
-
-		[![Objekt nach JSON konvertieren](img/05konvertierung/0580.PNG)](#objekt-nach-json-konvertieren)
 
 	* [Trigger](#trigger)
 
-		[![Trigger bei mehreren Zustandswechseln](img/06trigger/0610.PNG)](#trigger-bei-mehreren-zustandswechseln)
-
-		[![Trigger bei einem Zustandswechsel](img/06trigger/0620.PNG)](#trigger-bei-einem-zustandswechsel)
-
-		[![Trigger info](img/06trigger/0630.PNG)](#trigger-info)
-
-		[![Zeitplan](img/06trigger/0640.PNG)](#zeitplan)
-
-		[![Trigger auf Astro-Ereignis](img/06trigger/0650.PNG)](#trigger-auf-astro-ereignis)
-
-		[![Benannter Zeitplan](img/06trigger/0660.PNG)](#benannter-zeitplan)
-
-		[![Lösche benannten Zeitplan](img/06trigger/0670.PNG)](#lösche-benannten-zeitplan)
-
-		[![CRON mit Dialog](img/06trigger/0680.PNG)](#cron-mit-dialog)
-
-		[![CRON Regel mit Dialog](img/06trigger/0690.PNG)](#cron-regel-mit-dialog)
-
 	* [Timeouts](#timeouts)
-
-		[![Ausführung Verzögern](img/07timeouts/0710.PNG)](#ausführung-verzögern)
-
-		[![Verzögerte Ausführung beenden](img/07timeouts/0720.PNG)](#verzögerte-ausführung-beenden)
-
-		[![Interval ausführen](img/07timeouts/0730.PNG)](#interval-ausführen)
-
-		[![Ausgeführtes Interval beenden](img/07timeouts/0740.PNG)](#ausgeführtes-interval-beenden)
 
 	* [Logik](#logik)
 
-		[![Falls mache](img/.PNG)](#if-else-block)
-
-		[![Vergleichen](img/.PNG)](#comparision-block)
-
-		[![Und/Oder](img/.PNG)](#logical-and-or-block)
-
-		[![Negieren](img/.PNG)](#negation-block)
-
-		[![Wahr/Falsch](img/.PNG)](#logical-value-true-false)
-
-		[![Null](img/.PNG)](#null-block)
-
-		[![Logik prüfen](img/.PNG)](#test-block)
-
 	* [Schleifen](#schleifen)
-
-		[![Wiederhole n-mal](img/.PNG)](#repeat-n-times)
-
-		[![Wiederhole solange/bis](img/.PNG)](#repeat-while)
-
-		[![Zähle](img/.PNG)](#count)
-
-		[![For each]
-
-		[![Schleife abbrechen](img/.PNG)](#break-out-of-loop)
 
 	* [Mathematik](#mathematik)
 
-		[![Zahlenwert](img/.PNG)](#number-value)
-
-		[![Rechnen mit zwei Zahlen](img/.PNG)](#arithmetical-operations)
-
-		[![Wurzel, Betrag](img/.PNG)](#square-root-abs---ln-log10-e-10)
-
-		[![Trigonometrie](img/.PNG)](#sin-cos-tan-asin-acos-atan)
-
-		[![Konstanten: pi, e, phi, sqrt(2), sqrt(1/2), infinity](img/.PNG)](#math)
-
-		[![Zahl prüfen](img/.PNG)](#is-even-odd-)
-
-		[![Variable Wert verändern](img/.PNG)](#modify-variably-by-value-plus-or-minus)
-
-		[![Runden](img/.PNG)](#round-floor-ceil-value)
-
-		[![Runden mit angabe der Nachkommastelle]
-
-		[![Wert aus Liste berechnen]
-
-		[![Rest nach Division (Modulus)]
-
-		[![Zahl mit min und max begrenzen](img/.PNG)](#limit-some-value-by-min-and-max)
-
-		[![ganzzahlige Zufallszahl](img/.PNG)](#random-value-between-min-and-max)
-
-		[![Zufallszahl zwischen 0 und 1](img/.PNG)](#random-value-from-0-to-1)
-
 	* [Text](#text)
-
-		[![Zeichenfolge](img/.PNG)](#string-value)
-
-		[![Zeilenumbruch](img/.PNG)](#zeilenumbruch)
-
-		[![Zeichenfolgen verketten](img/.PNG)](#concatenate-strings)
-
-		[![Zeichenfolge an Variable anhängen](img/.PNG)](#append-string-to-variable)
-
-		[![Länge einer Zeichenfolge](img/.PNG)](#length-of-string)
-
-		[![Ist Zeichenfolge leer](img/.PNG)](#is-string-empty)
-
-		[![Suche Position einer Zeichenfolge](img/.PNG)](#find-position-in-string)
-
-		[![Erhalte das Symbol in einer Zeichenfolge an bestimmter Position](img/.PNG)](#get-symbol-string-specific-position)
-
-		[![Erhalte Abschnitt einer Zeichenfolge](img/.PNG)](#get-substring)
-
-		[![In Groß- oder Kleinbuchstabe konvertieren](img/.PNG)](#Convert-to-upper-case-or-to-lower-case)
-
-		[![Leerzeichen entfernen](img/.PNG)](#trim-string)
 
 	*  [Listen](#listen)
 
-		[![Erzeuge leere Liste](img/.PNG)](#create-empty-list)
-
-		[![Erzeuge Liste mit Werten](img/.PNG)](#create-list-with-values)
-
-		[![Erzeuge Liste mit gleichem Wert n-mal](img/.PNG)](#create-list-with-same-value-n-times)
-
-		[![Elementanzahl einer Liste ausgeben](img/.PNG)](#get-length-of-list)
-
-		[![Ist Liste Leer](img/.PNG)](#is-list-empty)
-
-		[![Suche Position eines Elements in Liste](img/.PNG)](#Find-position-of-item-in-list)
-
-		[![Erhalte Element einer Position](img/.PNG)](#get-item-in-list)
-
-        [![Setze Element einer Position](img/.PNG)](#set-item-in-list)
-
-		[![Erhalte Teilliste einer Liste](img/.PNG)](#get-sublist-of-list)
-
-		[![Text in Liste und umgekehrt konvertieren](img/.PNG)](#convert-text-to-list-and-vice-versa)
-
-		[![Liste sortieren]
-
 	* [Farbe](#farbe)
-
-		[![Farbe](img/.PNG)](#colour-value)
-
-		[![Zufällige Farbe](img/.PNG)](#random-colour)
-
-		[![Farbe nach RGB](img/.PNG)](#rgb-colour)
-
-		[![Farben mischen](img/.PNG)](#mix-colours)
 
 	* [Variablen](#variablen)
 
-		[![Setze Wert einer Variablen](img/.PNG)](#set-variables-value)
-
-		[![Erhalte Wert einer Variablen](img/.PNG)](#get-variables-value)
-
-		[![Addiere zur Variablen](img/.PNG)](#addiere-zur-variablen)
-
 	* [Funktionen](#funktionen)
-
-		[![Erzeuge Funktion *ohne* Rückgabewert](img/.PNG)](#create-function-from-blocks-with-no-return-value)
-
-		[![Erzeuge Funktion *mit* Rückgabewert](img/.PNG)](#create-function-from-blocks-with-return-value)
-
-		[![Return value in function ](img/.PNG)](#return-value-in-function)
-
-		[![Erzeuge javascript Funktion *ohne* Rückgabewert](img/.PNG)](#create-custom-function-with-no-return-value)
-
-		[![Erzeuge javascript Funktion *mit* Rückgabewert](img/.PNG)](#create-custom-function-with-return-value)
-
-		[![Funktion aufrufen](img/.PNG)](#call-function)
 
 
 
