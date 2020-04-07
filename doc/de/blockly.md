@@ -260,7 +260,7 @@ Typische Anwendung:
 
 Dieser Block bindet zwei Zustände miteinander. 
 Über `nur Änderungen` kann ausgewählt werden, ob der Wert nur weitergeleitet
-wird, wenn sich die Quelle ändert, oder mit jeder Aktualisierung.
+wird wenn sich die Quelle ändert, oder mit jeder Aktualisierung.
 
 Diese Blöcke:
 
@@ -865,13 +865,12 @@ Es kann gewählt werden auf was der Trigger reagieren soll:
 
 - _wurde geändert_
 
-(ungleich) Der neue Wert darf nicht mit dem alten übereinstimmen (state.val! =
-oldState.val). Wenn das Muster eine ID-Zeichenfolge ist, wird dieser Wert 
-standardmäßig verwendet 
+(ungleich) Der geänderte Wert stimmt nicht mit dem alten überein (state.val! =
+oldState.val). Bei Zeichenfolgen wird dieser Wert standardmäßig verwendet. 
 
 - _wurde aktualisiert_
 
-Trigger wird ausgelöst, wenn ein neuer Wert kommt
+Trigger wird ausgelöst bei Änderung des Zeitstempels ohne das der Wert z.B. von false auf true geht.
 
 - _ist größer als letztes_
 
